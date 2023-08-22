@@ -535,7 +535,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-2" (layer "F.Cu")
     (tstamp 03f2e83a-e4d0-4d1f-bcaa-16076d33deea)
-    (at -50.688 145.958 90)
+    (at 133.959 60.947 90)
     (descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (property "DK" "296-20796-1-ND")
@@ -1516,7 +1516,7 @@
 
   (footprint "LOGO" (layer "F.Cu")
     (tstamp 13c86b15-c1da-438f-90a0-10416a9f2601)
-    (at 217.901 51.315)
+    (at 120.275659 133.711932)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at -0.408 5.806) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -5214,7 +5214,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 380c79d5-ccc5-4d37-8a58-250f68206af4)
-    (at -9.282 129.509)
+    (at 153.08 62.471)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "DK" "1292-1639-1-ND")
@@ -5441,7 +5441,7 @@
 
   (footprint "lcsc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR" (layer "F.Cu")
     (tstamp 3f34557e-d04b-4a18-96e1-aeb2616c7a48)
-    (at -13.117 131.979)
+    (at 149.245 64.941)
     (property "JLC Part" "Extended Part")
     (property "LCSC Part" "C7843")
     (property "Manufacturer" "TI(德州仪器)")
@@ -6530,7 +6530,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 554c8d1e-662b-446b-a9ef-b101d9909f29)
-    (at -9.282 121.629)
+    (at 153.08 54.591)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "DK" "1292-1639-1-ND")
@@ -9184,7 +9184,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 824ccb35-34ab-4846-8139-eece7e5f56c6)
-    (at -9.282 125.569)
+    (at 153.08 58.531)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "DK" "1292-1639-1-ND")
@@ -9355,7 +9355,7 @@
 
   (footprint "lcsc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR" (layer "F.Cu")
     (tstamp 842ae91e-c6a0-4c96-8a1d-46e97ecff213)
-    (at -13.117 127.399)
+    (at 149.245 60.361)
     (property "JLC Part" "Extended Part")
     (property "LCSC Part" "C7843")
     (property "Manufacturer" "TI(德州仪器)")
@@ -9953,7 +9953,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 8e76b39a-fdc2-4c28-bd50-bd4f434e4880)
-    (at -9.282 123.599)
+    (at 153.08 56.561)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "DK" "1292-1639-1-ND")
@@ -11682,7 +11682,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp a4610324-f1da-44e8-9f81-28a800515b9d)
-    (at -9.282 131.479)
+    (at 153.08 64.441)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "DK" "1292-1639-1-ND")
@@ -12462,7 +12462,7 @@
 
   (footprint "lcsc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR" (layer "F.Cu")
     (tstamp b46adab3-def1-4c5f-9d42-451047c69dde)
-    (at -13.117 122.819)
+    (at 149.245 55.781)
     (property "JLC Part" "Extended Part")
     (property "LCSC Part" "C7843")
     (property "Manufacturer" "TI(德州仪器)")
@@ -14032,7 +14032,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp d0dcb80c-0342-49b1-ba6f-8d79d14cb45c)
-    (at -9.282 127.539)
+    (at 153.08 60.501)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "DK" "1292-1639-1-ND")
