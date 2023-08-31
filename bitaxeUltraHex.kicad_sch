@@ -2215,10 +2215,6 @@
     (stroke (width 0) (type default))
     (uuid 51ba9129-b1a0-4373-8692-8d984b02e6d9)
   )
-  (wire (pts (xy 168.91 49.53) (xy 177.165 49.53))
-    (stroke (width 0) (type default))
-    (uuid 539d59cf-f65a-4246-9377-1b2c08c81d05)
-  )
   (wire (pts (xy 168.91 54.61) (xy 172.72 54.61))
     (stroke (width 0) (type default))
     (uuid 55608922-17ad-414e-a73a-51131be42113)
@@ -2247,10 +2243,6 @@
     (stroke (width 0) (type default))
     (uuid 5cc740a4-fa15-4e44-90f5-7e55fa682fdd)
   )
-  (wire (pts (xy 168.91 95.25) (xy 177.165 95.25))
-    (stroke (width 0) (type default))
-    (uuid 5d015dcd-59d1-4799-9856-12514d9ff4ff)
-  )
   (wire (pts (xy 133.985 126.365) (xy 151.765 126.365))
     (stroke (width 0) (type default))
     (uuid 5d36807e-7f0a-42e5-9c69-8372aca8756c)
@@ -2262,10 +2254,6 @@
   (wire (pts (xy 168.91 38.735) (xy 180.975 38.735))
     (stroke (width 0) (type default))
     (uuid 6196561d-65e0-44fb-9491-1cc19016516f)
-  )
-  (wire (pts (xy 168.91 92.71) (xy 177.165 92.71))
-    (stroke (width 0) (type default))
-    (uuid 65d8652e-bd53-48a1-89bf-2a7321c05c03)
   )
   (wire (pts (xy 180.975 76.2) (xy 168.91 76.2))
     (stroke (width 0) (type default))
@@ -2298,10 +2286,6 @@
   (wire (pts (xy 131.445 130.175) (xy 151.765 130.175))
     (stroke (width 0) (type default))
     (uuid 7c0904fd-10c8-4146-8f2a-9ec2957ac396)
-  )
-  (wire (pts (xy 168.91 52.07) (xy 177.165 52.07))
-    (stroke (width 0) (type default))
-    (uuid 82938c01-8c15-4921-8c8e-924a3238401a)
   )
   (wire (pts (xy 186.055 46.355) (xy 186.055 83.82))
     (stroke (width 0) (type default))
@@ -2485,10 +2469,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2cb95fe6-340d-4961-8a3f-aeb2faf32285)
   )
-  (label "TEMP1_P" (at 170.18 49.53 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3237102c-e37f-437f-82b8-9130cda62ad3)
-  )
   (label "1V8" (at 61.595 88.265 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 37833e5c-c970-4cea-b209-3797340e09e7)
@@ -2521,10 +2501,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 64bb4b1d-9141-410f-bc37-011ad71f877f)
   )
-  (label "TEMP2_P" (at 170.18 92.71 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 684c203b-8f1e-416e-a383-f4c7f758b6bf)
-  )
   (label "TEMP3_P" (at 170.815 133.985 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a56c046-70f5-4e84-b1b7-aff41dae2e27)
@@ -2541,10 +2517,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 886865fc-7d7a-414d-a88f-5d3645a03c33)
   )
-  (label "TEMP2_N" (at 170.18 95.25 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8e07bbe2-1aa2-4651-86f8-b57f98b66e1b)
-  )
   (label "3V3" (at 95.25 38.735 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a040410f-d8e9-47f1-ad67-5a0613e63ff4)
@@ -2552,10 +2524,6 @@
   (label "3V3" (at 61.595 73.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a4505776-d22b-4583-9182-188a1cc83fe9)
-  )
-  (label "TEMP1_N" (at 170.18 52.07 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b64cfc86-8673-4f6f-8464-43086c241193)
   )
   (label "SCL" (at 94.615 80.01 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2633,7 +2601,7 @@
     )
     (pin "1" (uuid 4984b62d-8332-4a09-977f-123023f049ba))
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
@@ -2660,7 +2628,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H3") (unit 1)
         )
@@ -2684,7 +2652,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H7") (unit 1)
         )
@@ -2708,7 +2676,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H10") (unit 1)
         )
@@ -2732,7 +2700,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H8") (unit 1)
         )
@@ -2756,7 +2724,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#G1") (unit 1)
         )
@@ -2783,7 +2751,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H2") (unit 1)
         )
@@ -2814,7 +2782,7 @@
     )
     (pin "1" (uuid f5569a1c-b94a-472a-8536-70db3c61eaaa))
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J2") (unit 1)
         )
@@ -2841,7 +2809,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H1") (unit 1)
         )
@@ -2865,7 +2833,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H6") (unit 1)
         )
@@ -2889,7 +2857,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H5") (unit 1)
         )
@@ -2913,7 +2881,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H9") (unit 1)
         )
@@ -2940,7 +2908,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H4") (unit 1)
         )
@@ -2952,10 +2920,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 255 255 194 1.0000))
     (uuid 4cf9c075-d009-4c35-9949-adda70ae20c7)
-    (property "Sheetname" "BM1397-1" (at 154.94 27.94 0)
+    (property "Sheetname" "BM1366-1" (at 154.94 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "bm1397-1.kicad_sch" (at 150.495 58.42 0)
+    (property "Sheetfile" "bm1366-1.kicad_sch" (at 150.495 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "BO" output (at 168.91 38.735 0)
@@ -3002,20 +2970,12 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 662a89fe-7dda-4372-8709-078efa42ecd3)
     )
-    (pin "TEMP1_N" input (at 168.91 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 77e2a189-3865-46b2-9174-42e7437c5606)
-    )
-    (pin "TEMP1_P" input (at 168.91 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d3cc4b90-aec0-42a7-ad07-9acbdb2607d9)
-    )
     (pin "1V8_VCCIO" input (at 151.13 33.655 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 144c3d6c-46e3-4482-a29a-6070268f471d)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
       )
     )
@@ -3025,10 +2985,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 255 255 194 1.0000))
     (uuid 831c2d7c-1b0c-48f0-8d88-f1b4f08c2544)
-    (property "Sheetname" "BM1398-2" (at 154.94 66.675 0)
+    (property "Sheetname" "BM1366-2" (at 154.94 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "bm1397-2.kicad_sch" (at 151.13 103.4546 0)
+    (property "Sheetfile" "bm1366-2.kicad_sch" (at 151.13 103.4546 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "BI" input (at 168.91 76.2 0)
@@ -3083,16 +3043,8 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5d200995-9c4e-4f20-9c2b-02b29bbdffa1)
     )
-    (pin "TEMP2_N" input (at 168.91 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 93d3d2b5-2e0e-4154-8ff9-1a013be1830e)
-    )
-    (pin "TEMP2_P" input (at 168.91 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e0daaabf-77b2-43ac-acfc-bacd41e82067)
-    )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
       )
     )
@@ -3153,7 +3105,7 @@
       (uuid 486233b4-3fc2-4db9-b293-acdfff5631fc)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
       )
     )
@@ -3198,7 +3150,7 @@
       (uuid 31e2def0-a6e4-410f-9883-8adb3501ac6b)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
       )
     )
@@ -3259,7 +3211,7 @@
       (uuid cfc8b007-6c2e-45a2-9373-524b01d44207)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
       )
     )
@@ -3269,10 +3221,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 255 255 194 1.0000))
     (uuid e182566a-9202-4486-8792-212410a9233c)
-    (property "Sheetname" "BM1397-3" (at 154.94 113.665 0)
+    (property "Sheetname" "BM1366-3" (at 154.94 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "bm1397-3.kicad_sch" (at 151.765 141.5546 0)
+    (property "Sheetfile" "bm1366-3.kicad_sch" (at 151.765 141.5546 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "5V" input (at 151.765 116.205 180)
@@ -3316,7 +3268,7 @@
       (uuid a56f7227-fdcf-4f39-8976-a32b002589a2)
     )
     (instances
-      (project "bitaxeHex"
+      (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "7"))
       )
     )
