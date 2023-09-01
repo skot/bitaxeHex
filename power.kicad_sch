@@ -1726,7 +1726,7 @@
   (symbol (lib_id "Device:C") (at 132.08 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07d60383-fa47-4bff-80c3-1eb55a36d83f)
-    (property "Reference" "C13" (at 135.89 59.69 0)
+    (property "Reference" "C15" (at 135.89 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 135.89 62.23 0)
@@ -1743,7 +1743,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C13") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1752,7 +1752,7 @@
   (symbol (lib_id "Device:R_US") (at 208.915 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f16ab4d-2fb5-460a-8436-27bb769fe63a)
-    (property "Reference" "R11" (at 210.82 52.07 0)
+    (property "Reference" "R9" (at 210.82 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 210.82 54.61 0)
@@ -1775,7 +1775,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R11") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1784,7 +1784,7 @@
   (symbol (lib_id "Device:C") (at 89.535 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 189d66c5-82bd-4aed-a383-cd8cc3d39b96)
-    (property "Reference" "C14" (at 92.71 151.765 0)
+    (property "Reference" "C11" (at 92.71 151.765 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 92.71 154.305 0)
@@ -1801,7 +1801,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C14") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1810,7 +1810,7 @@
   (symbol (lib_id "TPS40305:TPS40305") (at 97.155 43.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2203bfb2-572d-4b1e-96bf-2c08731291aa)
-    (property "Reference" "U2" (at 86.995 27.305 0)
+    (property "Reference" "U4" (at 86.995 27.305 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS40305" (at 102.87 27.305 0)
@@ -1842,7 +1842,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "U2") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1918,7 +1918,7 @@
   (symbol (lib_id "Device:C") (at 75.565 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37253a0c-fcda-4a5a-a3ab-3d798de7b29c)
-    (property "Reference" "C6" (at 78.74 40.0049 0)
+    (property "Reference" "C10" (at 78.74 40.0049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3nF" (at 78.74 42.5449 0)
@@ -1941,7 +1941,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C6") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1950,7 +1950,7 @@
   (symbol (lib_id "Device:C") (at 64.77 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b0e06de-8a14-4b40-a64e-e8160e784c9b)
-    (property "Reference" "C5" (at 68.58 40.0049 0)
+    (property "Reference" "C8" (at 68.58 40.0049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 68.58 42.5449 0)
@@ -1973,7 +1973,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C5") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2092,7 +2092,7 @@
       )
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2101,7 +2101,7 @@
   (symbol (lib_id "Device:C") (at 69.85 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41f247e2-88b6-403d-a3e5-e93da295b212)
-    (property "Reference" "C8" (at 73.66 56.515 0)
+    (property "Reference" "C9" (at 73.66 56.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.6nF" (at 73.66 59.055 0)
@@ -2124,7 +2124,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2133,7 +2133,7 @@
   (symbol (lib_id "Device:R_US") (at 208.915 69.215 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52f954a1-b95f-4aad-8a3c-9d9f19389c38)
-    (property "Reference" "R12" (at 210.82 67.9449 0)
+    (property "Reference" "R10" (at 210.82 67.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.54k" (at 210.82 70.4849 0)
@@ -2150,7 +2150,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R12") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2159,7 +2159,7 @@
   (symbol (lib_id "Regulator_Linear:uA7805") (at 71.12 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53274e5a-aed6-4548-be82-75d2f9c69111)
-    (property "Reference" "U3" (at 71.12 141.605 0)
+    (property "Reference" "U1" (at 71.12 141.605 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "uA7805" (at 71.12 144.145 0)
@@ -2183,7 +2183,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2192,7 +2192,7 @@
   (symbol (lib_id "Device:R_US") (at 123.19 51.435 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60eb474d-bf13-4229-bfbb-14795576201f)
-    (property "Reference" "R6" (at 123.19 48.895 90)
+    (property "Reference" "R5" (at 123.19 48.895 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 123.19 53.975 90)
@@ -2215,7 +2215,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2224,7 +2224,7 @@
   (symbol (lib_id "Device:C") (at 120.015 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6df77060-cb59-4710-a247-ac0e8b221ab5)
-    (property "Reference" "C12" (at 123.825 36.8299 0)
+    (property "Reference" "C14" (at 123.825 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 123.825 39.3699 0)
@@ -2247,7 +2247,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -2316,7 +2316,7 @@
       )
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C9") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -2353,7 +2353,7 @@
           (reference "U11") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2362,7 +2362,7 @@
   (symbol (lib_id "Device:R_US") (at 231.14 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95441eb7-bd9a-4aa7-a770-a326cf9a204d)
-    (property "Reference" "R8" (at 233.045 113.0299 0)
+    (property "Reference" "R11" (at 233.045 113.0299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "80k" (at 233.045 115.5699 0)
@@ -2385,7 +2385,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R8") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2426,7 +2426,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 46.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5c38c58-f000-400f-a2cb-308b0f492667)
-    (property "Reference" "R9" (at 200.025 45.0849 0)
+    (property "Reference" "R8" (at 200.025 45.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "487" (at 200.025 47.6249 0)
@@ -2449,7 +2449,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R9") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2589,7 +2589,7 @@
   (symbol (lib_id "Device:R_US") (at 240.03 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bcd9a94c-a54a-4739-a1d1-722cdf0dd56b)
-    (property "Reference" "R10" (at 241.935 113.0299 0)
+    (property "Reference" "R12" (at 241.935 113.0299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 241.935 115.5699 0)
@@ -2606,7 +2606,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R10") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2646,7 +2646,7 @@
       )
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2681,7 +2681,7 @@
           (reference "C27") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C11") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2690,7 +2690,7 @@
   (symbol (lib_id "Device:C") (at 53.34 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb183c52-7606-450b-bf86-9f668f444b59)
-    (property "Reference" "C4" (at 56.515 40.0049 0)
+    (property "Reference" "C6" (at 56.515 40.0049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 56.515 42.5449 0)
@@ -2713,7 +2713,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2757,7 +2757,7 @@
   (symbol (lib_id "Device:R_US") (at 144.78 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4af816c-2288-420c-883a-e5e49c526c8f)
-    (property "Reference" "R7" (at 147.32 61.595 0)
+    (property "Reference" "R6" (at 147.32 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6.49k" (at 147.32 64.135 0)
@@ -2780,7 +2780,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2893,7 +2893,7 @@
   (symbol (lib_id "Device:C") (at 50.165 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed59c3ff-70e7-4713-a0e3-dd2669cbafa0)
-    (property "Reference" "C10" (at 53.34 151.765 0)
+    (property "Reference" "C3" (at 53.34 151.765 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.33uF" (at 53.34 154.305 0)
@@ -2910,7 +2910,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C10") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2956,7 +2956,7 @@
   (symbol (lib_id "Device:R_US") (at 147.955 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f35719dd-1ede-4142-9887-9e664d82b694)
-    (property "Reference" "R5" (at 150.495 100.3299 0)
+    (property "Reference" "R7" (at 150.495 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 150.495 102.8699 0)
@@ -2979,7 +2979,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R5") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3014,7 +3014,7 @@
           (reference "C49") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "C15") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
