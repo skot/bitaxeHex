@@ -1112,7 +1112,7 @@
   (symbol (lib_id "Device:R_US") (at 207.645 45.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bcfcdba-f6cd-4dd6-9d4a-672b71b4796f)
-    (property "Reference" "R33" (at 211.455 44.45 0)
+    (property "Reference" "R37" (at 211.455 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.6k" (at 211.455 46.99 0)
@@ -1135,7 +1135,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R33") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1309,7 +1309,7 @@
   (symbol (lib_id "Device:R_US") (at 207.645 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75e43250-81fa-489a-89fb-019d903ff299)
-    (property "Reference" "R34" (at 211.455 77.47 0)
+    (property "Reference" "R38" (at 211.455 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.6k" (at 211.455 80.01 0)
@@ -1332,7 +1332,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R34") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -1598,7 +1598,7 @@
   (symbol (lib_id "Device:R_US") (at 128.905 -26.67 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2e7af10-6fc6-4a2c-97e4-ae7d4261ed60)
-    (property "Reference" "R32" (at 132.08 -27.94 0)
+    (property "Reference" "R36" (at 132.08 -27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 132.715 -25.4 0)
@@ -1621,7 +1621,7 @@
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "R32") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
