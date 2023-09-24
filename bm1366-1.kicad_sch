@@ -1466,8 +1466,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 154f03ce-434a-4865-8a59-98ce25c90eb3)
   )
-  (text "BOTTOM Voltage Domain\nActual LDO supply voltage\nThese LDOs get 5V"
-    (at 38.1 167.64 0)
+  (text "BOTTOM Voltage Domain\nThese LDOs get full 5V" (at 50.165 166.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 67da44f7-06a1-40ee-906e-899284db6c59)
   )
