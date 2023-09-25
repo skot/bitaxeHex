@@ -2579,7 +2579,7 @@
     )
     (instances
       (project "bitaxeUltraHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
       )
     )
   )
@@ -2689,7 +2689,7 @@
     )
     (instances
       (project "bitaxeUltraHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
       )
     )
   )
@@ -2849,22 +2849,6 @@
     (pin "-VDD3" input (at 200.66 102.87 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6e248b17-65f4-409d-ae46-3668c043532d)
-    )
-    (pin "NRSTO" output (at 218.44 85.725 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 78103c4c-7b95-4a24-b96f-5d111249b365)
-    )
-    (pin "CO" output (at 218.44 88.265 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 77197523-50be-4daa-bf05-bb2c9a391e0c)
-    )
-    (pin "CLKO" output (at 218.44 93.345 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 67983607-a219-49be-8c96-17e0deb35a4f)
-    )
-    (pin "RI" input (at 218.44 90.805 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 79141ccf-0f97-480b-91f4-0d10ccf9d57b)
     )
     (instances
       (project "bitaxeUltraHex"

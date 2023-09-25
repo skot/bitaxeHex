@@ -67,6 +67,30 @@
         (stroke (width 0) (type default))
         (fill (type none))
       )
+      (polyline
+        (pts
+          (xy -3.81 3.81)
+          (xy -1.27 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 3.81)
+          (xy -1.27 5.08)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 3.81)
+          (xy 6.35 3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
     )
     (symbol "BM1366_mode0_1_1"
       (pin input line (at -17.78 17.78 0) (length 2.54)
@@ -198,7 +222,7 @@
     (property "Value" "BM1366_mode1" (at 1.9559 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "bitaxe:BM1366" (at -7.62 0 0)
+    (property "Footprint" "bitaxe:BM1366" (at -7.62 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -7.62 0 0)
@@ -213,6 +237,30 @@
         (pts
           (xy -7.62 -10.16)
           (xy 6.35 -10.16)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -1.27)
+          (xy -5.08 -1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -1.27)
+          (xy 2.54 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -1.27)
+          (xy 2.54 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
