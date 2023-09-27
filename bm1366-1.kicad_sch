@@ -1814,7 +1814,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2f13fa25-83ea-4c9a-b54b-7bb9ee07f63e)
   )
-  (hierarchical_label "RI" (shape output) (at 256.54 90.17 0) (fields_autoplaced)
+  (hierarchical_label "RI" (shape input) (at 256.54 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 39e3117c-0ff1-4ed5-a07d-00bc98a9c44f)
   )

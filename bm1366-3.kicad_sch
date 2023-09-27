@@ -4652,8 +4652,8 @@
     (property "PARTNO" "" (at 163.83 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c907a823-f2a7-4883-912c-34a381db05b1))
-    (pin "2" (uuid fd1efae8-8e06-49ac-ac25-cd25565ff16a))
+    (pin "1" (uuid 4027c964-28c4-4d32-b573-010d3d5f0c68))
+    (pin "2" (uuid 8f9f7394-eed9-4a89-b6a9-ab1eb5224e8a))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
