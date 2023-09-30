@@ -1773,7 +1773,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid abb4307a-4051-4ca8-8343-8d1e5bac90b3)
   )
-  (label "CLKI" (at 229.235 151.13 0) (fields_autoplaced)
+  (label "CLKI1" (at 229.235 151.13 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b69ff465-596b-4ffb-8877-94f8564169d5)
   )
