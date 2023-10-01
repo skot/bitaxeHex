@@ -99,8 +99,8 @@
   (pad "2" smd rect (at -2.795001 -0.635) (size 0.9906 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f2a1c76b-4b57-4049-8e5b-c59913c5ffc8))
   (pad "3" smd rect (at -2.795001 0.635) (size 0.9906 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f90b48b1-3ef1-497a-a698-8792da14903b))
   (pad "4" smd rect (at -2.795001 1.905) (size 0.9906 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7d9fe130-d29b-4352-8fbd-b804a9896627))
+  (pad "5" smd rect (at 2.699995 -1.905) (size 0.9906 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3e70a0ec-1dd0-4dfd-a090-3af1a35e4336))
   (pad "5" smd rect (at 2.699995 1.905) (size 0.9906 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9fcf5a4e-4ffa-4a64-9e27-d224eee2b4d9))
-  (pad "6" smd rect (at 2.699995 -1.905) (size 0.9906 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3e70a0ec-1dd0-4dfd-a090-3af1a35e4336))
   (model "${KIPRJMOD}/3d/NTMFS5C673NLT1G.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
