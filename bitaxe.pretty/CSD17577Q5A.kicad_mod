@@ -204,10 +204,10 @@
   (pad "2" smd rect (at -2.735072 -0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 82a34564-337c-4641-8393-d7d33df2130d))
   (pad "3" smd rect (at -2.735072 0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c6094b7a-910b-42fa-b9b0-10b46e1fb81e))
   (pad "4" smd rect (at -2.735072 1.905) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 43c5f4eb-6e17-4fe3-bd9f-8bf1541c4b46))
+  (pad "5" smd rect (at 2.735072 -1.905) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 389fd636-9e7b-42a7-88ca-a3dbfab64d5a))
+  (pad "5" smd rect (at 2.735072 -0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 92e4eeda-676b-46ba-8b7d-d11abe98a2e3))
+  (pad "5" smd rect (at 2.735072 0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a64290a2-cbb8-49be-9269-fef86169b31e))
   (pad "5" smd rect (at 2.735072 1.905) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c9035ffb-58dd-4f00-9b8e-7954894a8d5d))
-  (pad "6" smd rect (at 2.735072 0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a64290a2-cbb8-49be-9269-fef86169b31e))
-  (pad "7" smd rect (at 2.735072 -0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 92e4eeda-676b-46ba-8b7d-d11abe98a2e3))
-  (pad "8" smd rect (at 2.735072 -1.905) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 389fd636-9e7b-42a7-88ca-a3dbfab64d5a))
   (model "${KIPRJMOD}/3d/CSD17577Q5A.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
