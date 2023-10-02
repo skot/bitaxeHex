@@ -2928,8 +2928,8 @@
     )
     (pin "1" (uuid c8183977-e91a-4164-8e39-a66a425e2ce8))
     (pin "2" (uuid 0f15855f-fe17-4401-a30d-e9f15d61649f))
-    (pin "4" (uuid 30783ec6-7416-4efa-9711-c99241eb43c6))
     (pin "3" (uuid dff3348d-d1ca-472a-9d3c-687ed0f8aca6))
+    (pin "4" (uuid 30783ec6-7416-4efa-9711-c99241eb43c6))
     (pin "5" (uuid 24ad26ef-467b-479c-af48-3be2382862b4))
     (instances
       (project "bitaxeUltraHex"
