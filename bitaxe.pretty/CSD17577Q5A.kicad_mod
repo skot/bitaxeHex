@@ -16,24 +16,6 @@
   )
   (fp_poly
     (pts
-      (xy 2.745201 -2.229999)
-      (xy -1.545199 -2.229999)
-      (xy -1.545199 0)
-      (xy 2.745201 0)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp dbc35278-d3cd-4fc5-ab6f-fb34befb7e12))
-  (fp_poly
-    (pts
-      (xy 2.745201 2.229999)
-      (xy -1.545199 2.229999)
-      (xy -1.545199 0)
-      (xy 2.745201 0)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp d8f87c62-0f10-4c02-aba2-3a463e54a568))
-  (fp_poly
-    (pts
       (xy -0.180086 -0.30988)
       (xy -1.415034 -0.30988)
       (xy -1.415034 -1.8796)
@@ -72,8 +54,8 @@
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp b9201d59-a138-44d5-ada7-430c0413de33))
   (fp_line (start 3.026999 -2.627) (end -3.026999 -2.627)
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 888da8b4-f496-49f8-8d45-4e108efde79a))
-  (fp_circle (center -4.091401 -1.905) (end -4.015201 -1.905)
-    (stroke (width 0.1524) (type solid)) (fill none) (layer "F.SilkS") (tstamp a81741ec-ec00-4875-b741-0faad3bd073f))
+  (fp_circle (center -3.8 -1.905) (end -3.65 -1.905)
+    (stroke (width 0.3) (type solid)) (fill none) (layer "F.SilkS") (tstamp a81741ec-ec00-4875-b741-0faad3bd073f))
   (fp_poly
     (pts
       (xy -3.120072 -2.3)
@@ -204,6 +186,8 @@
   (pad "2" smd rect (at -2.735072 -0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 82a34564-337c-4641-8393-d7d33df2130d))
   (pad "3" smd rect (at -2.735072 0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c6094b7a-910b-42fa-b9b0-10b46e1fb81e))
   (pad "4" smd rect (at -2.735072 1.905) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 43c5f4eb-6e17-4fe3-bd9f-8bf1541c4b46))
+  (pad "5" smd rect (at 0.6 0) (size 4.3 4.5) (layers "F.Cu" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 00a1d713-e37e-4d2b-8a45-dd0d645e61a9))
   (pad "5" smd rect (at 2.735072 -1.905) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 389fd636-9e7b-42a7-88ca-a3dbfab64d5a))
   (pad "5" smd rect (at 2.735072 -0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 92e4eeda-676b-46ba-8b7d-d11abe98a2e3))
   (pad "5" smd rect (at 2.735072 0.635) (size 0.63 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a64290a2-cbb8-49be-9269-fef86169b31e))
