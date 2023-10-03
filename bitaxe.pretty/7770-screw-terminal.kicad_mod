@@ -38,9 +38,9 @@
     (zone_connect 2) (tstamp 3a0fdabc-85dc-4545-bf17-89289d6ba51f))
   (pad "1" thru_hole circle (at 2.5 3.5) (size 3.2 3.2) (drill 1.85) (layers "*.Cu" "*.Mask")
     (zone_connect 2) (tstamp 72249215-65f5-414f-b6aa-b56a98825ab9))
-  (model "${KIPRJMOD}/3d/c-63862-1-r-3d.stp"
-    (offset (xyz 0 0 10))
+  (model "${KIPRJMOD}/3d/7770-ScrewTerminal.step"
+    (offset (xyz 0 0 6.2))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 180 0 0))
   )
 )
