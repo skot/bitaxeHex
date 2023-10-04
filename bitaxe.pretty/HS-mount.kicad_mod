@@ -1,0 +1,16 @@
+(footprint "HS-mount" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "M" (at 0 -2.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp c7821ce3-999b-4258-80a3-8f152a5b6e0f)
+  )
+  (fp_text value "HS-mount" (at 0 2.2 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5172f40e-5fd1-4806-aa21-8c479e7895ee)
+  )
+  (fp_circle (center 0 0) (end 1.6 0)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp c3c930f4-1f8a-4fc2-bb28-2f1a3fd1a39b))
+  (pad "" thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.6) (layers "*.Cu" "*.Mask")
+    (zone_connect 0) (tstamp 9a75f559-49f4-488e-a3a7-55af3d435ede))
+)
