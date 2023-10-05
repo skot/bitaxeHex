@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "SW**" (at 0 2.6 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ece3cd47-e2fd-4fb7-827e-a3e92650e372)
   )
   (fp_text value "EVQ9P701P-switch" (at -0.1 3.9 unlocked) (layer "F.Fab")
