@@ -2458,7 +2458,7 @@
     (property "PARTNO" "36-7770" (at 32.385 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4984b62d-8332-4a09-977f-123023f049ba))
+    (pin "1" (uuid 5301a582-27a2-485e-8190-6fdcace41206))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2513,7 +2513,7 @@
     (property "PARTNO" "63862-1" (at 32.385 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f5569a1c-b94a-472a-8536-70db3c61eaaa))
+    (pin "1" (uuid 88d7024d-e91d-491c-9001-c44b4f2191af))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"

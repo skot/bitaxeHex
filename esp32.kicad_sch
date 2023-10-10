@@ -2368,8 +2368,8 @@
     (property "PARTNO" "" (at 208.28 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 245e46a0-f1f8-4cfe-9cc5-3a567f75032c))
-    (pin "2" (uuid 3e9800f4-cfc0-49ce-85b5-11451d2f14f8))
+    (pin "1" (uuid b839bbfa-3a3b-4fce-818a-3dd1f168c199))
+    (pin "2" (uuid 93f2f964-29ef-45a1-a703-38a4b57e4563))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -2405,8 +2405,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 31.115 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 20f1764b-f2f4-4998-9876-5cc5d7930587))
-    (pin "2" (uuid 9c944650-c77b-482e-9cdf-9bef6cabe172))
+    (pin "1" (uuid 5f43f61c-4a3e-4a85-8be1-cf2f03d3c727))
+    (pin "2" (uuid f2718669-c719-4698-b5cc-7ac60057fe62))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -2442,8 +2442,8 @@
     (property "PARTNO" "SS310A" (at 227.965 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dbafa164-7dc1-4d0b-920b-5129ee6b3413))
-    (pin "2" (uuid 76f5a27b-aa16-4954-979b-068b24f98bc9))
+    (pin "1" (uuid e4bf5a38-d2b0-4ff5-91bd-7691c7901fee))
+    (pin "2" (uuid f981ab3d-32f4-4730-8c14-d5bcef335fd4))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -2476,9 +2476,9 @@
     (property "DK" "4530-BSS123CT-ND" (at 93.98 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd6e1c37-3dda-459b-ad68-28a81f99f71e))
-    (pin "2" (uuid fcedd982-e352-4851-b73e-90fb276dd003))
-    (pin "3" (uuid e02298ab-3ab1-4a27-92ee-45e5c6882c50))
+    (pin "1" (uuid 5343be9c-8aeb-462e-98ed-598ba1efef69))
+    (pin "2" (uuid a2e812b2-3983-4838-963c-bd2716ea10df))
+    (pin "3" (uuid adaaf5ff-02ac-4a98-8b37-3e656323b56c))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2509,8 +2509,8 @@
     (property "PARTNO" "C0402C689C5GAC7867" (at 224.155 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14958e33-062b-4def-be20-d23187506543))
-    (pin "2" (uuid 07eb90a8-60bf-4560-891b-866efa73ea55))
+    (pin "1" (uuid 39fe7eaa-a2a0-4c50-8d49-cf0f091b3250))
+    (pin "2" (uuid 47cf6e39-a323-410e-955d-6c88c43fe0f9))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2544,8 +2544,8 @@
     (property "PARTNO" "0402X104K100CT" (at 116.205 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb9597b4-d91d-4539-ab1f-96df11330eb3))
-    (pin "2" (uuid 83190441-e844-4696-9f21-1b0ec1bc36b3))
+    (pin "1" (uuid 04992587-88fd-4bfc-b410-5f8a4e8c3c41))
+    (pin "2" (uuid 97f15198-ef2b-407a-b603-68ac00126eef))
     (instances
       (project "Hashat"
         (path "/00740941-7ad8-466a-a267-188591e2b5c4/5aa25910-cf6c-433c-86f8-40d28be84b47"
@@ -2584,8 +2584,8 @@
     (property "PARTNO" "0402X104K100CT" (at 86.995 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd78af34-8e6b-4057-b6ad-a3752b7ba863))
-    (pin "2" (uuid c467bcac-e7ee-41e4-915d-974e4583b205))
+    (pin "1" (uuid 817311e5-1714-4e00-b257-1d73bbb15f59))
+    (pin "2" (uuid e73d2c86-0950-4fee-a433-69c0ccba3576))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -2624,8 +2624,8 @@
     (property "PARTNO" "0402X104K100CT" (at 48.26 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e0ff5975-6c5f-455b-9f18-3f3f686b0419))
-    (pin "2" (uuid ffd0250f-21b8-4bd5-9e73-4a186c82bc2e))
+    (pin "1" (uuid b206fe42-088b-4b1f-961b-d78539950af2))
+    (pin "2" (uuid 5a662482-2631-4a23-9e31-c7b255a29383))
     (instances
       (project "Hashat"
         (path "/00740941-7ad8-466a-a267-188591e2b5c4/5aa25910-cf6c-433c-86f8-40d28be84b47"
@@ -2658,7 +2658,7 @@
     (property "Datasheet" "~" (at 34.925 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c41e274-5d6d-431a-b5ce-628a245807f2))
+    (pin "1" (uuid 48b7b941-cc02-4412-b858-1b66429584bd))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2689,8 +2689,8 @@
     (property "PARTNO" "0402X104K100CT" (at 37.465 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6bf047b0-1801-4321-a107-8a905138f5c8))
-    (pin "2" (uuid 27146afd-63e0-4d93-bc6a-579e961327c9))
+    (pin "1" (uuid d5ebed6f-b2ea-4738-baf4-41a9da5300d8))
+    (pin "2" (uuid 57d110a5-839f-4d33-a954-be1999f3848a))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2715,10 +2715,10 @@
     (property "Datasheet" "~" (at 198.12 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db2f0086-5da1-421c-884a-1edddfdb7f08))
-    (pin "2" (uuid aa6f9e67-5107-48a2-ad07-ac63f2c3cc08))
-    (pin "3" (uuid 5e9a1094-ea86-4732-93b3-5f95b5b3c4e9))
-    (pin "4" (uuid 02432a02-f22a-4d7d-ab2c-09753403e257))
+    (pin "1" (uuid 1c816e7c-47c7-40f4-9ad3-b2478a5b8982))
+    (pin "2" (uuid 5404caee-114b-45b6-8472-55ac3b6df58e))
+    (pin "3" (uuid fd15aabc-6ffa-4b3c-a41d-69399d673161))
+    (pin "4" (uuid be6b7bb7-e897-4be3-ba57-b7f9a276dc6d))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2749,8 +2749,8 @@
     (property "Panasonic PN" "EVQ-9P701P" (at 21.59 75.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f23d428d-eb3c-4963-93ac-09f227f7c798))
-    (pin "2" (uuid 0709ccfa-c305-4013-a0ae-55796d94562f))
+    (pin "1" (uuid 4af43d5d-792b-4aac-9e1a-5604682c8694))
+    (pin "2" (uuid 33907b3e-3077-4106-9803-8aba1c22b18d))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -2786,8 +2786,8 @@
     (property "PARTNO" "" (at 219.71 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fc910b4-0896-442d-8aa1-06a0f0a3a0d7))
-    (pin "2" (uuid 27f85e77-f8f5-4fad-87d1-ce5bd6522549))
+    (pin "1" (uuid 42859798-ddf8-4d73-b60c-b6b7f5859ff4))
+    (pin "2" (uuid a38dc640-8feb-4c14-95fc-949bada7989b))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -2823,8 +2823,8 @@
     (property "PARTNO" "" (at 81.915 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid be572be4-2534-4a20-963d-aceb905db2e0))
-    (pin "2" (uuid 5ed34060-ddfc-474d-b279-1332014380ed))
+    (pin "1" (uuid 4933f047-4a7a-49a4-8d09-8838e1120a2a))
+    (pin "2" (uuid 8f251747-8196-43fe-8f63-80b534eb6791))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -2854,18 +2854,18 @@
     (property "Datasheet" "~" (at 126.365 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 54212ef1-6a1d-4fa3-b8c4-a3e329d7f248))
-    (pin "10" (uuid a712b532-69ef-4e9b-a60b-b1b67735f993))
-    (pin "11" (uuid 9b3dd960-ccab-47f1-ad4a-9ead41118eac))
-    (pin "12" (uuid 6a7a6023-0dab-48fb-9d3b-60f18c3d4543))
-    (pin "2" (uuid aedca58f-1c44-4589-b399-a110899db8cc))
-    (pin "3" (uuid 5ddb435e-e82d-46f0-86f8-87c64060b118))
-    (pin "4" (uuid d92fbf01-f329-45bf-9517-799ed3643d20))
-    (pin "5" (uuid 978832ca-6168-48e6-a378-b5f92111ba03))
-    (pin "6" (uuid e23de5b5-a38f-47a7-86b1-f72b08700e4c))
-    (pin "7" (uuid 6dbd8a17-ce70-4b0c-ae37-2976ef92f8c2))
-    (pin "8" (uuid d1eb5565-5dee-4980-9162-3a0300a6a2ad))
-    (pin "9" (uuid 75f52eea-7272-4b20-8456-3375e25407b2))
+    (pin "1" (uuid ae654188-1485-4fab-8f75-2aa000c0688a))
+    (pin "10" (uuid a50fe8d9-7cdd-40df-bb24-f15b15d2ffcb))
+    (pin "11" (uuid 53e225c7-124e-49a1-b11c-47fbb7dafe6f))
+    (pin "12" (uuid d2350352-3c8b-4916-894d-ee3acc9bcb85))
+    (pin "2" (uuid 04971cb6-0055-46b0-a91d-b3c32f73c09a))
+    (pin "3" (uuid a8f04821-5f0f-4a70-9682-bb2b789a902f))
+    (pin "4" (uuid 5fddcde5-6415-4f43-a059-ee807ada0f10))
+    (pin "5" (uuid f0233231-f5c4-47d5-b602-a11e0f282045))
+    (pin "6" (uuid 550ec135-39ed-43db-9a84-4afb2ab65bad))
+    (pin "7" (uuid e4e65fd0-6f63-4ba4-b68a-8ca8ba35642a))
+    (pin "8" (uuid 39f8ee85-337a-46b3-bc2e-3231cc47c90e))
+    (pin "9" (uuid 83d6f234-5207-4cbe-a708-b574cedd029d))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2896,8 +2896,8 @@
     (property "PARTNO" "C0402C689C5GAC7867" (at 248.92 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 80925e83-e06c-41c9-b3d5-a4a859c67b3b))
-    (pin "2" (uuid d8e78b63-48ea-4ab4-9e91-2ee4332da99e))
+    (pin "1" (uuid f347d291-7565-408c-94e1-c0a9130b2bd5))
+    (pin "2" (uuid 35c56597-e37c-439d-ae9f-d12a5bd0e2da))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2922,7 +2922,7 @@
     (property "Datasheet" "~" (at 89.535 163.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f34bf2b-bd08-4171-a8d8-775a7b89d14b))
+    (pin "1" (uuid 97958c33-1246-45da-9417-5f4d81dc4aaf))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2947,7 +2947,7 @@
     (property "Datasheet" "~" (at 57.785 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 553033ab-04b2-4c98-be8e-ef859d5aaf2e))
+    (pin "1" (uuid e2ad7387-664d-42b6-b126-d3df64724ee5))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2972,7 +2972,7 @@
     (property "Datasheet" "~" (at 61.595 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e8b4eb4-74dc-4db3-83bf-53bc92676456))
+    (pin "1" (uuid 01e37f17-9cab-46be-8ab2-c19f89b65ea9))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -2997,7 +2997,7 @@
     (property "Datasheet" "~" (at 215.9 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 573ef469-b4d6-43d4-afbc-d0950e066836))
+    (pin "1" (uuid b915c07d-058c-4b34-98a2-84617ddb82ab))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3022,7 +3022,7 @@
     (property "Datasheet" "~" (at 244.475 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6b292727-4f70-4d8f-96f5-efa0c938a0c4))
+    (pin "1" (uuid cde30b3b-de4d-4d4a-a665-26cc6a7de268))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3053,8 +3053,8 @@
     (property "Panasonic PN" "EVQ-9P701P" (at 53.34 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 774b0f0d-5e9e-485a-8ae2-a721317b33b1))
-    (pin "2" (uuid af82e2d7-7d85-4ea1-8e65-2c2c904e06b6))
+    (pin "1" (uuid 55030854-d3ea-4e53-9059-ac0a65a8003d))
+    (pin "2" (uuid 752ce02e-7634-4693-a404-4c3d7765b1b6))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -3090,8 +3090,8 @@
     (property "PARTNO" "RC0402JR-0710KL" (at 31.115 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1621835-aff8-45e7-b66c-2ed45d4930a0))
-    (pin "2" (uuid cd9ab916-2dc2-4289-a2b7-d231842d22d4))
+    (pin "1" (uuid e13ea78d-3e95-4e5e-a765-9340863ee0f7))
+    (pin "2" (uuid 58b9f9af-5931-47e3-926e-21c9c413ac59))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -3121,7 +3121,7 @@
     (property "Datasheet" "~" (at 91.44 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eea17dd4-c3a9-40ef-98b1-df4f49b6b3c4))
+    (pin "1" (uuid a28e901b-e91b-4a90-a1d2-d1410361115c))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3146,12 +3146,12 @@
     (property "Datasheet" "" (at 229.235 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fadb8428-a298-4ec6-ac42-d67fe0b87e08))
-    (pin "2" (uuid 034addcf-d4ef-409f-b10a-5c39b8bf1f89))
-    (pin "3" (uuid 735b7d8e-4410-479c-985c-759469a58696))
-    (pin "4" (uuid 8a51c2fa-1a58-48c5-ad7a-c8c82ac9c460))
-    (pin "5" (uuid a06a1aae-d2bd-48be-b952-dc050c8f91cc))
-    (pin "6" (uuid 67e9134a-6763-459b-a624-ccf7f5d5d423))
+    (pin "1" (uuid 380ae198-062b-4512-9162-6011f4bab8ec))
+    (pin "2" (uuid 101cf0df-7d9e-4112-9182-86c4a719f8da))
+    (pin "3" (uuid bd7d3cd9-2bc6-4794-a001-d0c131c7eb0b))
+    (pin "4" (uuid e6089e06-706e-4aaa-b2cb-c631c6948035))
+    (pin "5" (uuid 06d63b90-624b-40ce-8710-5ad67e099984))
+    (pin "6" (uuid de0b7bdf-3d8f-4ef8-82b8-1c3535905a25))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3182,8 +3182,8 @@
     (property "PARTNO" "RC0402JR-0710KL" (at 73.025 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ed42a249-bd4e-49be-a545-aeed85507fb3))
-    (pin "2" (uuid 499e8828-150c-4c6c-86b1-ee79a004d502))
+    (pin "1" (uuid 2d0d5f3c-8b47-42ee-941f-d05ba0c7a009))
+    (pin "2" (uuid 1ddce04e-aa49-45cd-a788-e20ba0c13136))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -3219,8 +3219,8 @@
     (property "PARTNO" "CL21A106KOQNNNE" (at 26.67 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00488e55-1697-4ef6-99d0-c057db81ada9))
-    (pin "2" (uuid caf7a1a4-9e58-416f-b06d-4e036c024c54))
+    (pin "1" (uuid 4cc74b13-843a-42f1-80c2-3db499fd4d3e))
+    (pin "2" (uuid d26b1a12-dcab-45cc-bc0e-6fc5f91dfdc8))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3251,8 +3251,8 @@
     (property "PARTNO" "SC32S-7PF20PPM" (at 237.49 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d8649492-0bdb-4e8b-9172-573d3fdab4f4))
-    (pin "2" (uuid fe96bdb7-8039-4c7d-b6b6-3e18d09cafa9))
+    (pin "1" (uuid 3f65f179-abc6-4dd1-9719-3d286cbb2ff6))
+    (pin "2" (uuid db3638fd-c5be-4add-bed6-58490567845f))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3283,22 +3283,22 @@
     (property "Partnum" "SN74AVC4T774PWR" (at 76.835 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d5706770-ab4e-4966-995c-f806f108fea4))
-    (pin "10" (uuid 5b19eeee-ddd3-466e-be73-84c01a912db4))
-    (pin "11" (uuid 42b30d0d-63b4-4904-8e49-5e9e6eda5204))
-    (pin "12" (uuid e54b687c-067f-4773-a157-ecbbe521d116))
-    (pin "13" (uuid ad4fde46-4dea-4154-b9a5-7fd1d78faa85))
-    (pin "14" (uuid d0a76083-2975-42de-bfa8-bada657b83b1))
-    (pin "15" (uuid 45380b10-3fe0-4c88-b6f3-1abb15bc7f80))
-    (pin "16" (uuid 17e8e1a6-431c-4e7c-922c-59387a8deccb))
-    (pin "2" (uuid 40cf7b5e-461b-48e6-a7a3-a78536f719db))
-    (pin "3" (uuid dc0b433a-ded7-4673-a7e1-6bc09e5f6b53))
-    (pin "4" (uuid 3b0977ae-30e1-4d52-8ac2-d71d3154ae21))
-    (pin "5" (uuid 8ef151c4-27a0-451a-acb4-beb4e8833a2a))
-    (pin "6" (uuid 7e4046f4-ea0c-4af4-a46b-c071665eaa84))
-    (pin "7" (uuid dae9c16d-d23d-4545-871f-e143a0847056))
-    (pin "8" (uuid 644e1662-7c68-4e42-88ea-aa99333d70e9))
-    (pin "9" (uuid e78381ee-6987-4e63-aee6-1b24b7eeda01))
+    (pin "1" (uuid 9cd94ba4-121f-488e-9d7d-160b9164b6d1))
+    (pin "10" (uuid d6e4a853-fb16-41a9-a49e-92dac0c0b6ec))
+    (pin "11" (uuid 1d54c0f1-8e38-4ef8-ac5c-f0cd6e8ef3d4))
+    (pin "12" (uuid d03a499f-84af-4ae6-b838-075fc231f335))
+    (pin "13" (uuid 81e3e0d8-8f64-45f3-a306-52de95a576ca))
+    (pin "14" (uuid d60f5a98-fda8-4a8e-aa79-40c3b1a979d1))
+    (pin "15" (uuid 8a280b8f-c04f-4316-b175-f883a221b5c3))
+    (pin "16" (uuid 8328dd0d-32e7-4abc-9936-f10052d0d920))
+    (pin "2" (uuid 6731d403-cb2f-4ee2-a52b-f355a59f487a))
+    (pin "3" (uuid 44eddadf-1a6a-4118-a9c4-06c09c2e48a5))
+    (pin "4" (uuid 8b6edc80-2392-40da-a37e-77f0d4e41770))
+    (pin "5" (uuid 3d7f090b-a581-4da0-b649-6bf0e390e0ff))
+    (pin "6" (uuid f5470259-965a-4211-b050-2d674f2106fc))
+    (pin "7" (uuid 41ddc424-a7fc-4753-ab34-cadfe0bab9a5))
+    (pin "8" (uuid de57abc9-9016-4666-8e09-30ce1cbe4410))
+    (pin "9" (uuid e57eaa73-a8bb-4d51-af13-c4c284c3ad34))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3326,23 +3326,23 @@
     (property "DK" "2073-USB4105-GF-ACT-ND" (at 250.825 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A1" (uuid 7231d2be-d816-4125-a4f5-9de670d3fd84))
-    (pin "A12" (uuid 20b99648-3010-43fa-a274-ce8e1177b9a5))
-    (pin "A4" (uuid 3290ff5c-5a47-41ec-ba17-ba515ec56399))
-    (pin "A5" (uuid a1730e92-3619-467e-ac00-bfb5fcc9a433))
-    (pin "A6" (uuid aaf1493f-989e-45ab-9bc9-1b58b4579440))
-    (pin "A7" (uuid cd1ced6e-a254-4e5b-b80e-7cfbb14cfe1c))
-    (pin "A8" (uuid 2047dc12-0448-44f2-857a-67e46c00d854))
-    (pin "A9" (uuid 48262b96-a226-48c2-843e-6065792f2b35))
-    (pin "B1" (uuid 7b9c9a4a-b2df-4a65-8057-798b94cabe6d))
-    (pin "B12" (uuid 13ff6af2-78c3-43a9-a971-641e83105a39))
-    (pin "B4" (uuid cd5555d5-1137-49d4-bb0b-b7158f069123))
-    (pin "B5" (uuid 81224b59-b1e8-4425-a033-17aa20e21f28))
-    (pin "B6" (uuid 3345a29a-99c3-4754-8527-2bad6ee983ca))
-    (pin "B7" (uuid edabd38d-357e-4f92-a3df-3b508d9a524f))
-    (pin "B8" (uuid 3eefcdbe-498a-47ff-baa6-e9b2cab79390))
-    (pin "B9" (uuid 328dd78f-0a0b-4cb5-a892-8c26a3428a84))
-    (pin "S1" (uuid fca93a8b-aa57-4199-903d-73f3a7249328))
+    (pin "A1" (uuid 31642e7f-02a9-4ab3-ab26-e440abe53e97))
+    (pin "A12" (uuid 07ce2810-fe8b-4b13-a32e-7aea36f7a1bf))
+    (pin "A4" (uuid 3289dd1b-99cc-49f7-b818-df66a2691375))
+    (pin "A5" (uuid 040f7fb0-92ae-4f93-a109-87d6340d4687))
+    (pin "A6" (uuid 778b3d39-1509-4385-8d43-959024cf64bd))
+    (pin "A7" (uuid f86031f7-d27a-4762-be43-76f32a64ec33))
+    (pin "A8" (uuid d7d24862-a12f-41c7-b4e0-5d90c2c93288))
+    (pin "A9" (uuid 5aebe94c-7faa-40c7-89da-0fed6916f358))
+    (pin "B1" (uuid 94d79275-f66c-4793-831f-3650ab809492))
+    (pin "B12" (uuid 07d50861-f542-45e0-bae3-ac93592004b4))
+    (pin "B4" (uuid 1906ff64-144e-4cb2-8d74-71a16054e7b4))
+    (pin "B5" (uuid 7c85bbee-c17c-4b04-9d63-47fd31b03cd0))
+    (pin "B6" (uuid ac780160-852b-467f-9d48-16aef8b7709c))
+    (pin "B7" (uuid 7ad57325-8dec-49f2-9380-a4e9027056e2))
+    (pin "B8" (uuid 71b21a2a-0b5a-49b6-964e-a0f877b6e78e))
+    (pin "B9" (uuid b3d69368-fb37-4ea9-9444-92333afb9acd))
+    (pin "S1" (uuid c4234679-f077-4b09-aca6-6d6df724e2e0))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"
@@ -3372,7 +3372,7 @@
     (property "Datasheet" "~" (at 34.925 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ccf41ff2-72c3-49f7-97ab-5b76390d10b8))
+    (pin "1" (uuid 04e6c4c7-ab56-4733-b34f-a70be44c4fb5))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3397,7 +3397,7 @@
     (property "Datasheet" "~" (at 61.595 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 249d2dfe-ad91-487e-8958-b62eb119fb08))
+    (pin "1" (uuid 7bac42ef-72f6-4c72-bc31-1d9858f8f871))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3422,7 +3422,7 @@
     (property "Datasheet" "~" (at 215.9 156.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5bde86c6-e0c3-47b0-bbf9-bccf284ddd8a))
+    (pin "1" (uuid cd40c31a-3f38-4e2f-83b5-7da5bdc67842))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3447,7 +3447,7 @@
     (property "Datasheet" "~" (at 215.9 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f34e96e-bafc-429c-9955-bc361fc4acdc))
+    (pin "1" (uuid dded3081-f1d7-4d25-8991-94298ad55a8b))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3472,7 +3472,7 @@
     (property "Datasheet" "~" (at 34.925 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8af959b2-c25a-4967-87a6-6bb3c166fe2d))
+    (pin "1" (uuid 0a81da13-c256-4bf3-96eb-ba2799a112e7))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3503,47 +3503,47 @@
     (property "PARTNO" "ESP32-S3-WROOM-1-N16R8" (at 128.905 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95632fcf-8cd9-437d-8965-a6bd09959fcc))
-    (pin "10" (uuid 62b2d74a-503c-4b0d-8f55-ce63daf69c37))
-    (pin "11" (uuid 124f89d3-226e-4eb6-a260-47797375e4eb))
-    (pin "12" (uuid db82487b-2f46-4c22-a8dc-4e83242a2956))
-    (pin "13" (uuid fed1aeee-27c4-4d61-a272-d81718c4dc94))
-    (pin "14" (uuid 9fa24a4d-24ac-4239-bad6-b4bd91844722))
-    (pin "15" (uuid 0b13ddc5-36ad-4ad8-978e-066195259e6d))
-    (pin "16" (uuid 2c5104e2-bbc5-4b9b-ad3c-2f15f9171542))
-    (pin "17" (uuid 03a541db-e731-477d-857f-f42b7170db94))
-    (pin "18" (uuid 766b19a2-303a-4a67-a389-c6b10d6a2e3f))
-    (pin "19" (uuid d1a40113-25db-4c75-87e5-97b4891e9c4f))
-    (pin "2" (uuid d6e9f47f-cfbd-49f0-93d9-0c0a7c306f38))
-    (pin "20" (uuid 64120a64-9e79-409f-9ed6-7912585dcfa4))
-    (pin "21" (uuid 49550c2a-1a31-4743-8b88-6732442f9a5c))
-    (pin "22" (uuid d1953492-aed9-419a-bb7d-78f874e1a476))
-    (pin "23" (uuid c2cebb7e-1631-41ff-95d2-6a090f8023e4))
-    (pin "24" (uuid a2312759-62b7-43aa-8b08-08327ad318db))
-    (pin "25" (uuid fad994b2-6968-40c5-807d-79f0af630619))
-    (pin "26" (uuid 1987b9ca-f4dc-4db2-8ccc-73b77aac51c0))
-    (pin "27" (uuid e4342c7c-7e52-4bc1-9c90-5bde53683ca3))
-    (pin "28" (uuid 16ad1b09-4ad4-49ea-a2c3-3e4b3cc9e260))
-    (pin "29" (uuid 074ccacb-7a4a-49cd-ad19-a47d780541e1))
-    (pin "3" (uuid 341b2a5b-2987-411d-8555-f66e122e4a25))
-    (pin "30" (uuid feb5fd69-f4f9-4c84-8d87-35b831283452))
-    (pin "31" (uuid a0e9df79-a274-4ef4-9ae2-4c03a52ec67a))
-    (pin "32" (uuid cc59b080-ce5f-4e01-a0cb-9d1dcbe70c8f))
-    (pin "33" (uuid 2b71a947-ccf6-4292-8f00-563bf6c10c37))
-    (pin "34" (uuid f7a92c0f-3c80-4f91-aec4-f897d7baa60c))
-    (pin "35" (uuid 0807d09d-cc4a-4e37-a842-35074674f957))
-    (pin "36" (uuid eb7dbc6d-872f-439e-852a-7e91f0f96d17))
-    (pin "37" (uuid 1640fd9a-b122-4e83-9c19-68462294981e))
-    (pin "38" (uuid 2c263253-a2e7-4704-93d0-1f80b7fedf8d))
-    (pin "39" (uuid 5fae9a29-6dae-4a89-9f9a-b93f777bc3b6))
-    (pin "4" (uuid dbff65a3-b0e1-4c97-90ff-816ac9d36a1e))
-    (pin "40" (uuid 6c85e6ef-be3e-4c7f-814d-6c6099cced71))
-    (pin "41" (uuid 37615d92-0ed0-4ca4-849f-f16487050f9f))
-    (pin "5" (uuid 25ae55b9-645a-47f2-9ed4-bd93f575185a))
-    (pin "6" (uuid 3aed35f9-abb9-4f8e-b6ad-676fdc4209b4))
-    (pin "7" (uuid 0ba5d71f-6d9f-44d4-b228-5c3da618e624))
-    (pin "8" (uuid 94ebb7e8-8f12-433f-9e36-a03b3ada0d07))
-    (pin "9" (uuid 0d9fd7ab-c44b-479d-b15a-5eb7e238b019))
+    (pin "1" (uuid c45d878e-6b70-4bac-91c3-a546341fa6f3))
+    (pin "10" (uuid 7680e29a-fce2-486f-8ab2-9fdc1f7a2dde))
+    (pin "11" (uuid 01a96233-1665-48a3-9bf0-51df2e34ac47))
+    (pin "12" (uuid a52453b0-ce8a-4d16-9ef1-06904919c295))
+    (pin "13" (uuid d97e79c2-efb5-4e97-8806-4b7c79911351))
+    (pin "14" (uuid 6370ce5a-26e9-4a32-b8a1-7d9ffc73fc26))
+    (pin "15" (uuid 060b26be-9132-4ddf-b57d-77df300d4295))
+    (pin "16" (uuid 17c889de-b530-467b-ac98-3091e7536c62))
+    (pin "17" (uuid 213ec1d2-c0a1-4b3d-b49d-9bf05e7fefbb))
+    (pin "18" (uuid 67a9e2ef-8666-411b-a6d1-4069d0776def))
+    (pin "19" (uuid 938a18f0-ebe6-4327-b932-081e15d2a9de))
+    (pin "2" (uuid 7601fccf-41a3-49d2-96b8-66941454ffb3))
+    (pin "20" (uuid 81f75ea6-2dd8-4ea9-89af-3657635869c7))
+    (pin "21" (uuid 03da75e8-0eed-47a2-befc-c9dac2d87c23))
+    (pin "22" (uuid c12b64b5-9919-429c-9af8-eea6f0e77eee))
+    (pin "23" (uuid c55cdbae-9597-4e9d-83b1-0b4247e982e0))
+    (pin "24" (uuid a40f8f60-7a71-4599-9440-4e3dc3d3e1e9))
+    (pin "25" (uuid a8451a46-01ad-4c4b-aab5-ebd3bfad637f))
+    (pin "26" (uuid 4d0d573d-f4ae-41e7-927c-26036900cc04))
+    (pin "27" (uuid 7edd2fed-b48e-4dab-97d4-b994e572e1a8))
+    (pin "28" (uuid 238886bf-7306-48c7-b646-5c6475e001c5))
+    (pin "29" (uuid 58aca97a-a139-4c37-b4d1-3680460eff10))
+    (pin "3" (uuid 288bfe54-6ae7-40a3-ae86-160b98b436cf))
+    (pin "30" (uuid 694ddc0e-dab0-418a-9b90-a90c6e98d35a))
+    (pin "31" (uuid 37050609-ccfb-476b-8494-f8e7049f6d22))
+    (pin "32" (uuid 72ebf11f-7486-4e92-b039-c17c81e57e6e))
+    (pin "33" (uuid 415f98e3-cb77-4124-8a39-8cbad5581a59))
+    (pin "34" (uuid 503a5aca-dae8-41d2-857e-9becb4c329e3))
+    (pin "35" (uuid 30ced594-7c54-47f4-ba08-4a9997bfeba1))
+    (pin "36" (uuid f5db0f26-25f9-41f4-927b-560a8bf8fb66))
+    (pin "37" (uuid 2876bc9d-3a9f-44b9-abf9-4c7777836e4a))
+    (pin "38" (uuid 0877cd02-33e2-48d0-8199-0e311e632478))
+    (pin "39" (uuid 14b43244-ab4a-461a-821b-22ff592514b1))
+    (pin "4" (uuid bf40e3fb-091a-4871-bc15-a5edc5a95906))
+    (pin "40" (uuid 7167d7af-7358-400c-84b3-e532bbe2d7ad))
+    (pin "41" (uuid 5f5a387c-4732-434a-bab6-059692e00ce1))
+    (pin "5" (uuid 02f2e93d-8c54-4b3f-a546-08ba774d02d8))
+    (pin "6" (uuid 5ca2f8e0-8143-4a76-a9f0-58af8f1530d1))
+    (pin "7" (uuid 32691629-e593-45a7-a0b0-4d7265aff5a0))
+    (pin "8" (uuid adc58f4d-e8c2-47c8-8b66-3551ea8ae6b9))
+    (pin "9" (uuid 25c64d46-545b-4d3c-9152-27c3e5836496))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
@@ -3574,8 +3574,8 @@
     (property "PARTNO" "" (at 56.515 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ab38937-230f-437c-ac35-4ce2c7f06325))
-    (pin "2" (uuid ed3b9785-6a4e-4200-98b4-362d8266e682))
+    (pin "1" (uuid 6be6c6ba-658d-4927-b3c4-1630504520c4))
+    (pin "2" (uuid dabf6bff-425e-4305-82b4-02eb1df8b46b))
     (instances
       (project "esp32"
         (path "/dcd2fc1c-da48-40a9-b97c-5712d9530f4f"

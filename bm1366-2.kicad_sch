@@ -1408,10 +1408,6 @@
     (stroke (width 0) (type solid))
     (uuid 3b85c330-1ae4-45f3-b420-98f60e7c54c1)
   )
-  (wire (pts (xy 59.69 90.805) (xy 35.56 90.805))
-    (stroke (width 0) (type default))
-    (uuid 3cd4065e-cb09-42de-9730-5658a6a8a691)
-  )
   (wire (pts (xy 59.69 83.185) (xy 18.415 83.185))
     (stroke (width 0) (type default))
     (uuid 3d4548a2-3138-4a76-bdc8-952b730a35d0)
@@ -1488,11 +1484,15 @@
     (stroke (width 0) (type default))
     (uuid 48a2bd42-c7f3-40a6-b6fe-5a22f3b113d6)
   )
+  (wire (pts (xy 223.52 90.805) (xy 227.33 90.805))
+    (stroke (width 0) (type default))
+    (uuid 494baaa4-9c62-4b1a-b4eb-a7f42ae96509)
+  )
   (wire (pts (xy 213.995 146.685) (xy 213.995 144.145))
     (stroke (width 0) (type solid))
     (uuid 49a74d4a-fe0d-4db5-967e-2eacc8317383)
   )
-  (wire (pts (xy 144.78 90.805) (xy 187.96 90.805))
+  (wire (pts (xy 107.95 90.805) (xy 187.96 90.805))
     (stroke (width 0) (type default))
     (uuid 4a829691-35bd-4840-95c4-71e384172866)
   )
@@ -1547,10 +1547,6 @@
   (wire (pts (xy 53.975 147.32) (xy 63.5 147.32))
     (stroke (width 0) (type default))
     (uuid 53d42a15-426b-467f-a14e-ffd8d0d1638a)
-  )
-  (wire (pts (xy 223.52 90.805) (xy 252.73 90.805))
-    (stroke (width 0) (type default))
-    (uuid 54421d64-d091-477c-ac34-fa2b09778945)
   )
   (wire (pts (xy 137.795 50.8) (xy 145.415 50.8))
     (stroke (width 0) (type default))
@@ -1648,6 +1644,10 @@
     (stroke (width 0) (type default))
     (uuid 65a3889e-af79-4aaf-a167-b8777af79dd3)
   )
+  (wire (pts (xy 234.95 90.805) (xy 252.73 90.805))
+    (stroke (width 0) (type default))
+    (uuid 665f5fca-e92f-4def-821d-249398beede6)
+  )
   (wire (pts (xy 37.465 40.64) (xy 41.275 40.64))
     (stroke (width 0) (type default))
     (uuid 66f0a70b-0aa7-4181-bac4-2f656e7fb118)
@@ -1723,6 +1723,10 @@
   (wire (pts (xy 120.65 43.18) (xy 128.27 43.18))
     (stroke (width 0) (type default))
     (uuid 728ce0f7-d7ff-4044-98a3-009e05e7ad02)
+  )
+  (wire (pts (xy 33.02 98.425) (xy 59.69 98.425))
+    (stroke (width 0) (type default))
+    (uuid 743927de-80c5-49e0-bc70-e3edf729756f)
   )
   (wire (pts (xy 37.465 45.72) (xy 41.275 45.72))
     (stroke (width 0) (type default))
@@ -1956,10 +1960,6 @@
     (stroke (width 0) (type default))
     (uuid ae443a67-5a3c-4733-bdfc-900d9b8cc9c8)
   )
-  (wire (pts (xy 46.355 98.425) (xy 59.69 98.425))
-    (stroke (width 0) (type default))
-    (uuid b004d5c2-b7bb-4b5f-b75b-45f4c99ee4a8)
-  )
   (wire (pts (xy 223.52 95.885) (xy 252.73 95.885))
     (stroke (width 0) (type default))
     (uuid b0b8bee4-869b-44bc-8f1c-da5f6d5df234)
@@ -2128,7 +2128,7 @@
     (stroke (width 0) (type default))
     (uuid d0d0912e-b21b-4118-a02c-aad46f73d79e)
   )
-  (wire (pts (xy 46.355 100.965) (xy 59.69 100.965))
+  (wire (pts (xy 33.02 100.965) (xy 59.69 100.965))
     (stroke (width 0) (type default))
     (uuid d5494bf5-0540-4871-82ee-009bb733a81f)
   )
@@ -2136,7 +2136,7 @@
     (stroke (width 0) (type default))
     (uuid d578dd89-9d77-4054-981e-4e35ff81c1ec)
   )
-  (wire (pts (xy 27.94 90.805) (xy 24.13 90.805))
+  (wire (pts (xy 24.13 90.805) (xy 59.69 90.805))
     (stroke (width 0) (type default))
     (uuid d587564e-8a3e-4c78-90ab-1e13a7ffcf8a)
   )
@@ -2244,7 +2244,7 @@
     (stroke (width 0) (type default))
     (uuid eaf31380-06ab-4ed3-8296-79ddc8d133d7)
   )
-  (wire (pts (xy 95.25 90.805) (xy 137.16 90.805))
+  (wire (pts (xy 95.25 90.805) (xy 100.33 90.805))
     (stroke (width 0) (type default))
     (uuid ec1a350e-a7d1-454b-9129-8e6e378c4d7d)
   )
@@ -2411,7 +2411,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 199d23df-f226-43ab-a93a-7eeebd6154e8)
   )
-  (label "TEMP_P1_2" (at 46.355 98.425 0) (fields_autoplaced)
+  (label "TEMP_P1_2" (at 33.655 98.425 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1b26b5dd-b415-48df-8971-e338765cd7fa)
   )
@@ -2423,7 +2423,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1d68ccf3-00e6-4a98-80ee-2fe78852c440)
   )
-  (label "TEMP_N1_2" (at 46.355 100.965 0) (fields_autoplaced)
+  (label "TEMP_N1_2" (at 33.655 100.965 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2bd247ea-e605-48a9-b731-88cf6d42981c)
   )
@@ -2463,7 +2463,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 68da4f87-b579-4274-90bd-4d5e36c20bcf)
   )
-  (label "GND" (at 211.455 156.845 180) (fields_autoplaced)
+  (label "GND2" (at 211.455 156.845 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6a4602a4-3601-41bb-8416-f8f6c00238a2)
   )
@@ -2535,7 +2535,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bc8d7dc5-4096-4445-8880-4f8aa083ce7f)
   )
-  (label "VDD" (at 206.375 144.145 0) (fields_autoplaced)
+  (label "VDD2" (at 206.375 144.145 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bcd4e964-b0eb-4286-b981-625320626222)
   )
@@ -2666,8 +2666,8 @@
     (property "PARTNO" "" (at 125.095 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 051720a1-0c1f-4714-92aa-4ac5db2eb1cd))
-    (pin "2" (uuid 6568e48b-dda5-4131-902b-4e55342aa52f))
+    (pin "1" (uuid ad8caaa5-d92b-48d8-bc46-19413d6c9753))
+    (pin "2" (uuid e4617fe1-e4b1-4711-9229-35ff74170fd6))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -2706,8 +2706,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 102.235 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9628073f-5006-4f80-b15b-2b018074021d))
-    (pin "2" (uuid e2fefa9a-6df4-484b-a9d6-7014330ffa66))
+    (pin "1" (uuid 94f75275-4551-4227-8f13-1d314dd694fd))
+    (pin "2" (uuid 6f41b0f1-eca2-49cb-866b-822e1e331b9b))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -2746,8 +2746,8 @@
     (property "PARTNO" "" (at 167.64 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03dfe590-7bfb-41a5-9c97-558197573211))
-    (pin "2" (uuid 97900c3c-d3d3-49fa-ae9c-7492bb83d177))
+    (pin "1" (uuid 5ffa23d7-1573-4342-8de7-1cfc8def284d))
+    (pin "2" (uuid 7d9e6631-6afe-4870-b1b1-32e79f943a81))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -2765,22 +2765,22 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 46.355 98.425 90) (mirror x) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 33.02 98.425 90) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 14a45107-db0a-4064-bb25-d7fea4709b6e)
-    (property "Reference" "TP13" (at 40.005 98.425 90)
+    (property "Reference" "TP13" (at 26.67 98.425 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TestPoint" (at 40.64 99.6949 90)
+    (property "Value" "TestPoint" (at 27.305 99.6949 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 46.355 103.505 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 33.02 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 46.355 103.505 0)
+    (property "Datasheet" "~" (at 33.02 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b63b32f-1c67-4b91-b569-25a85b50f54a))
+    (pin "1" (uuid 4809d692-fb58-481a-805a-7e9018b927d7))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -2822,8 +2822,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 60.96 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49364747-3a39-4805-9393-0a257516b1be))
-    (pin "2" (uuid a9cfd2a5-eec1-4703-90ae-866b36862424))
+    (pin "1" (uuid 4e0b8115-a545-4ec0-998e-3b3fc11739c2))
+    (pin "2" (uuid 98c21a5d-a9f0-4284-a94f-28a4636622f6))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -2862,8 +2862,8 @@
     (property "PARTNO" "" (at 205.105 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a61e80eb-9819-4fec-88e2-f34be8364645))
-    (pin "2" (uuid 8645cf5f-6c9c-499f-91ac-cc6f44e99b77))
+    (pin "1" (uuid 709ac764-95fb-4bfc-9440-d2b790801a43))
+    (pin "2" (uuid 13eb9d59-de41-40a7-b6f0-a476d6a70e3a))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -2905,8 +2905,8 @@
     (property "Tolerance" "1%" (at 100.965 189.865 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 074ff80d-c94d-4d8d-b95a-a09accb958de))
-    (pin "2" (uuid db4fb518-5bc2-4039-a5dc-d8d9a3f55e77))
+    (pin "1" (uuid 12bc8e56-8d9f-4916-9050-9575a444282c))
+    (pin "2" (uuid 38a64dce-21b5-47de-8df0-1da4cffbacea))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -2948,8 +2948,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 116.205 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 42d3fe75-4d9e-4c9e-93c3-3ab8593801aa))
-    (pin "2" (uuid 40f242bc-bd17-4f71-b1ce-408089843cee))
+    (pin "1" (uuid ce7a271c-c157-441f-86c1-8e06de7287da))
+    (pin "2" (uuid c75fdfb7-b47d-4e09-81e1-e9b9dccb75ba))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -2991,8 +2991,8 @@
     (property "Tolerance" "1%" (at 91.44 196.215 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 299f8ce0-89ee-4469-b6bb-626c3d7ded34))
-    (pin "2" (uuid 8f3163f4-ba8d-489e-8df1-cfc95f2f94bc))
+    (pin "1" (uuid d3f5955f-fa05-47f4-9503-9a004a4d4b0b))
+    (pin "2" (uuid b66cee54-e890-4398-93ba-a0c514b48c07))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3034,8 +3034,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 52.705 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10f7b5e4-b5a6-47ae-9a6c-c85db928876d))
-    (pin "2" (uuid da504262-b1e9-40ca-9ccf-cb8e9de273f3))
+    (pin "1" (uuid 0b4404e2-a391-414e-bede-e60553b6b2e8))
+    (pin "2" (uuid 5b3a756f-e9b2-4517-a196-7065548dbe12))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3074,8 +3074,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 139.7 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fb99eb62-e045-4f98-8522-78567c53da84))
-    (pin "2" (uuid d15765e4-3b08-4873-a8b3-ca10b1b0feea))
+    (pin "1" (uuid 15b6e16f-f1c2-4d36-8ae5-8b4f9e3fc7c0))
+    (pin "2" (uuid 6dcb7813-2532-40ac-82c0-9a0346c813ea))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3108,36 +3108,36 @@
     (property "Datasheet" "" (at 69.85 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8063f353-f10c-4a9c-8d16-d345ae22f3df))
-    (pin "10" (uuid 75789c98-ed6b-422a-89ef-1c7a0bbda4d2))
-    (pin "11" (uuid 9438dbe6-8d88-432c-bbee-ea09eec88da3))
-    (pin "12" (uuid 181ab21b-82f1-426c-9033-97ed69e045ce))
-    (pin "13" (uuid aad60a58-1343-4614-a18c-a950766e7720))
-    (pin "14" (uuid 3d718e2f-8c31-4c8b-8599-789d598ce588))
-    (pin "15" (uuid 4bbb0e44-311c-469d-8c3b-72645e9d3daf))
-    (pin "16" (uuid b31c01fd-9d38-42e4-8dd5-4518e1fd6886))
-    (pin "17" (uuid a10140b7-5613-4b8c-8a1c-50cead2e0c17))
-    (pin "18" (uuid 6f75796f-162c-446d-9611-9478bc09d3d2))
-    (pin "19" (uuid 0f5cb2fc-83f2-463b-923d-2bb3a5dd55e5))
-    (pin "2" (uuid 1af2608c-00f8-4f9c-8c79-8583cb5a050a))
-    (pin "20" (uuid 95704069-11d0-4f1d-a238-69a97c9f5e3e))
-    (pin "21" (uuid 0ab68e73-5a0f-411c-b70b-9e5fbceb2ebd))
-    (pin "22" (uuid bbcdddf9-93e9-4e5f-a59c-25de08e40c91))
-    (pin "23" (uuid f161c59b-b5b7-4204-b224-3953612a2c39))
-    (pin "24" (uuid 487d50d0-727d-40d2-842e-f287881b73c6))
-    (pin "25" (uuid db2f0352-f5ba-47c2-8c41-a08a5ef3a4e6))
-    (pin "26" (uuid de0ee34c-2f23-49b5-8fbf-b36194d74f99))
-    (pin "27" (uuid 429cabf0-b431-4d5b-b79c-bb2ba150dd61))
-    (pin "28" (uuid 307fe6e5-f83e-45f8-9de5-b89f58ab256e))
-    (pin "29" (uuid df43ec03-bc10-489a-8543-38ecb210ea4b))
-    (pin "3" (uuid 6893004f-7257-4c92-aa22-d8459e12fb4e))
-    (pin "30" (uuid d1b791e5-c73e-437b-bf48-66d2d15ad8ad))
-    (pin "4" (uuid 47824857-76ac-494a-aab0-7338b3fda6ee))
-    (pin "5" (uuid d5c6b6e4-d0c4-440a-b99c-7bfe33b939bc))
-    (pin "6" (uuid 3a50f97d-9470-4a19-879e-baa5fe4c623d))
-    (pin "7" (uuid d8b21bbb-33ef-4168-a3c2-9f749c9cbd5a))
-    (pin "8" (uuid 05933346-d3b6-4ce0-b19c-dfd72485f736))
-    (pin "9" (uuid 7d4e2c4e-e563-40f6-9ccb-bb4a0bc63bb0))
+    (pin "1" (uuid 581ddd33-99b7-487a-b2e2-bcdcc1fe2f00))
+    (pin "10" (uuid 0c157911-d232-4719-b059-46e6a4d3669c))
+    (pin "11" (uuid da0cda45-f10d-405c-9ce1-29df8783216d))
+    (pin "12" (uuid 1ed2b6cd-d1c3-4eb2-9338-09893909cdbb))
+    (pin "13" (uuid 4e32c9b3-6027-4595-95b4-73f0184e3795))
+    (pin "14" (uuid 27adcbf7-8dd8-496a-9280-4129bb5f43f7))
+    (pin "15" (uuid 4dd8164a-c55c-4dc7-8d0b-93b4f596c09e))
+    (pin "16" (uuid cac85ec3-43b4-432b-849d-275de3023120))
+    (pin "17" (uuid 22ccb8c9-0bd1-4a8e-9ba9-424e3e2d9f87))
+    (pin "18" (uuid 1819f57a-ab6e-4c04-a3eb-5568f8cf14f6))
+    (pin "19" (uuid f9d0c157-0f5b-4756-a3af-cccf887e4c2a))
+    (pin "2" (uuid f2b1977f-7bad-4368-9315-7cf2932f209e))
+    (pin "20" (uuid 56016da7-9d65-47e8-b805-feb5fdb1ab05))
+    (pin "21" (uuid c80ed12f-bb22-465d-91a0-3ddc065d61d4))
+    (pin "22" (uuid 127d4911-28a0-47c6-850b-88cb963e93c2))
+    (pin "23" (uuid 88c95c24-b08e-4e15-a3fa-68925b5ce8ab))
+    (pin "24" (uuid 753dac08-9ba6-4840-be2c-d0d58d624295))
+    (pin "25" (uuid d245b15a-4b38-4906-aecd-e5afefca070c))
+    (pin "26" (uuid 4ba69e76-05a4-4bc9-bb77-4ad9297d5235))
+    (pin "27" (uuid a80b15ec-542a-413a-8303-e1e2ba9f20be))
+    (pin "28" (uuid 30ba7aca-398c-4d5d-a520-6124dac7038e))
+    (pin "29" (uuid 5759b957-3d77-4800-88a3-82c7b33fa9ab))
+    (pin "3" (uuid b7f6ebde-e483-4fc5-b9a7-6c9916faa8ee))
+    (pin "30" (uuid f844b77b-fe0c-442f-b901-31bcf3498570))
+    (pin "4" (uuid f5487e5f-fb4b-4aea-bd6f-cc41bc556517))
+    (pin "5" (uuid 5faacd89-a4e0-4c9a-8f65-e6affdc288e4))
+    (pin "6" (uuid 3004ed91-9447-482e-ae2f-d4f8bce6c6bb))
+    (pin "7" (uuid de5997ba-1377-4674-bf97-639cafb65932))
+    (pin "8" (uuid eaec775c-b103-42c2-91f0-7e1fde213695))
+    (pin "9" (uuid 1a4d536f-7fd4-4f1a-bd00-23869a3c7d40))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
@@ -3168,8 +3168,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 256.54 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d19339a4-2277-4468-a9d6-1f03df30e31f))
-    (pin "2" (uuid b5537e1a-4854-46be-bd8e-732ba7f26a16))
+    (pin "1" (uuid 3e1c6ebb-84fe-4827-ba79-6f7237b357f7))
+    (pin "2" (uuid 72180a84-22bc-480a-b5dd-136673e06ecf))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3211,8 +3211,8 @@
     (property "Tolerance" "1%" (at 100.965 156.845 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid acd0201e-ac66-492a-9390-fae16744d604))
-    (pin "2" (uuid b8ac1a29-e3a9-4f35-a99b-92fabc134a7e))
+    (pin "1" (uuid 7a374201-56e5-463a-a0c1-51396f7a3aee))
+    (pin "2" (uuid 873893bc-3f2d-46a5-91d1-f8e9dc2225e1))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3248,11 +3248,11 @@
     (property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc/ADP171AUJZ-R7/2000964" (at 82.55 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f5d6cb81-0e7f-4306-82b9-b5b41cb9c7ac))
-    (pin "2" (uuid 0edfcddf-5207-405e-97df-34968eb24fa1))
-    (pin "3" (uuid 34c4c645-6ff7-4573-a0c4-295ebe50db53))
-    (pin "4" (uuid c6b036e9-acbe-4b7c-8b00-b14cbd967d4a))
-    (pin "5" (uuid f97003cb-9b36-4dab-8610-c491a5b5ae55))
+    (pin "1" (uuid 550a75ed-06cc-456a-a7f1-4f509a71326e))
+    (pin "2" (uuid 57279079-663a-44f0-afe9-a44b68564e4f))
+    (pin "3" (uuid d63a544e-2fb3-4a68-98fb-5a8b930147a7))
+    (pin "4" (uuid ba2b6618-a750-4d12-997e-d60b2c9d979a))
+    (pin "5" (uuid aae325da-bc85-4784-8c48-94e2454bbf32))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
@@ -3286,8 +3286,8 @@
     (property "PARTNO" "0402X104K100CT" (at 63.5 156.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 055b9db5-85d9-41c5-926f-1f8e63ad99aa))
-    (pin "2" (uuid 5d9c5db6-f473-4fa5-a471-88b8b9585970))
+    (pin "1" (uuid 3d013cf5-d81b-43ae-b0de-2556120e4d3d))
+    (pin "2" (uuid fa7494a9-c618-4e1c-89bd-532aff9e5326))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3303,6 +3303,46 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
           (reference "C110") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 231.14 90.805 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3f609ed3-d670-445b-ae3f-5ef5279e9e40)
+    (property "Reference" "R6" (at 234.95 89.535 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "33" (at 226.06 89.535 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 231.394 89.789 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 231.14 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "" (at 231.14 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "" (at 231.14 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4557a021-a06e-4b57-9f29-ebc5bbc46c2d))
+    (pin "2" (uuid 2868e312-0723-4e9b-ad98-586489445c48))
+    (instances
+      (project "bm1397"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "bitaxeUltraHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "R41") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3329,8 +3369,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 260.35 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 811fea64-c3da-4211-b678-af0bc1020afc))
-    (pin "2" (uuid a28bc2a3-cbe4-4c9a-a064-2aa37d0c385b))
+    (pin "1" (uuid d0f1e94e-ac6d-41af-a3c1-21651235ff89))
+    (pin "2" (uuid 936dfca6-19c4-49b8-b95a-d02637bf84b0))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3369,8 +3409,8 @@
     (property "PARTNO" "" (at 52.705 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 467ebfe9-508f-4489-955b-a47fe2117335))
-    (pin "2" (uuid 2b210ee7-567e-46d4-a94a-4a478bdbf17b))
+    (pin "1" (uuid 13a830b6-03ee-40d7-b0d4-5f93cfb3856c))
+    (pin "2" (uuid 9256d684-324f-46cd-80c5-00badbd8493e))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3409,8 +3449,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 168.275 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c9514193-cf4b-44d0-81a8-3bbcae5aab61))
-    (pin "2" (uuid ca105411-cd3b-49d8-99c7-b4c95fe063bc))
+    (pin "1" (uuid bc2d5ba9-c0ba-483e-a297-05c3c7c6e7eb))
+    (pin "2" (uuid 45d17750-8363-4493-af67-23d8d0c27690))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3449,8 +3489,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 104.775 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b6a05e3-4baa-4e07-a580-d668adc19277))
-    (pin "2" (uuid 90a07ab8-7979-4418-8278-8bfd36352b78))
+    (pin "1" (uuid 639de727-e145-4959-a959-033af914a6fa))
+    (pin "2" (uuid ef308675-8cba-49c6-b0d5-1c2ce2818406))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3468,69 +3508,29 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 31.75 90.805 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 546be11b-afff-4507-bb01-713c0e8a898c)
-    (property "Reference" "R6" (at 27.94 92.075 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "33" (at 36.83 92.075 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 31.496 91.821 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 31.75 90.805 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "" (at 31.75 90.805 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "" (at 31.75 90.805 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 54ac4310-00bd-40d6-ad35-62fb838640ba))
-    (pin "2" (uuid 75d7f049-cb7c-47c5-b1ab-61a2ef6d5985))
-    (instances
-      (project "bm1397"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "R6") (unit 1)
-        )
-      )
-      (project "bitaxeUltraHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "R31") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "R42") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 140.97 90.805 90) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 104.14 90.805 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55523a7d-ac3d-4ee2-b261-3af064d0ea19)
-    (property "Reference" "R6" (at 144.78 89.535 90)
+    (property "Reference" "R6" (at 107.95 89.535 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "33" (at 135.89 89.535 90)
+    (property "Value" "33" (at 99.06 89.535 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 141.224 89.789 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 104.394 89.789 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 140.97 90.805 0)
+    (property "Datasheet" "~" (at 104.14 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "" (at 140.97 90.805 0)
+    (property "DK" "" (at 104.14 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "" (at 140.97 90.805 0)
+    (property "PARTNO" "" (at 104.14 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0055dd6-7b08-4b25-aaf8-d7d9f685efe9))
-    (pin "2" (uuid ab14f686-481e-4860-a92c-d57b842eb4a2))
+    (pin "1" (uuid 0d45b248-f856-435e-baab-52b212500dea))
+    (pin "2" (uuid c872bc46-2584-477e-9a43-6674dd14df88))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3563,7 +3563,7 @@
     (property "Datasheet" "~" (at 112.395 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 84cb8cf3-fd8d-45bc-835c-c28e4b20587f))
+    (pin "1" (uuid 477d6827-b839-40e6-ae5b-285c0f95585a))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3599,7 +3599,7 @@
     (property "Datasheet" "~" (at 173.99 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b03fa9f-0afc-4057-bf94-55523356950e))
+    (pin "1" (uuid a9f305ee-76f6-4de6-bb5b-dcb0f8c42d1f))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3641,8 +3641,8 @@
     (property "PARTNO" "" (at 89.535 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8d4d29a4-9e12-4331-b205-5d27f6dcd4c6))
-    (pin "2" (uuid b6c3d082-8973-4fa1-9d1f-59b3861c4142))
+    (pin "1" (uuid 7a2f1351-ceb3-44d5-bd01-55348ca33f0b))
+    (pin "2" (uuid 0adc288c-b785-4d6c-a7a9-edc56f03827d))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3681,8 +3681,8 @@
     (property "PARTNO" "" (at 42.545 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a317687a-dd87-4367-ae25-49cab0ffc3c2))
-    (pin "2" (uuid de8f202d-eb18-45ce-957c-2a8f8b5f8ca6))
+    (pin "1" (uuid 61702caf-7b14-4c62-b16f-632c59f40408))
+    (pin "2" (uuid 21b3eddd-d21a-42b9-830c-987b5f7d21ea))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3695,6 +3695,46 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
           (reference "R48") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 33.655 45.72 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 63d2e8e7-ec17-44fb-ab9a-f4c29b51d12f)
+    (property "Reference" "R6" (at 29.845 47.625 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1K" (at 37.465 47.625 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 33.401 46.736 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 33.655 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "" (at 33.655 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "" (at 33.655 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 982b8b27-42e9-4128-8fc1-cb05100b9398))
+    (pin "2" (uuid ba9fdd69-9575-4e22-9a29-5a05f0a8640c))
+    (instances
+      (project "bm1397"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "bitaxeUltraHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "R32") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -3715,7 +3755,7 @@
     (property "Datasheet" "~" (at 173.99 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 985cf6f7-ad7f-4a83-a2a9-f86a93227ce1))
+    (pin "1" (uuid dfeac858-4425-4310-b37e-3995a4ad0c4e))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3757,8 +3797,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 224.155 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8705efb2-092a-43d3-a14f-b8a6fdb0f9c0))
-    (pin "2" (uuid 1074771a-7373-4e57-92a5-7fc9087df2dd))
+    (pin "1" (uuid 558eff2d-258c-4c82-b53a-23d6bd62cf48))
+    (pin "2" (uuid 8d37195a-3b1f-4467-bbf6-f8ccc8229428))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3797,8 +3837,8 @@
     (property "PARTNO" "0402X104K100CT" (at 183.515 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7249ab74-6cea-4467-a9c6-209ea4f561cd))
-    (pin "2" (uuid 2302265b-8898-489c-aea2-a6f99392b441))
+    (pin "1" (uuid 609819a7-9e0b-43fc-9dd3-361bc05710d4))
+    (pin "2" (uuid 2506680e-3d58-45d4-93c1-3833749b99ee))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3831,20 +3871,20 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3542.pdf" (at 105.41 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a55fb6cc-e350-4203-abfc-a627ceaa79ff))
-    (pin "11" (uuid ce59a3fd-e3b4-4a1e-a201-c4f71a0a2bdd))
-    (pin "2" (uuid 1cfff0c2-f239-494f-9852-65907cdcbf81))
-    (pin "3" (uuid 048257d7-e69d-4abf-a000-145beab9bc49))
-    (pin "4" (uuid c3fd2e44-e859-4113-9924-7b9e75faa40a))
-    (pin "5" (uuid ce68b486-b231-41f4-a07b-29f3ca85e0f9))
-    (pin "6" (uuid 4208458a-8fe7-4c81-b4e5-d16c1609cd13))
-    (pin "7" (uuid 8ef15f6c-8f3e-4e22-8b2e-2441cc7aaca6))
-    (pin "10" (uuid eac996e7-8b6e-48e9-bd90-e4de2e144843))
-    (pin "8" (uuid f33eec5c-e1a9-4fef-8fc0-0cc493fa30ba))
-    (pin "9" (uuid b9759468-f800-4375-ac96-67f9bfd85460))
-    (pin "12" (uuid 0b00a0b1-87c2-40b3-8ae3-f4e2c34f2d80))
-    (pin "13" (uuid 719b2872-7afe-4d99-8919-37e1bddc9798))
-    (pin "14" (uuid 8eef8c0a-fb41-46a8-9827-c0d90315d6ff))
+    (pin "1" (uuid e49d6b4f-b4ea-44f3-943e-38d4acc6267a))
+    (pin "11" (uuid 9aef7bfb-7c6d-47fa-9932-2bf6359c4bf6))
+    (pin "2" (uuid d6017b35-e9e5-40da-a476-be1435d7502b))
+    (pin "3" (uuid 893f67ce-3c43-430f-9132-870dcc073839))
+    (pin "4" (uuid f472d2b3-3b2a-4f8f-88d1-bb85bff3adb3))
+    (pin "5" (uuid b7c4c2d8-db32-40b2-8d4e-785c9eb833a4))
+    (pin "6" (uuid 6bc876c2-d31b-43d7-a367-83a80b61cb3a))
+    (pin "7" (uuid 65386f3c-d7a0-41eb-9c1b-f6d0966017d4))
+    (pin "10" (uuid 58260d10-eccf-4f5f-9fe7-84c062f971e7))
+    (pin "8" (uuid 3324cb27-47b4-4411-a16f-0392dc8e04e1))
+    (pin "9" (uuid 771787eb-fda2-4d36-ad3e-ac53a897a28a))
+    (pin "12" (uuid 0278f4c3-9a5c-4248-8a0e-e18223cdcdc0))
+    (pin "13" (uuid 9e4d332c-b5dd-4de3-ba66-ad0e6095a85e))
+    (pin "14" (uuid bdf029e4-550c-4d6c-a0f7-d4579d2564a0))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
@@ -3875,8 +3915,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 213.995 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 32ed8931-00a0-49b7-8978-43609ddcd1e6))
-    (pin "2" (uuid adef8cd7-c560-4401-9c43-b91b0da1a88d))
+    (pin "1" (uuid 7bdb8187-0842-49be-a44c-393af9b6633d))
+    (pin "2" (uuid bc7885ec-4586-4a21-80f9-099008365ba1))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3909,8 +3949,8 @@
     (property "Datasheet" "~" (at 147.32 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid be9d1f4a-b9b9-4d2e-bf88-7e9ae8bacae1))
-    (pin "2" (uuid a93f6994-8f4d-46f9-b7eb-2fdf37ee3cce))
+    (pin "1" (uuid 2c087a35-9573-4c35-87a4-4b6b61d5c5f0))
+    (pin "2" (uuid 42d34537-8c25-4064-8d6b-4a359a17af1b))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
@@ -3947,8 +3987,8 @@
     (property "PARTNO" "" (at 52.705 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b138c2e-d899-4747-af37-767bf5e0529e))
-    (pin "2" (uuid 9000472b-9bf6-4867-8822-38472f83b7e8))
+    (pin "1" (uuid 554980e0-e125-4612-a762-8449f0cef3e6))
+    (pin "2" (uuid 8fab5a18-ed20-479f-89e2-630ac84026f7))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -3987,8 +4027,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 153.67 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cbb42d28-16d2-42f6-a3f6-4e1ce1c543b8))
-    (pin "2" (uuid 5d580340-bed0-4622-8410-f160db077023))
+    (pin "1" (uuid 824c86a7-ae99-4fe6-a8d0-b6766ad07fe0))
+    (pin "2" (uuid 329e6b0b-e5cd-48d0-8471-cf1702a8cb71))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4027,8 +4067,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 107.95 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4abfd816-ff44-4dbf-bfb9-0bcef8552fb0))
-    (pin "2" (uuid 1c7e91bb-cae8-4f9c-9d92-da4fef9127cf))
+    (pin "1" (uuid 1934bd57-b732-46ad-afbb-6161ccc61ca5))
+    (pin "2" (uuid 5e5f2159-76d1-4224-8d77-09f64cfa1f45))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4070,8 +4110,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 177.165 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5342d771-9d2f-4e03-8b53-2962e856c880))
-    (pin "2" (uuid dd4c5dea-9c7f-4a66-ae59-370f05ac16e3))
+    (pin "1" (uuid 9949d820-9c64-48ac-b491-c62e021a8a86))
+    (pin "2" (uuid 66ade8ec-a6b6-472e-9191-3ca94187a388))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4110,8 +4150,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 236.855 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 521a8c84-062c-4173-bbf3-7e3a1dd0e39b))
-    (pin "2" (uuid 7eefc9c8-6084-4bca-9496-0c054d596568))
+    (pin "1" (uuid 560735e2-a1a5-4d8d-ac03-19b92eef9a4d))
+    (pin "2" (uuid 2c2e8970-29f1-49e0-8a4f-8164df167d75))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4150,8 +4190,8 @@
     (property "PARTNO" "" (at 149.225 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f1760275-8606-4d3f-94d7-2f6a6db6c767))
-    (pin "2" (uuid 953ad29d-021c-478b-acb0-fa6498adf0c0))
+    (pin "1" (uuid 81065f74-113e-49e9-a3e3-c36d72ac4e99))
+    (pin "2" (uuid b728206a-6309-4b87-83a8-90e36f8826b1))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4184,20 +4224,20 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3542.pdf" (at 49.53 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e1f28e06-ef93-477d-bc00-5670f8eb3d5c))
-    (pin "11" (uuid 915b117f-0dcf-43ff-b79d-b82ad327c507))
-    (pin "2" (uuid d76b69df-493c-4aa3-8b74-1a741b5358b0))
-    (pin "3" (uuid 986acb30-0efb-4a3a-8817-92e7299429ef))
-    (pin "4" (uuid 2978f86c-f555-4a54-889d-ddbb9413edaf))
-    (pin "5" (uuid f65975e0-8198-4239-aed4-ad7df186dfa9))
-    (pin "6" (uuid 7119df4d-4f93-464e-959b-452364c684b9))
-    (pin "7" (uuid 2d823b7f-1b29-4e3b-a897-5266e3366087))
-    (pin "10" (uuid d17d277d-2c2e-4960-91b6-828c0944ddf2))
-    (pin "8" (uuid 295deb71-f291-4d0e-bc0c-7f7f3daca60e))
-    (pin "9" (uuid 864cdd48-5efa-4bbc-9bb5-42e6e86fca9f))
-    (pin "12" (uuid 67985acc-e43e-491e-966d-21d131c4299d))
-    (pin "13" (uuid bfd2714a-94ab-4de7-97d6-98ad256a0432))
-    (pin "14" (uuid c1c08eec-7e39-48fa-86bd-5e456843de00))
+    (pin "1" (uuid dd007950-3b1d-4147-95e9-d8c419ff29ce))
+    (pin "11" (uuid dd0f2f47-3576-4965-a4a3-40598d985d18))
+    (pin "2" (uuid a5574f54-5d03-4580-9cc4-7ccd8d48c10b))
+    (pin "3" (uuid 9a71addd-52c3-4e44-8779-3e8881c29681))
+    (pin "4" (uuid 23d6c407-343e-445c-b714-39db0cc8c66a))
+    (pin "5" (uuid 1c663009-1deb-417a-9b93-910b10159073))
+    (pin "6" (uuid 9a2da474-8728-4aa8-ba2a-41fb8002cee0))
+    (pin "7" (uuid aa11e9a2-d369-44ca-886c-202abaf042b3))
+    (pin "10" (uuid 7bbb3b75-848d-4b5f-8098-1900d2e44dfd))
+    (pin "8" (uuid 5c811a49-f6d0-4fec-b275-b285be73e1f7))
+    (pin "9" (uuid b31491a1-1e13-4a81-a564-28263b64e3db))
+    (pin "12" (uuid 48f95dfe-c0c3-49e9-87d3-59b93ed9e6e5))
+    (pin "13" (uuid b42d8623-9240-4105-a100-b55fcd0a1a3b))
+    (pin "14" (uuid c2fada37-c13e-47ec-9c79-9d2605d382a2))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
@@ -4228,8 +4268,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 165.1 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a373d6bd-8120-4a7d-bee1-1d7004d09fea))
-    (pin "2" (uuid 189146ec-c51b-4190-92d6-9554626d0938))
+    (pin "1" (uuid 7759d8bc-dccf-4fc3-b22b-4536b470189a))
+    (pin "2" (uuid 54b6d039-d90b-4724-a12d-41ae242b0c09))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4262,20 +4302,20 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3542.pdf" (at 220.98 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4945bc2f-607d-42c4-8f86-b1f2b6e99f82))
-    (pin "11" (uuid bd082b2f-0f2b-4385-aa02-1b322a6c809b))
-    (pin "2" (uuid 24a50a5c-0e0c-48fb-a8d1-c149e2545065))
-    (pin "3" (uuid 1c089f3b-eed2-467e-9852-e7c6a9a5fb32))
-    (pin "4" (uuid d2dd6c76-5732-4929-8c91-6d6a2f2cef67))
-    (pin "5" (uuid 028bd6fb-e0be-4fbe-b751-c118bcdcb04e))
-    (pin "6" (uuid 0efae4ad-f53a-4ff7-a08d-de72ad099b14))
-    (pin "7" (uuid d5ad9537-2d65-4e2e-b3d3-3559d04ae67a))
-    (pin "10" (uuid 8a858755-3c65-4509-ad76-5180e3728297))
-    (pin "8" (uuid 3726c570-bb60-4b7d-a19b-5ffac60a9059))
-    (pin "9" (uuid a47b47db-d566-4719-9c1c-dacf3ad91c85))
-    (pin "12" (uuid 4946354b-073d-4ce4-8390-e1496bbd40e2))
-    (pin "13" (uuid 57c01adc-1de9-400a-9673-40907586bc78))
-    (pin "14" (uuid 4c19a1aa-82d9-447c-9174-fe42ed979219))
+    (pin "1" (uuid 9e4ef357-fcdc-4451-b28a-7643dff0cb70))
+    (pin "11" (uuid 9a85fdcb-48b5-4061-b97f-4022fcef9cc8))
+    (pin "2" (uuid 5e979991-08ff-436b-bb5a-87847a492831))
+    (pin "3" (uuid 31368383-1170-4b8f-95b3-ef98da5b5516))
+    (pin "4" (uuid 123030cb-9f5c-4b93-b742-1cf6cc09f178))
+    (pin "5" (uuid 15db6035-d4e4-46da-ba51-55ab93e90e14))
+    (pin "6" (uuid 87dddc63-0cc6-405c-a8f8-ca36e682e987))
+    (pin "7" (uuid 9c5e41d0-041d-4ecb-9035-b5ac5e366bf0))
+    (pin "10" (uuid 52717d06-8372-435c-872c-7ff6e548189d))
+    (pin "8" (uuid e616522d-0d0f-43a8-a5db-f1a8d58498cc))
+    (pin "9" (uuid e05b039f-cca9-41dc-a67b-28389bc5f3d6))
+    (pin "12" (uuid 0f7de36a-0dfc-44d5-9620-eaa798261e1d))
+    (pin "13" (uuid 6bfbc9c1-7069-48d3-8da3-7f8c1f50fa52))
+    (pin "14" (uuid 7844ef15-5f85-4226-9e3d-6b75e3f250a5))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
@@ -4306,8 +4346,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 26.035 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0bbec204-d3e0-43a7-95e8-506f1f9fcd5c))
-    (pin "2" (uuid 03e783a1-80dc-4c73-915f-a55a42ceb002))
+    (pin "1" (uuid 8815f616-09ed-41c6-8e24-aeeb379855ce))
+    (pin "2" (uuid 2732feb5-c64f-4751-8eee-4cb7e06b349b))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4346,8 +4386,8 @@
     (property "PARTNO" "0402X104K100CT" (at 193.675 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fefc47fe-fdac-4661-8827-ae54e5fdbc61))
-    (pin "2" (uuid ff7ba6c1-8724-440e-b1f5-8da395ae0ca1))
+    (pin "1" (uuid 8b915d16-3de5-4645-b84e-24a5b875f015))
+    (pin "2" (uuid d1bc68b8-a135-45d2-8f7b-cbac8e9821e9))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4386,8 +4426,8 @@
     (property "PARTNO" "" (at 149.225 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3f1a0dc-7441-4419-be68-10ddb945dfec))
-    (pin "2" (uuid 2b4daaa6-40a8-41b2-9376-61af5f13e725))
+    (pin "1" (uuid 23aaa142-3d8c-445d-b5ae-db02524c1310))
+    (pin "2" (uuid d4e8c760-d84d-4567-88bc-0631022b5b4d))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4426,8 +4466,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 46.355 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8e4b9cb9-23d2-44ce-bae6-9a3cf66242e9))
-    (pin "2" (uuid 43ab5221-d1d1-41e8-975f-b494a0922ecc))
+    (pin "1" (uuid f5b5afa5-b091-4e51-8ffc-b59d0ea5cfa7))
+    (pin "2" (uuid cacde2f0-b525-4862-8fd6-423542115d9d))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4466,8 +4506,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 248.92 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d0d36dfa-71f3-4481-85d6-319f17968c05))
-    (pin "2" (uuid 3d3eff55-3334-4825-abd5-1396d6640109))
+    (pin "1" (uuid edcca9d6-ce2e-4716-81cf-ffa643a37560))
+    (pin "2" (uuid 9f062ff3-1f9b-4e79-9b37-5f2ebee7e69d))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4506,8 +4546,8 @@
     (property "PARTNO" "" (at 224.155 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a990906b-bd4e-4147-b182-25301d0386bd))
-    (pin "2" (uuid 819f4b06-a557-4b54-91ea-1906645d63df))
+    (pin "1" (uuid e2d7f4e6-1206-4977-8e35-c9ba9dccd657))
+    (pin "2" (uuid e6a5fc48-d755-4adb-bfc3-4869cb9755fc))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4549,8 +4589,8 @@
     (property "Tolerance" "1%" (at 91.44 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 868fe5c4-397d-48a9-bbab-2961685eda32))
-    (pin "2" (uuid 5469ed6f-b03b-43ad-9a6c-e51fc52d46a7))
+    (pin "1" (uuid e5639958-d619-4e1a-8b98-222bdbf88614))
+    (pin "2" (uuid 90bde6e9-d4ed-411c-bb14-9c1d22d66816))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4586,36 +4626,36 @@
     (property "Datasheet" "" (at 198.12 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c8f0ba5-441a-46fa-b46f-d39f80321971))
-    (pin "10" (uuid ebb9d7fd-24c0-4380-a472-7b9dfa3c78f9))
-    (pin "11" (uuid 20b09eaa-fd0e-42ec-b3f8-21591fa36659))
-    (pin "12" (uuid 5dd406f9-7a7a-40d0-a892-aedd0124ee23))
-    (pin "13" (uuid 95fa0520-e772-4b56-9fe6-49ad944bf1d6))
-    (pin "14" (uuid a8144f36-a6bd-4b45-be43-14f9bcf2e0db))
-    (pin "15" (uuid 41f47a24-aef8-48bc-b914-e36ab1279427))
-    (pin "16" (uuid 9561c5ea-ed71-479b-9fd5-d17ed4e315d9))
-    (pin "17" (uuid a3c241f3-a09c-4763-abbc-44fdb2899f1d))
-    (pin "18" (uuid 2e255f17-badb-4615-a825-72be95e2d467))
-    (pin "19" (uuid 40187a51-43a9-42d6-b234-c2e2a59c3fc9))
-    (pin "2" (uuid 8a34a20f-191b-42de-9439-d5ffebf91bf9))
-    (pin "20" (uuid 67e81ae3-6729-4d21-b231-8f108e2f3421))
-    (pin "21" (uuid e0bf311b-a174-486f-bc68-c762694f4b23))
-    (pin "22" (uuid 4dcfdfef-329a-4da2-99f6-f143eaaca8cb))
-    (pin "23" (uuid 708ccc6d-b7e6-4902-bd6b-ec329faae264))
-    (pin "24" (uuid b1482fc7-9ffd-49b3-9ca0-77bf0aa4be74))
-    (pin "25" (uuid bfc1a984-6ade-45dc-bbcb-748e43ea65a2))
-    (pin "26" (uuid fa3d2cff-3f72-45a5-a96e-000bbe7236a1))
-    (pin "27" (uuid 2f92d463-e478-43ca-8d1e-b37e5bdbdc55))
-    (pin "28" (uuid ffee3631-9542-41c0-a671-8b6bb392320f))
-    (pin "29" (uuid ada26264-3c3f-468a-a929-47c1e5dbb817))
-    (pin "3" (uuid 47386f90-b23c-4fd5-a003-23557348b2a2))
-    (pin "30" (uuid 860ad510-db68-43e4-a555-42906cf3eb0c))
-    (pin "4" (uuid 292dc646-bc20-4e25-a98a-4ace7585a328))
-    (pin "5" (uuid 3ff0abc4-ffdf-4dbf-8541-62d19ba5fcd6))
-    (pin "6" (uuid b66573d2-52c4-460d-99a7-5c750350c18a))
-    (pin "7" (uuid 4ecf959d-ec37-4aed-a99a-28c2bb59c646))
-    (pin "8" (uuid 57235e1b-e223-47ed-b992-eaf5f2de7e5a))
-    (pin "9" (uuid bd10404f-a068-4da2-8402-310ab19abf0c))
+    (pin "1" (uuid 89546a22-eb25-44e0-8896-fe8827593a9d))
+    (pin "10" (uuid bab96d71-1373-430a-8b7b-9a35b8e4ab81))
+    (pin "11" (uuid f8766690-0c19-4d81-aebd-167846141d5f))
+    (pin "12" (uuid 341a8a9b-8568-4abe-abe7-3dbeca247a38))
+    (pin "13" (uuid 13c175e4-d9a6-4708-9c66-17dc68a2763e))
+    (pin "14" (uuid a1e34589-2dc7-4509-a5f0-6117ca6283c4))
+    (pin "15" (uuid f27d8c49-825d-4feb-a9a8-ab3900a0a375))
+    (pin "16" (uuid 35215db4-7c7c-426c-b992-b34b3e2460a5))
+    (pin "17" (uuid 169f8778-5249-44a4-848d-6d06c518727a))
+    (pin "18" (uuid 4c682d68-63c3-4f79-bb11-b8a8b5670743))
+    (pin "19" (uuid 1ca8ca45-20da-4bec-ad7c-21a8ea38ce7c))
+    (pin "2" (uuid fcc2b948-7a60-4493-accb-21153e385f30))
+    (pin "20" (uuid 40eb2875-8531-48a7-b60c-fde81ff38bb1))
+    (pin "21" (uuid 1aba56cf-7071-406f-8f22-61734cdacc70))
+    (pin "22" (uuid 9f9ecd19-fd17-4b69-9fb0-38c9335e0b1e))
+    (pin "23" (uuid b4928c1d-2357-492e-9d7f-a819aa0228f5))
+    (pin "24" (uuid 96f5bdfb-87a2-4a7f-b45b-726d54dce014))
+    (pin "25" (uuid 80dac620-50a8-4050-8dba-7814cf495f8a))
+    (pin "26" (uuid b6e4f834-3825-44fb-8775-817b82ed1eb4))
+    (pin "27" (uuid 716d2c70-4171-43ed-9982-179930b02895))
+    (pin "28" (uuid a20b4e75-c528-4666-88b0-c944b18d4fe1))
+    (pin "29" (uuid 005620de-67ab-44e2-b16a-dc88020fa924))
+    (pin "3" (uuid 77072de4-81a6-46f9-b456-70e44684abe5))
+    (pin "30" (uuid 7285b020-26e0-441f-8e09-f02fa058f530))
+    (pin "4" (uuid dd6c56f0-43a9-449e-bb28-acc70f7591d1))
+    (pin "5" (uuid a4eff3a5-dca6-4c93-8415-041a329ab3d9))
+    (pin "6" (uuid 5320d94c-06bb-42bb-be4f-f632e3422f6c))
+    (pin "7" (uuid 4026ccec-afb3-482d-920f-b9c5adadfe37))
+    (pin "8" (uuid cfb72cd6-8c85-49f3-a973-a96036a49d27))
+    (pin "9" (uuid 22c190e7-b806-47aa-b732-e011467db136))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
@@ -4646,8 +4686,8 @@
     (property "PARTNO" "" (at 89.535 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52d8f7f3-e573-45b3-979a-ce83e31dbe93))
-    (pin "2" (uuid fd715e1e-5d6b-4c52-8156-faffc61da544))
+    (pin "1" (uuid 65fe9dc2-415b-4d5b-8dda-136533fe8cf5))
+    (pin "2" (uuid a955806d-d849-4111-9c60-9632aa64f965))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4686,8 +4726,8 @@
     (property "PARTNO" "" (at 167.64 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid def25194-56bf-4868-8842-f47c449d75b1))
-    (pin "2" (uuid 94d98003-2207-4592-8f57-b8b184982e54))
+    (pin "1" (uuid 9a463f74-85b1-4934-bc05-d4b493221aad))
+    (pin "2" (uuid 9278f0d5-e74b-407b-ada4-56d714356665))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4726,8 +4766,8 @@
     (property "PARTNO" "" (at 153.67 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bdc85d07-f31a-4850-84ae-f1db63d842f2))
-    (pin "2" (uuid 1bc48df0-dae5-4dc5-b81c-5ce509c9c158))
+    (pin "1" (uuid 855fecf6-9378-4c46-98c1-aea4ad37803f))
+    (pin "2" (uuid 4ab78490-3588-4555-b575-d661560d0186))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4766,8 +4806,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 257.81 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0e4c997-6912-47ea-bc59-1fdfe307a784))
-    (pin "2" (uuid b793c699-cf78-480d-b736-97e27d547a89))
+    (pin "1" (uuid 232f94d4-667d-49b2-957c-3a945ebb3596))
+    (pin "2" (uuid 403375ba-60cf-4ea8-bc26-ee3160ca903e))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4806,8 +4846,8 @@
     (property "PARTNO" "" (at 51.435 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44131c24-af03-4960-adab-8a2d0181c7a9))
-    (pin "2" (uuid 07c643b1-48d0-4f8c-a9b3-82fcf06e84ab))
+    (pin "1" (uuid acd225e3-0725-486e-9004-aa0127f264c6))
+    (pin "2" (uuid b03a92ec-f908-4a76-8510-f23018111c31))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4846,8 +4886,8 @@
     (property "PARTNO" "" (at 42.545 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 78651d70-cf7f-4814-8511-3fd12de7aa05))
-    (pin "2" (uuid 5073a5f2-f832-406f-a59e-438f83b10471))
+    (pin "1" (uuid 89f1ade7-f5ba-4570-887a-7d38d9d32457))
+    (pin "2" (uuid 35398af6-832b-4860-807e-f83257774531))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4880,7 +4920,7 @@
     (property "Datasheet" "~" (at 112.395 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f91190c4-b203-4dd1-8694-26a5e1c228a0))
+    (pin "1" (uuid ac2b178e-08e0-44a5-b7a6-cbf936dbeee1))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4922,8 +4962,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 250.19 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da4f497c-d8e5-4ca0-9dce-f46b5e131f4e))
-    (pin "2" (uuid 5c772839-99e5-4823-afef-9e4742e90130))
+    (pin "1" (uuid 70f5b07f-fa8f-4b5a-ada4-eefb4c3d26b7))
+    (pin "2" (uuid ee2085f1-371e-4bab-92c0-91065113e158))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -4962,8 +5002,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 37.465 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0fb6102e-cfb3-4eda-a418-2eb08af4e894))
-    (pin "2" (uuid 00a12547-6179-4d1d-b6a4-46d82e95976d))
+    (pin "1" (uuid e288e151-934f-4885-b820-6761380429aa))
+    (pin "2" (uuid b33bdc3d-c308-40ad-9f06-dfaa6f27570d))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5002,8 +5042,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 248.285 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4a3631e-5704-4d59-bee4-7c7586eec888))
-    (pin "2" (uuid d49704e3-e405-4111-b34c-76e0d9486a03))
+    (pin "1" (uuid 9264a965-6393-43ea-b352-df2fdd5408b7))
+    (pin "2" (uuid 8807701b-2318-4d9a-9ff2-363ed87b946c))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5042,8 +5082,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 225.425 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fd858332-96e4-45a4-b575-5f0de30355ec))
-    (pin "2" (uuid e97a5d11-9126-400a-90a8-c975fb388695))
+    (pin "1" (uuid a9e58173-72cb-4935-8a3c-d99f8ecca273))
+    (pin "2" (uuid 109ce1ea-69d1-478c-bca7-f0afc201af3e))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5082,8 +5122,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 166.37 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14ef1d81-9dd6-4a9c-b5d8-3de19cbe93fc))
-    (pin "2" (uuid 116ec7d3-470d-4aee-9346-107e05e752e5))
+    (pin "1" (uuid ccf84977-793e-4648-b065-5d2f537c4e30))
+    (pin "2" (uuid 0751278d-c66f-4385-bfbd-76da607e8588))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5122,8 +5162,8 @@
     (property "PARTNO" "" (at 205.105 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5da4ff72-6d8f-40c9-879b-37d31fd18c26))
-    (pin "2" (uuid e836f1e0-0f5a-4ff0-bb4d-250ae91b48cc))
+    (pin "1" (uuid abdf6eff-fc35-47e9-8cd0-162feffb1dd0))
+    (pin "2" (uuid 605f19f9-e629-4c1c-9db4-be5149b24b75))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5162,8 +5202,8 @@
     (property "PARTNO" "" (at 153.67 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ae45f8d-4997-4ba5-9fd5-8d24b261549b))
-    (pin "2" (uuid 138d532f-8dca-4064-b06b-a41106459860))
+    (pin "1" (uuid f0a657f6-1ee7-4671-86a3-31dab81808a3))
+    (pin "2" (uuid 72f1fea8-87a1-4ad9-b973-2cbba3e62558))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5202,8 +5242,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 188.595 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d1fbd16b-9188-4f55-afa9-24036082af2f))
-    (pin "2" (uuid a05e2b15-c1f6-42a3-b0f9-fb31508ae88f))
+    (pin "1" (uuid ba706991-4c2d-4fe3-9243-26cb39a6a8e3))
+    (pin "2" (uuid 3e0c03cb-39a6-4c00-b3fd-d413eee480b2))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5221,22 +5261,22 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 46.355 100.965 90) (mirror x) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 33.02 100.965 90) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid ba817306-8872-4d84-82bf-733ff256dd4e)
-    (property "Reference" "TP13" (at 40.005 100.965 90)
+    (property "Reference" "TP13" (at 26.67 100.965 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TestPoint" (at 40.64 102.2349 90)
+    (property "Value" "TestPoint" (at 27.305 102.2349 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 46.355 106.045 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 33.02 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 46.355 106.045 0)
+    (property "Datasheet" "~" (at 33.02 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2bc8bd4a-ba66-4589-8c0e-d7ba92128494))
+    (pin "1" (uuid c417bec9-7979-4211-b535-f660b34cc5eb))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5278,8 +5318,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 203.835 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d9911fe1-a37f-4e7d-be3d-4ce67fcb7d93))
-    (pin "2" (uuid c9173c20-acd4-450e-8cb9-2774cd697ec7))
+    (pin "1" (uuid 86d6a9d0-1969-467e-9b56-ff92fb78249a))
+    (pin "2" (uuid 79e64db7-2f31-4a28-b6bd-b6f251ffe6c4))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5318,8 +5358,8 @@
     (property "PARTNO" "" (at 33.655 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c8e683c7-fbd0-4757-8599-60b923cdd085))
-    (pin "2" (uuid 39901ed7-4257-4fe1-a059-3ca1804e6e19))
+    (pin "1" (uuid 2415e525-d55a-4d2b-893c-77c8b1ce83fc))
+    (pin "2" (uuid eacbdccb-22a0-40e2-8a09-d48f6173ad5e))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5332,6 +5372,46 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
           (reference "R46") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 116.205 116.205 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bdbcefff-773c-489a-b5d1-a22be5040d9e)
+    (property "Reference" "C14" (at 116.84 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "1uF" (at 116.84 120.015 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 116.205 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 116.205 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "587-5514-1-ND" (at 116.205 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "EMK105BJ105MV-F" (at 116.205 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3045bf6f-3895-4e9b-9bc5-b1976a54873c))
+    (pin "2" (uuid e1fd2eb5-dd38-4f68-a774-82a62c90a69d))
+    (instances
+      (project "bm1366"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "C14") (unit 1)
+        )
+      )
+      (project "bitaxeUltraHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "C40") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "C82") (unit 1)
         )
       )
     )
@@ -5358,8 +5438,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 108.585 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1743a08c-177d-4980-80cc-5e2e9fdfeb9c))
-    (pin "2" (uuid 82b26617-ec4f-4763-a07f-f854c4d6c061))
+    (pin "1" (uuid 356bc6bb-73cb-4970-a46c-31d76f2db77f))
+    (pin "2" (uuid e46404ea-05db-451d-bd64-f18905ade307))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5392,20 +5472,20 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3542.pdf" (at 165.1 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2cb0fb55-a5c4-44b2-bfb2-59cd2bf86053))
-    (pin "11" (uuid 5daeaf09-022b-4d2c-9aeb-80dfdf0f7297))
-    (pin "2" (uuid 2f1a88f9-3b9e-480f-8550-14d6f676b83e))
-    (pin "3" (uuid db18bbce-71ae-42a6-aba1-17eb9f3772ad))
-    (pin "4" (uuid 5c6bbe4f-85b6-45e8-8b5e-a88258f627b5))
-    (pin "5" (uuid 60fe2b42-7e2b-4fee-9869-7151b28140be))
-    (pin "6" (uuid 5a032c0a-fdd4-410f-980d-1fc84f8aafab))
-    (pin "7" (uuid 2f8d087f-6650-4d19-9662-748e1a71dbce))
-    (pin "10" (uuid 5cd60b57-494b-43fa-9470-c0fe22c273d8))
-    (pin "8" (uuid da778553-ddc1-4936-a44d-17bd94451394))
-    (pin "9" (uuid d8395a6c-b8df-4c62-99c0-0c76ee28e9a4))
-    (pin "12" (uuid 723c053f-c258-4382-a8f6-ea4c79cd87e0))
-    (pin "13" (uuid bee17079-5369-4e41-bdb4-4ce5370bd0d9))
-    (pin "14" (uuid 5293adea-d52a-42ec-82fc-7b6ad4fe64a6))
+    (pin "1" (uuid 1c637cd5-701e-4934-a7b4-f58a25fe6cb4))
+    (pin "11" (uuid 4d4c4351-8a17-4c21-8ec0-7ce61b608d36))
+    (pin "2" (uuid 835f56bd-b870-4666-9dcc-5d7602fe5079))
+    (pin "3" (uuid d330173d-34dc-4d38-9de1-adf669cf5d0d))
+    (pin "4" (uuid d2445060-59e0-4c8d-b998-8a41d6f4a1b1))
+    (pin "5" (uuid b6566a63-6063-41c2-a1ec-34f6be1633bc))
+    (pin "6" (uuid 1773d8af-4e24-4c4f-b735-8c3e1e3dd005))
+    (pin "7" (uuid 3f1432c3-92b7-4eb5-8c5f-3343bcd8f594))
+    (pin "10" (uuid 22e6ae55-b756-4f4a-aa43-f2daaef83c0a))
+    (pin "8" (uuid aa9f4b96-e006-4f1d-a500-d086ea418a64))
+    (pin "9" (uuid cc87bc64-7a61-4ce4-9a09-af29f5e60f5f))
+    (pin "12" (uuid 846a2107-778c-4619-bbe8-f00a1c3bc5ee))
+    (pin "13" (uuid 8c101abb-cd53-46e5-bbb6-9ad912eb1fab))
+    (pin "14" (uuid d23be876-7f30-456e-9e1b-269edcdc11c0))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
@@ -5430,11 +5510,11 @@
     (property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc/ADP171AUJZ-R7/2000964" (at 82.55 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 494fd47f-c934-4147-b8a0-b211ebce0b5b))
-    (pin "2" (uuid edda6622-9e58-4668-8f1a-09003dbb20c5))
-    (pin "3" (uuid 38a1ac1f-eed7-4688-9e50-ada74b446346))
-    (pin "4" (uuid b6d9b962-6dab-4d51-9cd0-2cd5e03ef904))
-    (pin "5" (uuid 3fe0145a-0257-40a7-abf2-e6f958d68c23))
+    (pin "1" (uuid 703447e1-54e5-450e-9c47-ec731b14e529))
+    (pin "2" (uuid 4e8f344e-d26d-4700-b77a-067f38d9cc7e))
+    (pin "3" (uuid 738d0867-80c8-4c44-bb6c-69123ad41c99))
+    (pin "4" (uuid 290558f5-c9ec-4c6b-bc08-0d2ab48ff735))
+    (pin "5" (uuid 33a4b974-5031-4b1e-bdc1-817a1540105a))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
@@ -5468,8 +5548,8 @@
     (property "PARTNO" "" (at 33.655 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 30ba5592-1e84-4ae6-9865-a073954bd101))
-    (pin "2" (uuid 588db12e-74f9-484b-93dd-3b0be6e2dc66))
+    (pin "1" (uuid 36bd63ec-ad5c-4baa-b77c-18a53e1c58de))
+    (pin "2" (uuid 0944dfc2-87f8-4d9f-bc39-305896bbb98f))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5508,8 +5588,8 @@
     (property "PARTNO" "" (at 205.105 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5e52cd8-cc22-4ed8-8fc8-c9e484430362))
-    (pin "2" (uuid 4f2561bc-7e6c-46fe-a823-01a9a50a282b))
+    (pin "1" (uuid 17532f1a-9be2-4113-b2ac-d9650f91cf15))
+    (pin "2" (uuid 03f1a1e4-d1bb-4f67-b72d-9bea4edd3c85))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5548,8 +5628,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 128.27 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 72c6e771-b187-43a1-8cb4-d62e94e4fd50))
-    (pin "2" (uuid e2102ed3-13a8-4736-9686-54ccbdf63f5c))
+    (pin "1" (uuid 6362bcbf-3996-4c69-a62a-8a99dfda7a1d))
+    (pin "2" (uuid 5e37a2ca-9f3b-4252-a9cd-2a2f8b7d8f8b))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5588,8 +5668,8 @@
     (property "PARTNO" "" (at 149.225 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e36fd79c-c4e4-47da-95dd-a2df884b8204))
-    (pin "2" (uuid d77f919f-4b2c-4280-a8c8-d57edacb3bd7))
+    (pin "1" (uuid df20c6e0-f850-4796-af13-fce73ea50c82))
+    (pin "2" (uuid 79dfd31e-c7d7-4c5c-ae1a-4f2900f43124))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5628,8 +5708,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 33.655 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid daa52ad4-217c-41b4-85c5-de85f96982a5))
-    (pin "2" (uuid f8920b55-f8f7-4cbc-85c5-75a0fa09156a))
+    (pin "1" (uuid 2d30a786-876c-48c2-84a8-0890b82264ce))
+    (pin "2" (uuid c49342ab-2ce3-468b-a2a3-deb9d7401870))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5668,8 +5748,8 @@
     (property "PARTNO" "" (at 108.585 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1260f07d-5e4f-40dc-ba45-e2ed0ca7ec75))
-    (pin "2" (uuid 10c9634e-a4e1-4629-9720-1b362bb7ce08))
+    (pin "1" (uuid b161dffe-4637-4631-8f51-caae5712c87f))
+    (pin "2" (uuid 76361668-7e90-4338-81c0-aaca5bf63a60))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5708,8 +5788,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 49.53 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d6972ab5-c9f4-4c23-83be-9517e54d5f7a))
-    (pin "2" (uuid 78fc7fd7-9e3c-41f6-b197-d6f0a510fe4a))
+    (pin "1" (uuid 9870d81c-90ee-4b48-9b31-b40133e5a9b9))
+    (pin "2" (uuid 4179c6cd-6869-4977-b87c-1abb78166d7b))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5748,8 +5828,8 @@
     (property "PARTNO" "" (at 242.57 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d4099fa-f89a-41b3-a2c7-43f879586f94))
-    (pin "2" (uuid da7d483a-9862-4413-85ed-9fa78817b067))
+    (pin "1" (uuid 8771b0f0-f965-4259-a968-be1ad2398976))
+    (pin "2" (uuid 10fce203-678b-4501-a8f3-7a49133561c2))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5762,6 +5842,46 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
           (reference "R76") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 242.57 43.18 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cdac7eb8-22de-4294-b790-6e585cc977b5)
+    (property "Reference" "R6" (at 238.76 45.085 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1K" (at 246.38 45.085 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 242.316 44.196 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 242.57 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "" (at 242.57 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "" (at 242.57 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 541ac6fa-1d14-44d6-8afc-af39fa9e83cd))
+    (pin "2" (uuid 089e38e6-cc11-4cce-b286-5b18d8a69722))
+    (instances
+      (project "bm1397"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "bitaxeUltraHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "R32") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "R77") (unit 1)
         )
       )
     )
@@ -5788,8 +5908,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 179.705 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bec60d15-2f87-445d-8c02-aa0701db6527))
-    (pin "2" (uuid b2c4a62e-80fe-4556-8a95-5601cfc4c367))
+    (pin "1" (uuid 37e52522-a4a5-4977-89d6-ab8a28b8232b))
+    (pin "2" (uuid 2b8df192-99d7-4893-b00e-e3b93b4928d7))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5828,8 +5948,8 @@
     (property "PARTNO" "" (at 104.14 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a4bbc6b2-0671-4fef-8bbf-6df2fb6c2b64))
-    (pin "2" (uuid 8baab907-00fb-46ca-b012-2b0d9c6d81dd))
+    (pin "1" (uuid 531ec94c-d6e3-4d8e-a175-9e8b5f0e8c20))
+    (pin "2" (uuid 2b89f0cb-f903-495e-aeb4-e19820e3eb42))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5868,8 +5988,8 @@
     (property "PARTNO" "293D337X9010E2TE3" (at 226.06 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00621cde-2dcb-45e0-aa3f-042c45af4387))
-    (pin "2" (uuid 5adfe177-3e06-4639-84e2-37869e83da80))
+    (pin "1" (uuid bfdeaf36-ac4e-4ab8-84ad-fd26587a6993))
+    (pin "2" (uuid 44ff80d2-9915-439a-a04e-89fce3e280a0))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5902,8 +6022,8 @@
     (property "Datasheet" "~" (at 156.21 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b504a4ac-cef9-4ff5-8436-501f82418c95))
-    (pin "2" (uuid 94e24471-f51f-4acf-bd35-3fe19d277094))
+    (pin "1" (uuid beca96a0-5a29-4249-8744-dc35221b4720))
+    (pin "2" (uuid c0b89f31-2597-4ea9-9d85-5de614d62488))
     (instances
       (project "bitaxeUltraHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
@@ -5940,8 +6060,8 @@
     (property "PARTNO" "EMK105BJ105MV-F" (at 107.95 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ad46729f-7943-4081-ad32-def9dff1eb85))
-    (pin "2" (uuid 83e61544-3a89-4f13-a55c-fdb960b8d84a))
+    (pin "1" (uuid 52ffa232-435d-46ee-8374-fc62d7145cac))
+    (pin "2" (uuid 95e5a254-1717-4569-ab4a-d1b0efa3c573))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -5983,8 +6103,8 @@
     (property "PARTNO" "" (at 89.535 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d60ea709-8aeb-4e0c-8483-2d10af9d9a67))
-    (pin "2" (uuid 8385ae26-dfb0-4fcd-a4a9-934cc417538f))
+    (pin "1" (uuid 904ea54f-4be0-48ac-a72b-d39501c16521))
+    (pin "2" (uuid 91da69be-b418-469a-84fd-0608cf478ca9))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -6023,8 +6143,8 @@
     (property "PARTNO" "0402X104K100CT" (at 63.5 189.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d779ed33-7c5b-4b40-8c40-b65f43778389))
-    (pin "2" (uuid e52a81d0-b49f-4e2d-9dd3-e8e121c2ebd4))
+    (pin "1" (uuid eaa82230-a890-4e97-aa36-4318280ca0e5))
+    (pin "2" (uuid 56a61e20-2a60-44e9-a606-f54873c14733))
     (instances
       (project "bm1366"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -6066,8 +6186,8 @@
     (property "PARTNO" "" (at 168.275 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5beef3ff-b2f4-4b33-8bd1-feacb60c51b0))
-    (pin "2" (uuid 29f0f9c4-b0f3-4a6e-a2d1-d1d8d6a27fef))
+    (pin "1" (uuid 97f2e4c5-eaec-437b-9005-0adb4a2e460d))
+    (pin "2" (uuid 8bf7d4a2-d31a-49ee-9537-e980ea96ba8e))
     (instances
       (project "bm1397"
         (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
@@ -6080,126 +6200,6 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
           (reference "R71") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 116.205 116.205 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid efe91af0-9a90-46bc-8a33-7b4a7877e6d0)
-    (property "Reference" "C16" (at 116.84 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "1uF" (at 117.475 120.015 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 116.205 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 116.205 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "587-5514-1-ND" (at 116.205 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "EMK105BJ105MV-F" (at 116.205 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ac53ba39-d3dc-49a3-a07a-aca37c6d418b))
-    (pin "2" (uuid 4dfadaca-8119-418e-9dd3-6019e1e3b77b))
-    (instances
-      (project "bm1366"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "C16") (unit 1)
-        )
-      )
-      (project "bitaxeUltraHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C41") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "C82") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 242.57 43.18 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fa047cc8-c15c-439f-aa43-4dc4350e1f41)
-    (property "Reference" "R6" (at 238.76 45.085 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1K" (at 246.38 45.085 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 242.316 44.196 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 242.57 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "" (at 242.57 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "" (at 242.57 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f16440b9-e2c5-4198-9b43-7d2d3281a686))
-    (pin "2" (uuid ad915897-4874-4bc9-8fd7-e59b3be45e09))
-    (instances
-      (project "bm1397"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "R6") (unit 1)
-        )
-      )
-      (project "bitaxeUltraHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "R32") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "R77") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 33.655 45.72 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fe1c5f04-58d4-4774-8138-e1338175adc7)
-    (property "Reference" "R6" (at 29.845 47.625 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10K" (at 37.465 47.625 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 33.909 44.704 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 33.655 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "" (at 33.655 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "" (at 33.655 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3fbb4d47-7f35-4ef0-b4be-74a6a4b37777))
-    (pin "2" (uuid a47cd0b6-1c52-42ba-b3fb-107fbf9ee37c))
-    (instances
-      (project "bm1397"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "R6") (unit 1)
-        )
-      )
-      (project "bitaxeUltraHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "R32") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "R45") (unit 1)
         )
       )
     )
