@@ -4881,10 +4881,10 @@
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp ee8dc0ff-e61c-429e-9b3b-1c87f062fc9f))
     (pad "41" smd rect (at -0.1 0.86 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp 7238821f-3bb8-41ef-a969-c3fb6bd2b251))
-    (model "${KIPRJMOD}/3d/ESP32-S3-WROOM-1-N8R2--3DModel-STEP-56544.STEP"
-      (offset (xyz 0 3 0))
+    (model "${KIPRJMOD}/3d/ESP32-S3-WROOM-1U.STEP"
+      (offset (xyz -9 -9.3 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 0 0 0))
     )
   )
 
