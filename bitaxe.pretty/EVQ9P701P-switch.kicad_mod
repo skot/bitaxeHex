@@ -55,4 +55,9 @@
     (zone_connect 0) (thermal_bridge_angle 45) (tstamp 34794441-6021-46db-a301-8e320d241997))
   (pad "2" smd roundrect (at 1.925 0.725) (size 1.65 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (zone_connect 0) (thermal_bridge_angle 45) (tstamp 348f3add-a7f9-4f22-9578-a63d7a4559cc))
+  (model "${KIPRJMOD}/3d/EVQ-9P701P.stp"
+    (offset (xyz 0 0.1 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
