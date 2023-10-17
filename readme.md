@@ -34,20 +34,17 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 - This is an _advanced_ build! It's also still early days, so prolly not the best thing if you're just looking for a bitcoin miner to run.
 
 ## Hardware
-- [BM1366 from NBTC on AliExpress](https://www.aliexpress.us/item/3256803471845503.html). Both the `AL` and `AG` variants have been known to work
-- [Heatsink](https://www.aliexpress.us/item/3256805608902122.html) 90mm long veriant. This will need to have threaded mounting holes added.
+- [BM1366 from NBTC on AliExpress](https://www.aliexpress.us/item/3256803471845503.html). Both the `AL` and `AG` variants have been known to work.
+- [Heatsink](https://www.aliexpress.us/item/3256805608902122.html) 90mm long variant. This will need to have threaded mounting holes added.
 - [Fans](https://www.amazon.com/Noctua-NF-A8-PWM-Premium-Quiet/dp/B00NEMG62M) At least one 80x80mm 12V 4-pin fan. Like the Noctua NF-A8 PWM. Possibly two.
 - [Enclosure](https://www.aliexpress.us/item/3256804293159109.html) 130mm long variant. The bitaxeHex needs to be run inside an enclosure to force air through the heatsink and effectively cool the BM1366s
-- [KiCad 7](https://www.kicad.org) design files
 - All of the parts on the board are listed in the KiCad BOM
 
 ## Software
 - [ESP-Miner](https://github.com/skot/ESP-Miner) is still being updated to support multiple ASICs
 
-
 ## Power Supply Requirements
 - bitaxeHex takes 8-20V DC input via screw terminals. Power supply should be capable of 100W
-
 
 ## Building
 - Check out [building.md](building.md) for PCB ordering tips
