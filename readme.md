@@ -1,4 +1,5 @@
-# Closed Source is Antithetical to Bitcoin
+
+> Closed Source is Antithetical to Bitcoin
 
 # Presenting: The bitaxeHex
 bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that incorporates six BM1366 ASICs from the Antminer S19XP
