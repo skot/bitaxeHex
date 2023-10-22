@@ -22909,7 +22909,7 @@
   (gr_text "RESET" (at 78.37 47.72) (layer "F.SilkS") (tstamp 4c02c12b-5d24-4b4b-b4c1-56abf44b61b5)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "Version 0.9" (at 66.9 174.8) (layer "F.SilkS") (tstamp 6dab457f-3333-453e-bfdd-8d888aa990e3)
+  (gr_text "300" (at 73.18 174.82) (layer "F.SilkS") (tstamp 6dab457f-3333-453e-bfdd-8d888aa990e3)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "GND" (at 58.8 48.4) (layer "F.SilkS") (tstamp e667d3cf-b3cc-4371-b3c4-c010db263b30)
