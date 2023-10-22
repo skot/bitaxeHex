@@ -5,9 +5,9 @@
   (paper "A")
 
   (title_block
-    (title "bitaxeUltraHex")
+    (title "bitaxeHex")
     (date "2023-06-11")
-    (rev "1")
+    (rev "300")
   )
 
   (lib_symbols
@@ -1129,10 +1129,10 @@
     (property "Datasheet" "~" (at 207.645 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "" (at 207.645 45.72 0)
+    (property "DK" "13-RC0402FR-135K6LCT-ND" (at 207.645 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "" (at 207.645 45.72 0)
+    (property "PARTNO" "RC0402FR-135K6L" (at 207.645 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a169df5c-ba81-4546-b940-c0855fbd1fa3))
@@ -1326,10 +1326,10 @@
     (property "Datasheet" "~" (at 207.645 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "" (at 207.645 78.74 0)
+    (property "DK" "13-RC0402FR-135K6LCT-ND" (at 207.645 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "" (at 207.645 78.74 0)
+    (property "PARTNO" "RC0402FR-135K6L" (at 207.645 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2cca330e-0f68-4edd-96d8-763fe76cc630))
