@@ -2824,7 +2824,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 198.12 31.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47062f38-782a-472c-9b48-c4e840443af4)
     (property "Reference" "J7" (at 201.295 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3413,7 +3413,7 @@
   )
 
   (symbol (lib_id "bitaxe:TC2030-IDC-NL") (at 230.505 154.305 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8a28296-1115-4057-9556-d2cf7d99b384)
     (property "Reference" "J3" (at 230.505 141.605 0)
       (effects (font (size 1.27 1.27)))
