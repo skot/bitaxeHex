@@ -1,11 +1,11 @@
-(footprint "2.5mm_mounting" (version 20221018) (generator pcbnew)
+(footprint "1.6mm_mounting" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at -0.055 -2.31 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 070a8452-88c9-4474-a8a0-ecf386024922)
   )
-  (fp_text value "2.5mm_mounting" (at 0.085 1.98 unlocked) (layer "F.Fab")
+  (fp_text value "1.6mm_mounting" (at 0.085 1.98 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a5477c3e-dd12-481a-9b00-9e845bef87dd)
   )

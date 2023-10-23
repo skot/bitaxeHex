@@ -2123,6 +2123,26 @@
         )
       )
     )
+    (symbol "bitaxe:heatsink" (in_bom no) (on_board yes)
+      (property "Reference" "U" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "Heatsink" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "bitaxe:hex-heatsink" (at 1.27 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "heatsink_1_1"
+        (rectangle (start -2.54 2.54) (end 2.54 -2.54)
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+      )
+    )
   )
 
   (junction (at 90.805 80.01) (diameter 0) (color 0 0 0 0)
@@ -2530,7 +2550,7 @@
     )
     (pin "1" (uuid 5301a582-27a2-485e-8190-6fdcace41206))
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
@@ -2554,7 +2574,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID5") (unit 1)
         )
@@ -2578,7 +2598,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H4") (unit 1)
         )
@@ -2602,7 +2622,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H1") (unit 1)
         )
@@ -2626,7 +2646,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H2") (unit 1)
         )
@@ -2650,7 +2670,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#G1") (unit 1)
         )
@@ -2674,7 +2694,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H3") (unit 1)
         )
@@ -2698,7 +2718,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID6") (unit 1)
         )
@@ -2715,16 +2735,40 @@
     (property "Value" "HeatsinkMountingHole" (at 121.285 165.7349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "bitaxe:2.5mm_mounting" (at 118.745 164.465 0)
+    (property "Footprint" "bitaxe:2.2mm_mounting" (at 118.745 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.745 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "bitaxe:heatsink") (at 48.895 163.195 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 54326f9b-43a2-413b-acab-025525ea9251)
+    (property "Reference" "HS1" (at 48.895 163.195 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Heatsink" (at 52.07 163.195 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "bitaxe:hex-heatsink" (at 50.165 169.545 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 48.895 163.195 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "HS1") (unit 1)
         )
       )
     )
@@ -2746,7 +2790,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID7") (unit 1)
         )
@@ -2777,7 +2821,7 @@
     )
     (pin "1" (uuid 88d7024d-e91d-491c-9001-c44b4f2191af))
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J2") (unit 1)
         )
@@ -2794,14 +2838,14 @@
     (property "Value" "HeatsinkMountingHole" (at 121.285 172.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "bitaxe:2.5mm_mounting" (at 118.745 170.815 0)
+    (property "Footprint" "bitaxe:2.2mm_mounting" (at 118.745 170.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.745 170.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H7") (unit 1)
         )
@@ -2825,7 +2869,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID3") (unit 1)
         )
@@ -2842,14 +2886,14 @@
     (property "Value" "HeatsinkMountingHole" (at 121.285 159.3849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "bitaxe:2.5mm_mounting" (at 118.745 158.115 0)
+    (property "Footprint" "bitaxe:2.2mm_mounting" (at 118.745 158.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.745 158.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H5") (unit 1)
         )
@@ -2873,7 +2917,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID8") (unit 1)
         )
@@ -2890,14 +2934,14 @@
     (property "Value" "HeatsinkMountingHole" (at 121.285 178.4349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "bitaxe:2.5mm_mounting" (at 118.745 177.165 0)
+    (property "Footprint" "bitaxe:2.2mm_mounting" (at 118.745 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.745 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H8") (unit 1)
         )
@@ -2921,7 +2965,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID2") (unit 1)
         )
@@ -2945,7 +2989,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID4") (unit 1)
         )
@@ -2969,7 +3013,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FID1") (unit 1)
         )
@@ -2986,14 +3030,14 @@
     (property "Value" "HeatsinkMountingHole" (at 121.285 191.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "bitaxe:2.5mm_mounting" (at 118.745 190.5 0)
+    (property "Footprint" "bitaxe:2.2mm_mounting" (at 118.745 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.745 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H10") (unit 1)
         )
@@ -3010,14 +3054,14 @@
     (property "Value" "HeatsinkMountingHole" (at 121.285 185.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "bitaxe:2.5mm_mounting" (at 118.745 184.15 0)
+    (property "Footprint" "bitaxe:2.2mm_mounting" (at 118.745 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.745 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H9") (unit 1)
         )
@@ -3080,7 +3124,7 @@
       (uuid 662a89fe-7dda-4372-8709-078efa42ecd3)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
       )
     )
@@ -3153,7 +3197,7 @@
       (uuid cae05a4a-a96e-40c9-aab4-fbd3a76f38a4)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
       )
     )
@@ -3190,7 +3234,7 @@
       (uuid bd400dac-fa49-4fe4-a836-d4296963da31)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
       )
     )
@@ -3243,7 +3287,7 @@
       (uuid 39ccfddc-2484-4a33-905b-9da8fc88ef18)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
       )
     )
@@ -3308,7 +3352,7 @@
       (uuid 6caf6f8d-ab97-4aa1-8f33-5b0ef7b67249)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
       )
     )
@@ -3361,7 +3405,7 @@
       (uuid 6e248b17-65f4-409d-ae46-3668c043532d)
     )
     (instances
-      (project "bitaxeUltraHex"
+      (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "7"))
       )
     )
