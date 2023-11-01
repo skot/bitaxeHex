@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hex-display")(type "KiCad")(uri "${KIPRJMOD}/hex-display.kicad_sym")(options "")(descr ""))
+)
