@@ -2705,7 +2705,7 @@
     (property "Value" "INA219AIDCNR" (at 79.375 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-8" (at 79.375 119.38 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 79.375 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina219.pdf" (at 79.375 121.92 0)

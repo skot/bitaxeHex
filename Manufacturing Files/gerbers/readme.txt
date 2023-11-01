@@ -10,8 +10,8 @@ bitaxeHex-F_Mask.gbr         -Top solder mask
 bitaxeHex-B_Mask.gbr         -Bottom solder mask
 bitaxeHex-F_Silkscreen.gbr   -Top silkscreen
 bitaxeHex-B_Silkscreen.gbr   -Bottom silkscreen
-bitaxeHex-F_Stencil.gbr      -Top paste stencil
-bitaxeHex-B_Stencil.gbr      -Bottom paste stencil
+bitaxeHex-F_Paste.gbr        -Top paste stencil
+bitaxeHex-B_Paste.gbr        -Bottom paste stencil
 bitaxeHex-In1_Cu.gbr         -Inner copper layer 1
 bitaxeHex-In2_Cu.gbr         -Inner copper layer 2
 bitaxeHex-PTH.drl            -drill plated-through holes
