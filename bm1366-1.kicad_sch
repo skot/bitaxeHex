@@ -1826,6 +1826,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8c73ed0a-6661-4bd9-ab26-93590c3f1b24)
   )
+  (text "For 1.5V ref voltage\nuse R25 = 91K" (at 66.04 199.39 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ea65a332-24e7-4c18-abcf-fe47d052b33e)
+  )
 
   (label "GND" (at 154.305 157.48 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
