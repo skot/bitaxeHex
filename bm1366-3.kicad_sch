@@ -2663,9 +2663,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d244a48c-83ea-4e3d-a383-4f9f07ee1458)
   )
-  (text "For 1.5V ref voltage\nuse R87 = 91K" (at 82.55 200.025 0)
+  (text "Reference  voltage\nFor 1.2V, R87 = 130K\nFor 1.5V, R87 = 91K\nFor 1.8V, R87 = 69.8K"
+    (at 106.045 202.565 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid de91caa0-836e-4ba9-9f78-a508a70ae6be)
+    (uuid f32851b3-1dfb-4c5a-abae-82f605dabb1e)
   )
 
   (label "1V2" (at 229.87 151.13 180) (fields_autoplaced)
