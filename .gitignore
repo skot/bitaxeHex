@@ -30,4 +30,6 @@ fp-info-cache
 *.xml
 *.csv
 *auto_saved_files*
-*bak
+i*bak
+
+photos
