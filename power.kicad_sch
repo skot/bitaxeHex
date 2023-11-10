@@ -2910,7 +2910,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 123.19 51.435 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 60eb474d-bf13-4229-bfbb-14795576201f)
     (property "Reference" "R5" (at 123.19 48.895 90)
       (effects (font (size 1.27 1.27)))
