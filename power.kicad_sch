@@ -1947,7 +1947,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 177947bd-620d-4573-b508-26dd2aae6b49)
   )
-  (text "TPS40305 is a Buck regulator that steps 8-20V down to around 4.5V for the BM1397 chain"
+  (text "TPS40305 is a Buck regulator that steps 8-20V down to around 4.5V for the BM1366 chain"
     (at 74.93 19.685 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 571660ee-1079-45b0-9d6b-76a5bbad41fc)
