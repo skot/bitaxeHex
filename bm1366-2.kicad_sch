@@ -4099,7 +4099,7 @@
     (property "Reference" "R6" (at 29.845 47.625 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 37.465 47.625 90)
+    (property "Value" "10k" (at 37.465 47.625 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 33.401 46.736 90)

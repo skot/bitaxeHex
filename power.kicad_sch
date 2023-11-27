@@ -2324,8 +2324,8 @@
     (property "PARTNO" "0402X104K100CT" (at 89.535 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 330583db-4bcc-48d3-8695-5ecfb474fcb5))
-    (pin "2" (uuid 02c0c925-7ae9-49f6-93c8-507c288a3f04))
+    (pin "1" (uuid 414a1d17-f026-4846-b8e8-51d2d3277e6a))
+    (pin "2" (uuid 6686a767-6561-4aa2-96d5-03b066bfa86d))
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
@@ -3674,7 +3674,7 @@
     (property "Datasheet" "~" (at 97.79 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46d39764-ef08-4330-a0f8-8d15a29e90b2))
+    (pin "1" (uuid aaed9a88-744a-4221-ae59-6ad8fbec28b5))
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
