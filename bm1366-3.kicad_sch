@@ -3194,49 +3194,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 246.38 24.13 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0ad3dd92-40be-4e4f-a26c-b85cd264c484)
-    (property "Reference" "C8" (at 243.84 20.955 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "0.1uF" (at 244.475 26.67 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 246.38 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 246.38 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "1292-1639-1-ND" (at 246.38 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "0402X104K100CT" (at 246.38 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0e342d94-bc84-45de-964c-cdeed84bc435))
-    (pin "2" (uuid d5f944eb-0eda-4080-945e-2bc2d55fd629))
-    (instances
-      (project "bm1366"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "C8") (unit 1)
-        )
-      )
-      (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C33") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "C134") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
-          (reference "C136") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_US") (at 85.725 45.085 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bc9c561-772b-4066-b274-37b27cfea9f3)
@@ -3761,49 +3718,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 59.69 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 29511c2e-0e52-4136-af5d-df9c6cd30932)
-    (property "Reference" "C22" (at 53.34 183.515 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "0.1uF" (at 53.34 189.23 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 59.69 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 59.69 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "1292-1639-1-ND" (at 59.69 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "0402X104K100CT" (at 59.69 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e6631b02-3ec9-477e-aa74-0a9fd4682281))
-    (pin "2" (uuid 1c7ae7fd-2c39-48a1-b2c2-c3efa0722ad1))
-    (instances
-      (project "bm1366"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "C22") (unit 1)
-        )
-      )
-      (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C45") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "C59") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
-          (reference "C114") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 254 114.935 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b711a18-1e9e-40f2-b78b-36ba120eb6d8)
@@ -3842,49 +3756,6 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
           (reference "C138") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 215.9 159.385 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2fde20bd-0a34-423d-a6cc-dcd854c28619)
-    (property "Reference" "C1" (at 213.995 160.655 90)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "0.1uF" (at 222.885 160.655 90)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 215.9 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 215.9 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "1292-1639-1-ND" (at 215.9 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "0402X104K100CT" (at 215.9 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 726370ab-b145-40bf-9258-ccf6862fa8e2))
-    (pin "2" (uuid 1b65f8e8-1112-473b-9b6e-c017f4577a99))
-    (instances
-      (project "bm1366"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "C1") (unit 1)
-        )
-      )
-      (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C61") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "C140") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
-          (reference "C151") (unit 1)
         )
       )
     )
@@ -4312,6 +4183,52 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
           (reference "C118") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 144.145 151.13 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4ee78507-d638-48b6-be1b-453cc97b9419)
+    (property "Reference" "C8" (at 142.24 147.955 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "0.1uF" (at 142.875 153.67 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 144.145 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 144.145 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "478-KGM05AR71C104KHCT-ND" (at 144.145 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "KGM05AR71C104KH" (at 144.145 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b8528c7f-72ed-4e45-81dc-ef7497e4ff6f))
+    (pin "2" (uuid 39b47cb5-eaa0-49a6-b292-b96a898d37db))
+    (instances
+      (project "bm1366"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "C33") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "C102") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+          (reference "C158") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "C147") (unit 1)
         )
       )
     )
@@ -4751,6 +4668,52 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 133.985 151.13 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 73a4bfd6-86de-4eb6-a99f-9bf0f3ec02fc)
+    (property "Reference" "C8" (at 132.08 147.955 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "0.1uF" (at 132.715 153.67 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 133.985 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 133.985 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "478-KGM05AR71C104KHCT-ND" (at 133.985 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "KGM05AR71C104KH" (at 133.985 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c93e4e80-2b4c-44a0-86f3-f9d2b0755c76))
+    (pin "2" (uuid c6421d2c-8500-4ec1-9080-f240553cbd01))
+    (instances
+      (project "bm1366"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "C33") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "C102") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+          (reference "C158") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "C146") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_US") (at 90.805 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74f51a5b-20ce-45d3-a881-3fb11722dc1e)
@@ -4789,6 +4752,52 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
           (reference "R87") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 246.38 24.13 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7583a7d5-934c-461e-be34-9899ae6399cf)
+    (property "Reference" "C8" (at 244.475 20.955 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "0.1uF" (at 245.11 26.67 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 246.38 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 246.38 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "478-KGM05AR71C104KHCT-ND" (at 246.38 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "KGM05AR71C104KH" (at 246.38 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b0863973-80d9-4796-afb0-8ff449cebc43))
+    (pin "2" (uuid ee745b23-1e9d-44dd-9bde-84bb49fbddc4))
+    (instances
+      (project "bm1366"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "C33") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "C102") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+          (reference "C158") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "C136") (unit 1)
         )
       )
     )
@@ -5436,6 +5445,52 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 215.9 159.385 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a2943c65-6f9d-4e6e-a827-104d367dd22f)
+    (property "Reference" "C8" (at 209.55 162.56 90)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "0.1uF" (at 218.44 162.56 90)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 215.9 159.385 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 215.9 159.385 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "478-KGM05AR71C104KHCT-ND" (at 215.9 159.385 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "KGM05AR71C104KH" (at 215.9 159.385 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d4830450-a268-4c6a-97b4-d829ddd05b6f))
+    (pin "2" (uuid bd5349da-6dee-47ba-bff7-404860de39f3))
+    (instances
+      (project "bm1366"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "C33") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "C102") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+          (reference "C158") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "C151") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "bitaxe:BM1366_mode1") (at 201.93 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4372b5e-da55-4264-8734-e40dcc92043e)
@@ -5666,6 +5721,52 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 59.69 185.42 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ba9e8da7-2547-458c-bf43-1fbd55d9c72f)
+    (property "Reference" "C8" (at 57.785 182.245 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "0.1uF" (at 58.42 187.96 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 59.69 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 59.69 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "478-KGM05AR71C104KHCT-ND" (at 59.69 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "KGM05AR71C104KH" (at 59.69 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d0f86bc-4b62-4665-a45f-fe9688a1a7bd))
+    (pin "2" (uuid 743597bb-71e9-4de0-af53-aecef75b038a))
+    (instances
+      (project "bm1366"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "C33") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "C102") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+          (reference "C158") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "C114") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_US") (at 226.695 94.615 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid bc88fcb5-a694-46f1-aa87-adadfaaada01)
@@ -5790,92 +5891,6 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
           (reference "C148") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 133.985 151.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c53df6f4-f8c3-44a5-b1d1-664e3bbbd5f7)
-    (property "Reference" "C7" (at 135.255 149.225 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "0.1uF" (at 135.255 154.305 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 133.985 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 133.985 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "1292-1639-1-ND" (at 133.985 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "0402X104K100CT" (at 133.985 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a295f539-ad6f-490c-a455-ed352d8322c7))
-    (pin "2" (uuid a6ead9dc-d815-4253-9ae3-b5324864d836))
-    (instances
-      (project "bm1366"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "C7") (unit 1)
-        )
-      )
-      (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C32") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "C91") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
-          (reference "C146") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 144.145 151.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c6d4c21b-2841-41c3-8676-da0f0e58ab88)
-    (property "Reference" "C9" (at 145.415 149.225 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "0.1uF" (at 145.415 154.305 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 144.145 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 144.145 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "1292-1639-1-ND" (at 144.145 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "0402X104K100CT" (at 144.145 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 090685e3-d994-46f1-9e3e-2d688d2d33e1))
-    (pin "2" (uuid 7e11df26-dc3f-4fb7-8791-952baa3c1b2d))
-    (instances
-      (project "bm1366"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "C9") (unit 1)
-        )
-      )
-      (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C34") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "C93") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
-          (reference "C147") (unit 1)
         )
       )
     )
@@ -6658,6 +6673,52 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 59.69 154.305 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ee58a04d-1d95-4cbd-bc8a-53a7fd4148f8)
+    (property "Reference" "C8" (at 57.785 151.13 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "0.1uF" (at 58.42 156.845 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 59.69 154.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 59.69 154.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "478-KGM05AR71C104KHCT-ND" (at 59.69 154.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "KGM05AR71C104KH" (at 59.69 154.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid acd6e114-333c-4faf-b54c-a41e676dc5bf))
+    (pin "2" (uuid fd1a53bf-87fe-4dc6-8ab8-47e84e1c0d7d))
+    (instances
+      (project "bm1366"
+        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
+          (reference "C33") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+          (reference "C102") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+          (reference "C158") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+          (reference "C113") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 233.045 62.865 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee7b0fd1-58e3-4b6f-98a1-0db94cf64ca9)
@@ -6732,49 +6793,6 @@
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
           (reference "TP38") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 59.69 154.305 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fb6a1971-5188-4792-a05b-fb570da45756)
-    (property "Reference" "C22" (at 53.34 152.4 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "0.1uF" (at 53.34 158.115 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 59.69 154.305 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 59.69 154.305 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "1292-1639-1-ND" (at 59.69 154.305 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "0402X104K100CT" (at 59.69 154.305 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c5df04fe-7914-4b0d-972a-4f4aa7a7e60e))
-    (pin "2" (uuid c3e9fcf5-52f7-48ec-8760-391999866f36))
-    (instances
-      (project "bm1366"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "C22") (unit 1)
-        )
-      )
-      (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C45") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "C59") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
-          (reference "C113") (unit 1)
         )
       )
     )
