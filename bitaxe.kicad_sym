@@ -3556,8 +3556,8 @@
         (name "CS+" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 3.81 -21.59 90) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
+      (pin power_in line (at 3.81 -21.59 90) (length 2.54)
+        (name "PAD" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 13.97 -11.43 180) (length 2.54)
