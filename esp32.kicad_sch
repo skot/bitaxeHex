@@ -2079,10 +2079,6 @@
     (stroke (width 0) (type default))
     (uuid f8c6721b-709b-45fd-8f6e-d8028fc92d13)
   )
-  (wire (pts (xy 187.325 91.44) (xy 194.945 91.44))
-    (stroke (width 0) (type default))
-    (uuid f9cccceb-c79a-4a3d-990b-6abe7aaf26dc)
-  )
   (wire (pts (xy 64.135 179.705) (xy 64.135 184.785))
     (stroke (width 0) (type default))
     (uuid fea6b5e6-66bc-419e-a509-ef468cf98b8f)
@@ -2563,31 +2559,6 @@
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 194.945 91.44 270) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 04994c05-ccd2-4af5-96d5-72008b21d961)
-    (property "Reference" "TP55" (at 201.295 91.44 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TestPoint" (at 200.66 90.1701 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 194.945 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 194.945 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 81e62984-a838-4beb-b409-7ca7fe80831d))
-    (instances
-      (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "TP55") (unit 1)
         )
       )
     )
