@@ -1,7 +1,10 @@
-BitaxeHex 300 gerber files
+BitaxeHex 301 gerber files
 
 4 copper layers
 silkscreen on top and bottom
+
+Minimum hole size: 0.3mm
+Minimum track width: 0.2mm
 
 bitaxeHex-Edge_Cuts.gbr      -Board outline
 bitaxeHex-F_Cu.gbr           -Top copper
