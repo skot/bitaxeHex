@@ -2155,7 +2155,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cabd0891-271d-458e-a7b2-b0762662f271)
   )
-  (text "VDD_SAMPLE = VDD*R2/(R1+R2)\nVDD=4.5V, VDD_SAMPLE=2.95V\nVDD=3.6V, VDD_SAMPLE=2.36V\n"
+  (text "VDD_SAMPLE = VDD*R2/(R1+R2)\nVDD=4.5V, VDD_SAMPLE=3.25V\nVDD=3.6V, VDD_SAMPLE=2.6V\n"
     (at 13.335 96.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb5a26a4-f4fb-4c54-ad41-1b17483c54da)
