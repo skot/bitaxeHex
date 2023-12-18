@@ -3490,7 +3490,7 @@
     (property "Value" "LM27402" (at 106.68 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" (at 101.6 38.1 0)
+    (property "Footprint" "bitaxe:SQB16A" (at 101.6 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm27402.pdf" (at 101.6 35.56 0)
