@@ -15099,6 +15099,11 @@
       (net 105 "/BM1366-1/CLKI1") (pinfunction "OUT") (pintype "bidirectional") (tstamp 58d8e956-53b5-41b3-b915-179f3ec34922))
     (pad "4" smd rect (at -1.15 0.95 180) (size 1.3 1.1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 29 "/BM1366-1/1V8") (pinfunction "VIN") (pintype "bidirectional") (tstamp 36959df1-614b-45c5-aebb-44f2078ebbe1))
+    (model "${KIPRJMOD}/3d/3225-oscillator.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
@@ -17022,6 +17027,11 @@
       (net 220 "/BM1366-2/CLKI1") (pinfunction "OUT") (pintype "bidirectional") (tstamp f0d5bfd3-d6f5-4554-8332-79e4bc169059))
     (pad "4" smd rect (at -1.15 0.95 180) (size 1.3 1.1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 33 "/BM1366-2/1V8") (pinfunction "VIN") (pintype "bidirectional") (tstamp 1d31aac0-785f-4b11-af39-990e6f0167ee))
+    (model "${KIPRJMOD}/3d/3225-oscillator.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "B.Cu")
@@ -19581,6 +19591,11 @@
       (net 221 "/BM1366-3/CLKI1") (pinfunction "OUT") (pintype "bidirectional") (tstamp 0e2175e0-2eef-4b6b-81a0-33249ce85714))
     (pad "4" smd rect (at -1.15 0.95 90) (size 1.3 1.1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 40 "/BM1366-3/1V8") (pinfunction "VIN") (pintype "bidirectional") (tstamp 39d97b84-1df6-4088-911c-898167678234))
+    (model "${KIPRJMOD}/3d/3225-oscillator.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
