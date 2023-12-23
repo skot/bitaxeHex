@@ -2155,8 +2155,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cabd0891-271d-458e-a7b2-b0762662f271)
   )
-  (text "VDD_SAMPLE = VDD*R2/(R1+R2)\nVDD=4.5V, VDD_SAMPLE=3.25V\nVDD=3.6V, VDD_SAMPLE=2.6V\n"
-    (at 13.335 96.52 0)
+  (text "VDD@3.6V, VDD_SAMPLE=2.65V\nVDD@4.5V, VDD_SAMPLE=3.3V\n"
+    (at 13.97 93.98 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb5a26a4-f4fb-4c54-ad41-1b17483c54da)
   )
@@ -2601,6 +2601,41 @@
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 31.115 76.2 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0ffd2eb2-cd6e-4f57-a75f-a42be7aff30e)
+    (property "Reference" "R9" (at 31.115 73.66 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "7.87k" (at 31.115 78.74 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 30.861 77.216 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 31.115 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DK" "311-7.87KLRCT-ND" (at 31.115 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PARTNO" "RC0402FR-077K87L" (at 31.115 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 40f0b4a4-92e8-4fe0-bd63-422773cd4bf4))
+    (pin "2" (uuid 6a081718-b830-45d7-9b0d-a8b10942cb02))
+    (instances
+      (project "bitaxeHex"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+          (reference "R9") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
+          (reference "R85") (unit 1)
         )
       )
     )
@@ -3295,52 +3330,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 31.115 76.2 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7c560a06-ff83-4acd-9367-80ea94bcb31d)
-    (property "Reference" "R6" (at 30.48 73.66 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "69.8k 1%" (at 31.115 78.74 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 30.861 77.216 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 31.115 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DK" "YAG3216CT-ND" (at 31.115 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTNO" "RC0402FR-0769K8L" (at 31.115 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 398ed4b7-86d4-4a3c-8531-b659948d9056))
-    (pin "2" (uuid 560188e4-e10e-45ce-b32f-d49b3018b9df))
-    (instances
-      (project "bm1397"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "R6") (unit 1)
-        )
-      )
-      (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "R25") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "R32") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
-          (reference "R69") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "R85") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:TestPoint") (at 61.595 132.715 90) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 7ee5bdf0-1b29-4d63-8d6d-afb07ed28add)
@@ -3515,44 +3504,33 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 31.115 85.09 270) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 31.115 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid b0f3fd67-60d3-4441-b2ce-496715ca3dd4)
-    (property "Reference" "R6" (at 31.115 82.55 90)
+    (uuid af2e5bd8-fc00-4723-b3fd-cb64649632df)
+    (property "Reference" "R113" (at 31.115 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "182k 1%" (at 31.115 87.63 90)
+    (property "Value" "22.1k" (at 31.115 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 30.861 86.106 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 31.369 84.074 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 31.115 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "YAG3015CT-ND" (at 31.115 85.09 0)
+    (property "DK" "311-22.1KLRCT-ND" (at 31.115 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "RC0402FR-07182KL" (at 31.115 85.09 0)
+    (property "PARTNO" "RC0402FR-0722K1L" (at 31.115 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d47e73fe-d1f9-43f5-80a7-f25d61a75f84))
-    (pin "2" (uuid 85121b00-e2ff-4258-8c5e-0d8a7b78ab08))
+    (pin "1" (uuid ce7ae43a-b25b-4d07-a2c4-9d061f98702c))
+    (pin "2" (uuid 3408bd8f-4e7b-4cd9-83fe-08867a3287be))
     (instances
-      (project "bm1397"
-        (path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-          (reference "R6") (unit 1)
-        )
-      )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "R27") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "R32") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
-          (reference "R67") (unit 1)
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+          (reference "R113") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R100") (unit 1)
