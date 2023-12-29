@@ -3042,8 +3042,8 @@
     (property "Datasheet" "" (at 172.085 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 1ad6bbec-f0e7-4f26-b99d-668b18200885))
-    (pin "" (uuid 1ad6bbec-f0e7-4f26-b99d-668b18200885))
+    (pin "" (uuid 1ad6bbec-f0e7-4f26-b99d-668b18200886))
+    (pin "" (uuid 1ad6bbec-f0e7-4f26-b99d-668b18200886))
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
