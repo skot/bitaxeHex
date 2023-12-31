@@ -2980,7 +2980,7 @@
     (property "Footprint" "bitaxe:hex-heatsink" (at 50.165 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 48.895 163.195 0)
+    (property "Datasheet" "https://www.aliexpress.us/item/3256805608902122.html" (at 48.895 163.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
