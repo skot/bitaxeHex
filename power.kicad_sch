@@ -1999,6 +1999,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 88ecf083-e11e-4d07-a63a-87ff344df2bd)
   )
+  (text "Connect at\nU3 Pin 37" (at 139.7 131.445 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8aa89d06-d8c3-4d8e-9af7-720cc20b5e08)
+  )
   (text "600 mA max" (at 121.285 144.78 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a3155ce8-81c4-48f2-a1c5-24df46f44865)
@@ -2017,7 +2021,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0513f3d9-bc20-4c1e-94a8-5e647865aac9)
   )
-  (label "GND" (at 132.715 125.73 0) (fields_autoplaced)
+  (label "AGND" (at 132.715 125.73 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 09f2a9a6-cd5e-4693-8655-8de77dea09db)
   )
@@ -2893,8 +2897,8 @@
     (property "Datasheet" "" (at 143.51 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 1ad6bbec-f0e7-4f26-b99d-668b1820088a))
-    (pin "" (uuid 1ad6bbec-f0e7-4f26-b99d-668b1820088a))
+    (pin "" (uuid 1ad6bbec-f0e7-4f26-b99d-668b1820088b))
+    (pin "" (uuid 1ad6bbec-f0e7-4f26-b99d-668b1820088b))
     (instances
       (project "bitaxeHex"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
