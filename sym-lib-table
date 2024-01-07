@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.kicad_sym")(options "")(descr ""))
+  (lib (name "gt-tc029b-h025-l1n")(type "KiCad")(uri "${KIPRJMOD}/gt-tc029b-h025-l1n.kicad_sym")(options "")(descr ""))
 )
