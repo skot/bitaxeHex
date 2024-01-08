@@ -3627,7 +3627,7 @@
     )
     (pin "SMB_ALRT" input (at 81.28 74.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3c839907-145d-414e-8517-3802bca343e2)
+      (uuid fde14376-4748-4bc6-abf4-cefad19e6428)
     )
     (instances
       (project "bitaxeHex"
