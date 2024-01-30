@@ -5175,11 +5175,6 @@
       (net 1 "GND") (pinfunction "PAD") (pintype "power_in") (tstamp c38b39bd-964f-4b7f-9db2-1d9ba1da41e5))
     (pad "41" thru_hole circle (at 1.28 1.4 90) (size 0.4 0.4) (drill 0.3) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "PAD") (pintype "power_in") (tstamp c26b23e8-7add-4a66-bc80-ad4d33f31f17))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-46-1EP_5x6mm_P0.4mm_EP2.8x3.8mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model "${KIPRJMOD}/3d/RVF0040A.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
