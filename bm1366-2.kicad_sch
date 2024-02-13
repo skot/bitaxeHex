@@ -2680,7 +2680,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b89d7a4f-6b26-4317-bb5e-ef458d38dd3b)
   )
-  (text "For dedicated domain\nclocks, populate these\nand remove R40, R47"
+  (text "For dedicated domain\nclocks, populate these\nand remove R45, R49"
     (at 182.245 141.605 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bc7bc92d-922a-4663-981b-b7329559c5fe)
