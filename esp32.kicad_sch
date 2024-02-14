@@ -2602,7 +2602,7 @@
   (symbol (lib_id "Device:R_US") (at 31.115 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ffd2eb2-cd6e-4f57-a75f-a42be7aff30e)
-    (property "Reference" "R9" (at 31.115 73.66 90)
+    (property "Reference" "R19" (at 31.115 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7.87k" (at 31.115 78.74 90)
@@ -2624,9 +2624,6 @@
     (pin "2" (uuid 6a081718-b830-45d7-9b0d-a8b10942cb02))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R9") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R19") (unit 1)
         )
@@ -2724,9 +2721,6 @@
         )
       )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C55") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C35") (unit 1)
         )
@@ -2804,9 +2798,6 @@
         )
       )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C55") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "C33") (unit 1)
         )
@@ -3421,7 +3412,7 @@
   (symbol (lib_id "Device:R_US") (at 31.115 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af2e5bd8-fc00-4723-b3fd-cb64649632df)
-    (property "Reference" "R113" (at 31.115 82.55 90)
+    (property "Reference" "R20" (at 31.115 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22.1k" (at 31.115 87.63 90)
@@ -3443,9 +3434,6 @@
     (pin "2" (uuid 3408bd8f-4e7b-4cd9-83fe-08867a3287be))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "R113") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "R20") (unit 1)
         )
@@ -3760,7 +3748,7 @@
   (symbol (lib_id "Transistor_FET:2N7002K") (at 116.205 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e586b556-da4b-41a0-a096-f653a7e50790)
-    (property "Reference" "Q6" (at 111.887 53.594 0)
+    (property "Reference" "Q1" (at 111.887 53.594 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K" (at 106.299 55.88 0)
@@ -3783,9 +3771,6 @@
     (pin "3" (uuid 67812ced-2248-455f-9396-aa137cae3e64))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-          (reference "Q6") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
           (reference "Q1") (unit 1)
         )

@@ -2470,7 +2470,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 245.11 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c71e9f7-9b7b-4e0d-8f64-c8f0320f84c2)
-    (property "Reference" "C35" (at 248.285 65.405 0)
+    (property "Reference" "C29" (at 248.285 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180uF" (at 248.285 67.945 0)
@@ -2495,9 +2495,6 @@
     (pin "2" (uuid b5b185d2-29f5-49ce-8ed6-0804ec236274))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C35") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C29") (unit 1)
         )
@@ -2535,12 +2532,6 @@
         )
       )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "R42") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "R32") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R111") (unit 1)
         )
@@ -2578,12 +2569,6 @@
         )
       )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C33") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "C102") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C12") (unit 1)
         )
@@ -2664,7 +2649,7 @@
   (symbol (lib_id "Device:C") (at 202.565 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22e45b0c-e1c0-4a99-9371-84138bbe71a5)
-    (property "Reference" "C49" (at 203.835 150.495 0)
+    (property "Reference" "C24" (at 203.835 150.495 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "1uF" (at 203.835 155.575 0)
@@ -2686,9 +2671,6 @@
     (pin "2" (uuid 99a252c7-2e59-45ba-8834-3ecc7adc6db7))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "C49") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C24") (unit 1)
         )
@@ -2762,12 +2744,6 @@
         )
       )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "R42") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "R32") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R109") (unit 1)
         )
@@ -2793,9 +2769,6 @@
     (pin "1" (uuid 81af5909-d5d2-423c-8843-11d7d0bdf68a))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "TP3") (unit 1)
         )
@@ -3025,12 +2998,6 @@
         )
       )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "R42") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "R32") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R110") (unit 1)
         )
@@ -3120,10 +3087,10 @@
     (property "Datasheet" "~" (at 57.15 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "YAG3050CT-ND" (at 57.15 104.775 0)
+    (property "DK" "RMCF0402FT17K8TR-ND" (at 57.15 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "RC0402FR-07205KL" (at 57.15 104.775 0)
+    (property "PARTNO" "RMCF0402FT17K8" (at 57.15 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8ffe73b4-60cc-46ee-b366-5d24363b5534))
@@ -3140,7 +3107,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 241.3 34.925 270) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 7d431660-d439-486d-a7fb-53066f5259fe)
-    (property "Reference" "TP3" (at 247.65 34.925 90)
+    (property "Reference" "TP4" (at 247.65 34.925 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 247.015 33.6551 90)
@@ -3155,9 +3122,6 @@
     (pin "1" (uuid c3c5a8f8-6780-48d4-aece-6dd50b3b2a32))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "TP4") (unit 1)
         )
@@ -3200,7 +3164,7 @@
   (symbol (lib_id "bitaxe:RT9080-33GJ5") (at 112.395 146.685 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82c58661-ef87-4c58-ae85-4247020e0ac9)
-    (property "Reference" "U11" (at 112.395 138.303 0)
+    (property "Reference" "U2" (at 112.395 138.303 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RT9080-33GJ5" (at 112.395 140.843 0)
@@ -3225,9 +3189,6 @@
     (pin "5" (uuid ffc73e67-1d02-40c5-8324-582508d8e999))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "U11") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "U2") (unit 1)
         )
@@ -3302,7 +3263,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 138.43 139.065 270) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 8d5c3e33-43ae-437d-86e5-b886df60b16d)
-    (property "Reference" "TP3" (at 144.78 139.065 90)
+    (property "Reference" "TP1" (at 144.78 139.065 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 144.145 137.7951 90)
@@ -3317,9 +3278,6 @@
     (pin "1" (uuid 782acffe-5721-483b-b207-dbd4a433e233))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "TP1") (unit 1)
         )
@@ -3400,10 +3358,10 @@
     (property "Datasheet" "~" (at 75.565 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "311-4.64KLRCT-ND" (at 75.565 109.855 0)
+    (property "DK" "YAG3115TR-ND" (at 75.565 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "RC0402FR-074K64L" (at 75.565 109.855 0)
+    (property "PARTNO" "RC0402FR-0731K6L" (at 75.565 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 147450fa-e870-4e60-9733-829e75f9e97f))
@@ -3420,7 +3378,7 @@
   (symbol (lib_id "Device:C") (at 164.465 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9916882f-8ee6-43cf-a2c9-bb32d08c308f)
-    (property "Reference" "C27" (at 165.735 150.495 0)
+    (property "Reference" "C21" (at 165.735 150.495 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "1uF" (at 165.735 155.575 0)
@@ -3442,9 +3400,6 @@
     (pin "2" (uuid 7071e6a8-2a2a-468e-a0d6-2adf9f0bfbbf))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "C27") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C21") (unit 1)
         )
@@ -3467,10 +3422,10 @@
     (property "Datasheet" "~" (at 93.98 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "311-82.5KLRCT-ND" (at 93.98 109.855 0)
+    (property "DK" "311-26.1KLRTR-ND" (at 93.98 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "RC0402FR-0782K5L" (at 93.98 109.855 0)
+    (property "PARTNO" "RC0402FR-0726K1L" (at 93.98 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7483ed2c-98a1-44c7-a985-2364b89f163e))
@@ -3583,7 +3538,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 245.11 99.06 270) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid ada421d0-e325-41d5-adf0-c3125a5dc46a)
-    (property "Reference" "TP3" (at 251.46 99.06 90)
+    (property "Reference" "TP5" (at 251.46 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 250.825 97.7901 90)
@@ -3598,9 +3553,6 @@
     (pin "1" (uuid c058e499-eea7-48b1-bc42-1c88f5d46f6e))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "TP5") (unit 1)
         )
@@ -3716,13 +3668,13 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 65.659 109.601 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 66.675 109.855 0)
+    (property "Datasheet" "" (at 66.675 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" " " (at 66.675 109.855 0)
+    (property "DK" " RMCF0402FT10K0TR-ND" (at 66.675 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" " " (at 66.675 109.855 0)
+    (property "PARTNO" "RMCF0402FT10K0" (at 66.675 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 03babdfc-b0e8-4db3-a0da-eb76625a059a))
@@ -3766,9 +3718,6 @@
         )
       )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "R16") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R15") (unit 1)
         )
@@ -3902,12 +3851,6 @@
         )
       )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-          (reference "C33") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-          (reference "C102") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C6") (unit 1)
         )
@@ -3950,7 +3893,7 @@
   (symbol (lib_id "Device:C") (at 92.075 151.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6e1fdf1-6508-4451-b46a-3a5edeebb162)
-    (property "Reference" "C27" (at 93.345 149.86 0)
+    (property "Reference" "C9" (at 93.345 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "1uF" (at 93.345 154.94 0)
@@ -3972,9 +3915,6 @@
     (pin "2" (uuid d6dd1bc7-5b66-41ed-80ad-48c9e18ae8ab))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "C27") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C9") (unit 1)
         )
@@ -3985,7 +3925,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 34.29 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cab5fa22-49fc-42b4-ac54-3a214bb9d9c9)
-    (property "Reference" "C35" (at 37.465 26.67 0)
+    (property "Reference" "C2" (at 37.465 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180uF" (at 37.465 29.21 0)
@@ -4010,9 +3950,6 @@
     (pin "2" (uuid 19a95b54-73cb-40af-8884-ae2c1eec76a6))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-          (reference "C35") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C2") (unit 1)
         )
@@ -4364,10 +4301,10 @@
     (property "Datasheet" "~" (at 57.15 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DK" "YAG3096CT-ND" (at 57.15 92.71 0)
+    (property "DK" "RMCF0402FT17K8TR-ND" (at 57.15 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTNO" "RC0402FR-072K05L" (at 57.15 92.71 0)
+    (property "PARTNO" "RMCF0402FT17K8" (at 57.15 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 90abe30a-7ba6-4f47-a576-f1d246531d69))
@@ -4448,7 +4385,7 @@
   (symbol (lib_id "Device:C") (at 130.175 151.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f76fd56c-37b7-4038-b1c9-5cb25f491fb6)
-    (property "Reference" "C49" (at 131.445 149.86 0)
+    (property "Reference" "C17" (at 131.445 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "1uF" (at 131.445 154.94 0)
@@ -4470,9 +4407,6 @@
     (pin "2" (uuid c22dca22-fd2a-4ef3-b2f6-6c98d2dc9c6c))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "C49") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "C17") (unit 1)
         )
@@ -4510,9 +4444,6 @@
         )
       )
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "R16") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "R7") (unit 1)
         )
@@ -4523,7 +4454,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 139.065 180.34 270) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid ffbe6029-6a89-4171-88b8-e7ecf33ae68d)
-    (property "Reference" "TP3" (at 145.415 180.34 90)
+    (property "Reference" "TP2" (at 145.415 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 144.78 179.0701 90)
@@ -4538,9 +4469,6 @@
     (pin "1" (uuid c3c816f7-8e7c-4708-ba0c-fedab6c14b5b))
     (instances
       (project "bitaxeHex"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-          (reference "TP3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
           (reference "TP2") (unit 1)
         )
