@@ -28,10 +28,15 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 - The BM1366 is available (new) for around $15 each.
 
 ## Current Status
-- v1 hardware is still being designed. It has not been built or tested!
-- In theory the bitaxeHex should have  close to 3 TH/s hashrate at 90W
-- ESP32 miner firmware is still underdevelopment.
-- This is an _advanced_ build! It's also still early days, so prolly not the best thing if you're just looking for a bitcoin miner to run.
+- v302 hardware is working! Hash rate is fluctuating between 2.4 TH/s and 3.0 TH/s.
+- Power draw is around 50W @12V.
+- ESP32 miner firmware will configure the power supply to run at the proper voltage.
+- This is an _advanced_ build! If you don't have experience building boards, you should probably go build a single ASIC bitaxe first to get the technique down.
+
+## Revision List
+- V302 is the current working version of this board.  If you want to build this, pull down this git tag.
+- V301 does not work, the power supply maintains voltage, but overheats in a drastic way
+- V301 does not work, the power supply cannot maintain voltage when a load is applied
 
 ## Hardware
 - [BM1366 from NBTC on AliExpress](https://www.aliexpress.us/item/3256803471845503.html). Both the `AL` and `AG` variants have been known to work.
@@ -44,7 +49,7 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 - [ESP-Miner](https://github.com/skot/ESP-Miner) is still being updated to support multiple ASICs
 
 ## Power Supply Requirements
-- bitaxeHex takes 8-20V DC input via screw terminals. Power supply should be capable of 100W
+- bitaxeHex takes 12V DC input via screw terminals. Power supply should be capable of 100W
 
 ## Building
 - Check out [building.md](building.md) for PCB ordering tips
