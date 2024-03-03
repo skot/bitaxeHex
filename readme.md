@@ -15,9 +15,7 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 
 ## Features
 - **ESP32-S3-WROOM-1** wifi microcontroller on board
-- **TI TPS40305** buck regulator steps down the 5V input to power the chain of BM1366
-- **Maxim DS4432U+** current DAC digitally adjusts the BM1366 core voltage
-- **TI INA219** power meter measures the input voltage and current of the miner
+- **TI TPS546D24ARVFR** buck regulator steps down the 12V input to power the chain of BM1366
 - **TMP1075** measures inlet and outlet PCB temperature.
 - **Microchip EMC2302** Controls dual fans
 - Header for optional status LCD
