@@ -47,7 +47,7 @@ module heatsink() {
 module drill_guide() {
   difference() {
     translate([-47.1,-36.65,28]) cube([94.2,73.3,10]);     
-    translate([-45.1,-34.65,0]) cube([90.2,69.3,36]);
+    translate([-45.6,-35,0]) cube([91.2,70,36]);
     // mounting holes
     translate([0,30.25,35]) cylinder(r=1.1, h=5, $fn=24);
     translate([0,-30.25,35]) cylinder(r=1.1, h=5, $fn=24);
@@ -55,6 +55,7 @@ module drill_guide() {
     translate([28,-30.25,35]) cylinder(r=1.1, h=5, $fn=24);
     translate([-28,30.25,35]) cylinder(r=1.1, h=5, $fn=24);
     translate([-28,-30.25,35]) cylinder(r=1.1, h=5, $fn=24);
+    translate([-40,-25,30]) cube([80,50,10]);
   }    
 }
 
