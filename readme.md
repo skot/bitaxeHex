@@ -34,7 +34,7 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 ## Revision List
 - V302 is the current working version of this board.  If you want to build this, pull down this git tag.
 - V301 does not work, the power supply maintains voltage, but overheats in a drastic way
-- V301 does not work, the power supply cannot maintain voltage when a load is applied
+- V300 does not work, the power supply cannot maintain voltage when a load is applied
 
 ## Hardware
 - [BM1366 from NBTC on AliExpress](https://www.aliexpress.us/item/3256803471845503.html). Both the `AL` and `AG` variants have been known to work.
