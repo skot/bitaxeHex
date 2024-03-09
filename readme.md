@@ -48,6 +48,8 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 
 ## Power Supply Requirements
 - bitaxeHex takes 12V DC input via screw terminals. Power supply should be capable of 100W
+  - This [120W Brick](https://www.amazon.com/gp/product/B07PWZQ33N) technically works, but gets a little warmer than it should. You'll need to change the end.
+  - 12V 15A 110V AliExpress [Bare PSU](https://www.aliexpress.us/item/3256805439916551.html)
 
 ## Building
 - Check out [building.md](building.md) for PCB ordering tips
