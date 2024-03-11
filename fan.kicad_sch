@@ -6,8 +6,8 @@
 
   (title_block
     (title "bitaxeHex")
-    (date "2023-12-28")
-    (rev "302")
+    (date "2024-03-09")
+    (rev "303")
   )
 
   (lib_symbols
