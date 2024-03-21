@@ -8651,7 +8651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:TL3330-switch"
+		(property "Footprint" "bitaxe:TL3340-switch"
 			(at 51.435 57.15 0)
 			(effects
 				(font
@@ -8660,7 +8660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/163/TL3330.pdf"
+		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/164/TL3340.pdf"
 			(at 51.435 59.69 0)
 			(effects
 				(font
@@ -8678,7 +8678,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TL3330AF260QG"
+		(property "PARTNO" "TL3340AF160QG"
 			(at 51.435 53.34 0)
 			(effects
 				(font
@@ -8687,7 +8687,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "EG4389CT-ND"
+		(property "DK" "EG4627CT-ND"
 			(at 51.435 50.8 0)
 			(effects
 				(font
@@ -10627,7 +10627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:TL3330-switch"
+		(property "Footprint" "bitaxe:TL3340-switch"
 			(at 21.59 67.31 0)
 			(effects
 				(font
@@ -10636,7 +10636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/163/TL3330.pdf"
+		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/164/TL3340.pdf"
 			(at 21.59 69.85 0)
 			(effects
 				(font
@@ -10654,7 +10654,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TL3330AF260QG"
+		(property "PARTNO" "TL3340AF160QG"
 			(at 21.59 63.5 0)
 			(effects
 				(font
@@ -10663,7 +10663,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "EG4389CT-ND"
+		(property "DK" "EG4627CT-ND"
 			(at 21.59 60.96 0)
 			(effects
 				(font

@@ -10,108 +10,6 @@
 		(rev "303")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -1283,22 +1181,10 @@
 		(uuid "34977776-8545-4b39-8e3a-2abcd8af3566")
 	)
 	(junction
-		(at 226.695 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38e004bd-22f4-435b-bc16-b7e0c008626a")
-	)
-	(junction
 		(at 205.105 98.425)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b271a86-ed57-4d5b-b9ed-e0cec2cfe0ec")
-	)
-	(junction
-		(at 207.645 95.885)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59524cd9-40e9-4ddf-952e-b9273a3b60d1")
 	)
 	(junction
 		(at 74.93 125.73)
@@ -1311,18 +1197,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f300e37-7aa6-42c2-b324-35b08d49c436")
-	)
-	(junction
-		(at 226.06 93.345)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8709f76d-62c7-4b3e-bc1b-c136c36b05e7")
-	)
-	(junction
-		(at 207.645 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e0aa163-60cc-467d-93bf-b8572bc79c84")
 	)
 	(junction
 		(at 211.455 98.425)
@@ -1477,16 +1351,6 @@
 			(type default)
 		)
 		(uuid "0d7f2d6d-077e-4571-9c93-d8f81b958d82")
-	)
-	(wire
-		(pts
-			(xy 195.58 50.8) (xy 207.645 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f00c769-8977-4354-96ce-71683787d219")
 	)
 	(wire
 		(pts
@@ -1760,16 +1624,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 95.885) (xy 207.645 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b99f4e2-f25b-48be-bfa1-af7d55800a7a")
-	)
-	(wire
-		(pts
 			(xy 78.74 133.35) (xy 74.93 133.35)
 		)
 		(stroke
@@ -1950,16 +1804,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.155 48.26) (xy 226.695 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6512fd-5cb9-4e99-a1b4-e34cf222f3c4")
-	)
-	(wire
-		(pts
 			(xy 196.85 38.1) (xy 207.645 38.1)
 		)
 		(stroke
@@ -1977,16 +1821,6 @@
 			(type default)
 		)
 		(uuid "b32eeff5-b74c-46a6-b457-08158d948ffb")
-	)
-	(wire
-		(pts
-			(xy 223.52 93.345) (xy 226.06 93.345)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b70386-8abb-4157-806f-0f6f5230459d")
 	)
 	(wire
 		(pts
@@ -2883,73 +2717,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 224.155 48.26 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "06eb653b-c15c-416b-be86-59e88d0695a0")
-		(property "Reference" "TP33"
-			(at 217.805 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 218.44 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 224.155 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.155 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.155 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f0ba4da-2413-4e21-af26-8bac8a4345b5")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 226.695 41.275 180)
 		(unit 1)
@@ -3586,73 +3353,6 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 223.52 93.345 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6bf936b4-3205-4b1d-a5ea-f375a405601d")
-		(property "Reference" "TP32"
-			(at 217.17 93.345 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 217.805 94.6149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 223.52 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "891afebc-b00d-4d06-9610-9c520c149aab")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -4296,140 +3996,6 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 195.58 50.8 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbe78ea1-de61-4cfe-8d9a-6a7db6a2845a")
-		(property "Reference" "TP30"
-			(at 189.23 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 189.865 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 195.58 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cc8609a-9905-431d-9548-66d464bcdfd1")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 195.58 95.885 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7f7c09b-f23e-4120-884c-7a10fd0026d3")
-		(property "Reference" "TP31"
-			(at 189.23 95.885 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 189.865 97.1549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 195.58 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9ac1112-7f0c-48b4-8a54-10a9a4a30dae")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP31")
 					(unit 1)
 				)
 			)
