@@ -2318,7 +2318,7 @@
 		(at 85.725 174.625 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2382,7 +2382,7 @@
 		(at 84.455 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2449,7 +2449,7 @@
 		(at 84.455 160.655 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2580,7 +2580,7 @@
 		(at 85.725 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2713,7 +2713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52c0114f-2332-4e2e-97ec-568d02549282")
-		(property "Reference" "H6"
+		(property "Reference" "H8"
 			(at 121.92 146.6849 0)
 			(effects
 				(font
@@ -2761,7 +2761,7 @@
 		(instances
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H6")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -2905,7 +2905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cb93d8d-b738-47cd-8e8e-e04e391772ae")
-		(property "Reference" "H11"
+		(property "Reference" "H5"
 			(at 88.265 180.34 90)
 			(effects
 				(font
@@ -2953,7 +2953,7 @@
 		(instances
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H11")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -2969,7 +2969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a97595-4798-46d2-9312-e13f123da6c6")
-		(property "Reference" "H12"
+		(property "Reference" "H6"
 			(at 88.265 187.325 90)
 			(effects
 				(font
@@ -3017,7 +3017,7 @@
 		(instances
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H12")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -3244,7 +3244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "923aa283-a76a-41e2-ba28-d8b53ed4d108")
-		(property "Reference" "H7"
+		(property "Reference" "H9"
 			(at 121.92 153.0349 0)
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 		(instances
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H7")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -3372,7 +3372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b943567f-4ccd-478b-8def-84ca0e6fedd7")
-		(property "Reference" "H5"
+		(property "Reference" "H7"
 			(at 121.92 140.3349 0)
 			(effects
 				(font
@@ -3420,7 +3420,7 @@
 		(instances
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H5")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -3500,7 +3500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb510c1e-ccfa-4e48-8454-56a46a27d688")
-		(property "Reference" "H8"
+		(property "Reference" "H10"
 			(at 121.92 159.3849 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 		(instances
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H8")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -3820,7 +3820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb162ab5-eaf7-4c8b-96e9-7ac2e86649dc")
-		(property "Reference" "H10"
+		(property "Reference" "H12"
 			(at 121.92 172.7199 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 		(instances
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H10")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -3884,7 +3884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe374276-a800-450a-8b97-37dc549ee215")
-		(property "Reference" "H9"
+		(property "Reference" "H11"
 			(at 121.92 166.3699 0)
 			(effects
 				(font
@@ -3932,7 +3932,7 @@
 		(instances
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H9")
+					(reference "H11")
 					(unit 1)
 				)
 			)

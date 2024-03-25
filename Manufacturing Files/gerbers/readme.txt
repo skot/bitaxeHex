@@ -1,4 +1,4 @@
-BitaxeHex 301 gerber files
+BitaxeHex v303 gerber files
 
 4 copper layers
 silkscreen on top and bottom
