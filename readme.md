@@ -1,3 +1,4 @@
+Warning: the bitaxeHex is unfinished. there may be hardware and firmware bugs. Please see The bitaxeHex channel on the [OSMU Discord](https://discord.gg/osmu) for the latest status
 
 > Closed Source is Antithetical to Bitcoin
 
