@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeHex")
 		(date "2024-03-09")
-		(rev "303")
+		(rev "304")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -3392,10 +3392,22 @@
 		(uuid "4f85e7ce-8fbd-451f-bfec-43931d4e098e")
 	)
 	(junction
+		(at 205.74 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d5324cd-c047-4817-81d2-d5d9736fea20")
+	)
+	(junction
 		(at 116.84 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d9acb40-9c70-40cc-8c74-08abb116e0a5")
+	)
+	(junction
+		(at 209.55 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74d73692-2e4b-4823-89e4-fe44e5123f8f")
 	)
 	(junction
 		(at 251.46 96.52)
@@ -3426,6 +3438,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad00e66c-7c19-4413-9e94-675fe5aaf66b")
+	)
+	(junction
+		(at 209.55 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ae7b66-4ac3-4119-9be5-34034382a910")
 	)
 	(junction
 		(at 36.83 161.29)
@@ -3717,6 +3735,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 80.01) (xy 214.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4da956-afb1-4917-b2f9-e410eff35ce9")
+	)
+	(wire
+		(pts
+			(xy 209.55 80.01) (xy 209.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5513cd-947d-44f1-b65c-1f1006bcfc12")
+	)
+	(wire
+		(pts
 			(xy 224.79 161.29) (xy 224.79 158.75)
 		)
 		(stroke
@@ -3734,6 +3772,16 @@
 			(type default)
 		)
 		(uuid "3129bf4d-85c9-4322-a40a-c3d4cf68b178")
+	)
+	(wire
+		(pts
+			(xy 205.74 83.82) (xy 205.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3198bd93-d60b-40d4-8f60-829460f6f358")
 	)
 	(wire
 		(pts
@@ -3794,6 +3842,16 @@
 			(type default)
 		)
 		(uuid "37a59ad4-b0db-44d1-9bad-66ff78e2c277")
+	)
+	(wire
+		(pts
+			(xy 205.74 93.98) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38609a93-3cfc-44d3-ab48-4d37f56cec97")
 	)
 	(wire
 		(pts
@@ -4207,6 +4265,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 96.52) (xy 213.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d70a9b8-d772-4167-bfc9-797f6cb5dc71")
+	)
+	(wire
+		(pts
 			(xy 35.56 170.18) (xy 39.37 170.18)
 		)
 		(stroke
@@ -4367,6 +4435,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 91.44) (xy 205.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff32674-bd1f-4591-957b-2001d7af3215")
+	)
+	(wire
+		(pts
 			(xy 31.75 41.91) (xy 31.75 46.99)
 		)
 		(stroke
@@ -4374,6 +4452,16 @@
 			(type default)
 		)
 		(uuid "9ff81d78-ce48-49f3-987d-a3f4ad6979a6")
+	)
+	(wire
+		(pts
+			(xy 209.55 91.44) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14a2057-5495-46d7-bd7f-d9b0912ee783")
 	)
 	(wire
 		(pts
@@ -4727,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 213.36 96.52)
+			(xy 187.96 96.52) (xy 209.55 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4837,6 +4925,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 80.01) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee71ab17-18a6-487e-9317-00db1f35587d")
+	)
+	(wire
+		(pts
 			(xy 187.96 104.14) (xy 194.31 104.14)
 		)
 		(stroke
@@ -4847,7 +4945,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 213.36 93.98)
+			(xy 187.96 93.98) (xy 205.74 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5230,7 +5328,7 @@
 		(uuid "674c3828-daf9-44d8-9b4f-0fc471e16f7d")
 	)
 	(label "SDA"
-		(at 203.2 96.52 0)
+		(at 195.58 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5317,6 +5415,17 @@
 		)
 		(uuid "90645a03-fa52-4e69-af32-67914813105d")
 	)
+	(label "3V3"
+		(at 214.63 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "999320e3-d9ae-41a9-b7a9-7fed91a81513")
+	)
 	(label "IO0"
 		(at 194.31 158.75 0)
 		(fields_autoplaced yes)
@@ -5329,7 +5438,7 @@
 		(uuid "a04e9013-97a3-4b51-a9a9-0c72c03cd2e3")
 	)
 	(label "SCL"
-		(at 203.2 93.98 0)
+		(at 195.58 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7658,6 +7767,91 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 209.55 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "922aef30-32b2-4df3-b9a7-141d52c54800")
+		(property "Reference" "R79"
+			(at 213.36 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 213.36 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 210.566 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "13-RC0402FR-135K1LCT-ND"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-135K1L"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70fe0d77-2584-4a42-9603-37010378620a")
+		)
+		(pin "2"
+			(uuid "2a536d10-207e-4fd8-b5b7-8cb1df599ced")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 31.75 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9457,6 +9651,91 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 205.74 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbbb8ec5-e7b9-4961-8135-8fb531eaec43")
+		(property "Reference" "R78"
+			(at 201.93 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 201.93 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 204.724 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "13-RC0402FR-135K1LCT-ND"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-135K1L"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b90d44-66ef-442a-a602-199ea3473691")
+		)
+		(pin "2"
+			(uuid "88a9780f-5032-4998-8efe-5751cef0d9f5")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
+					(reference "R78")
 					(unit 1)
 				)
 			)

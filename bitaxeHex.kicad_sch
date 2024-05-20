@@ -7,119 +7,9 @@
 	(title_block
 		(title "bitaxeHex")
 		(date "2024-03-09")
-		(rev "303")
+		(rev "304")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -997,6 +887,178 @@
 				)
 			)
 		)
+		(symbol "bitaxe:XT30PW-M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.254 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XT30"
+				(at -0.254 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitaxe:XT30PW-M"
+				(at 0.254 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.588 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTNO" "XT30PW-M"
+				(at 0.254 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DK" "~"
+				(at 5.588 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XT30PW-M_1_1"
+				(rectangle
+					(start -3.81 8.89)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "+V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "MNT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "MNT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bitaxe:hex_heatsink"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1135,6 +1197,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efe15617-279f-45fd-a18e-e3bd882108e1")
+	)
+	(no_connect
+		(at 35.56 43.18)
+		(uuid "370fee7c-ddfc-4c93-b0a4-3d08b1b4bb13")
+	)
+	(no_connect
+		(at 35.56 27.94)
+		(uuid "5e939a09-3da2-4072-a73c-6e4ab38bf5fe")
 	)
 	(wire
 		(pts
@@ -1398,6 +1468,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 33.02) (xy 59.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb8f950-3ffc-4f4d-b984-629cf2765a6b")
+	)
+	(wire
+		(pts
 			(xy 218.44 99.06) (xy 230.505 99.06)
 		)
 		(stroke
@@ -1435,6 +1515,16 @@
 			(type default)
 		)
 		(uuid "6dd3f207-6485-4a66-ba7d-62f4b96226da")
+	)
+	(wire
+		(pts
+			(xy 35.56 38.1) (xy 44.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eea50f9-ee31-4898-91e1-8b8786f1405b")
 	)
 	(wire
 		(pts
@@ -1728,16 +1818,6 @@
 	)
 	(wire
 		(pts
-			(xy 37.465 40.64) (xy 45.72 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd267494-fb5c-4bc3-a128-be719d31c828")
-	)
-	(wire
-		(pts
 			(xy 81.28 68.58) (xy 85.725 68.58)
 		)
 		(stroke
@@ -1846,16 +1926,6 @@
 		)
 		(uuid "ff0ac831-4d8a-4b40-a119-64e6a6cf8a58")
 	)
-	(wire
-		(pts
-			(xy 37.465 33.02) (xy 59.69 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffd52e4-0182-400d-a67e-a71806d6b397")
-	)
 	(text "ULTRA"
 		(exclude_from_sim no)
 		(at 179.705 177.8 0)
@@ -1871,7 +1941,7 @@
 	)
 	(text "12VDC 100W Input"
 		(exclude_from_sim no)
-		(at 19.685 45.72 0)
+		(at 19.05 48.006 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,7 +2160,7 @@
 		(uuid "cbccfbf0-8a78-494d-9b09-00b438efe401")
 	)
 	(label "GND"
-		(at 38.1 40.64 0)
+		(at 38.1 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2146,7 +2216,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 45.72 40.64 0)
+		(at 44.45 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2156,96 +2226,13 @@
 		)
 		(uuid "3a9ec3dc-e8de-49ee-9a6e-42a19fca3e49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.0036 40.5606 0)
+			(at 50.7336 38.0206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 32.385 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "070242be-4252-4b22-aa9b-8f7edccbbd89")
-		(property "Reference" "J1"
-			(at 32.385 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw Terminal"
-			(at 32.385 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:7771-screw-terminal"
-			(at 32.385 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/581/Metric_PCB_Screw_Terminals.pdf"
-			(at 32.385 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 32.385 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "36-7771-ND"
-			(at 32.385 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "36-7771"
-			(at 32.385 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5301a582-27a2-485e-8190-6fdcace41206")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2372,6 +2359,99 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:XT30PW-M")
+		(at 27.94 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d6af611-a359-424a-aabb-c346b489a220")
+		(property "Reference" "J1"
+			(at 27.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30"
+			(at 27.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bitaxe:XT30PW-M"
+			(at 27.686 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.352 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "XT30PW-M"
+			(at 27.686 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "~"
+			(at 22.352 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "125b22f7-d18f-4c09-b226-6646ab212752")
+		)
+		(pin "4"
+			(uuid "6ac24f62-5aba-4b7d-9ad3-a2bb3a9fa690")
+		)
+		(pin "1"
+			(uuid "75626c42-e13e-40c9-8a49-d3ebe1dca3d6")
+		)
+		(pin "2"
+			(uuid "2731f4cc-9d24-4d27-a033-7bb391c7a33d")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3146,89 +3226,6 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 32.385 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8efb413a-94d0-424b-80c7-73345389e509")
-		(property "Reference" "J2"
-			(at 32.385 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw Terminal"
-			(at 32.385 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:7771-screw-terminal"
-			(at 32.385 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/581/Metric_PCB_Screw_Terminals.pdf"
-			(at 32.385 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 32.385 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "36-7771-ND"
-			(at 32.385 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "36-7771"
-			(at 32.385 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88d7024d-e91d-491c-9001-c44b4f2191af")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J2")
 					(unit 1)
 				)
 			)

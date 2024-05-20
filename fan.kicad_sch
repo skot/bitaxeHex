@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeHex")
 		(date "2024-03-09")
-		(rev "303")
+		(rev "304")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
