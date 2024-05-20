@@ -27,7 +27,8 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 - The BM1366 is available (new) for around $15 each.
 
 ## Current Status
-- v302 hardware is working! Hash rate is fluctuating between 2.4 TH/s and 3.0 TH/s.
+- v303 hardware is working! Hash rate is fluctuating between 2.4 TH/s and 3.0 TH/s.
+- v304 is a work in progress, do not use this until it has been released.  This is going to be the official release candidate.
 - Power draw is around 50W @12V.
 - ESP32 miner firmware will configure the power supply to run at the proper voltage.
 - This is an _advanced_ build! If you don't have experience building boards, you should probably go build a single ASIC bitaxe first to get the technique down.
