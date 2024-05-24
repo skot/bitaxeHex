@@ -1215,6 +1215,159 @@
 				)
 			)
 		)
+		(symbol "SGM2036_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SGM2036"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://static6.arrow.com/aropdfconversion/c665185286864b6f9a6bd991d86221e9e2ef3156/1640074291.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SGM2036_1_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SGM2036_1_1_0"
+				(pin power_in line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "BP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TLV3544_1"
 			(pin_names
 				(offset 0.127)
@@ -2268,159 +2421,6 @@
 				)
 			)
 		)
-		(symbol "bitaxe:AP7331"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AP7331"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP7331-WG-7/2270813"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP7331_0_1"
-				(rectangle
-					(start -7.62 3.81)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AP7331_1_0"
-				(pin power_in line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "bitaxe:BM1366_mode0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3060,6 +3060,159 @@
 				)
 			)
 		)
+		(symbol "bitaxe:SGM2036"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SGM2036"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://static6.arrow.com/aropdfconversion/c665185286864b6f9a6bd991d86221e9e2ef3156/1640074291.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SGM2036_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SGM2036_1_0"
+				(pin power_in line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "BP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bitaxe:TLV3544"
 			(pin_names
 				(offset 0.127)
@@ -3578,12 +3731,6 @@
 		(uuid "0a52d5f5-c259-43a3-846c-7eca841dfa60")
 	)
 	(junction
-		(at 78.74 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ba87c1f-02bf-425a-9eb6-176f0ecc198b")
-	)
-	(junction
 		(at 157.48 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3594,6 +3741,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d4ab395-c2a1-49e6-ae30-a118a8050a99")
+	)
+	(junction
+		(at 80.01 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f721796-7dba-4c4d-9b10-6df1c156259a")
 	)
 	(junction
 		(at 100.33 104.14)
@@ -3654,12 +3807,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2198e2ba-6e33-4bd4-bb35-cf79a0e6ac51")
-	)
-	(junction
-		(at 77.47 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26121f99-ebde-4d4a-8328-36c531aaaf59")
 	)
 	(junction
 		(at 55.88 67.31)
@@ -3726,12 +3873,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63579eee-83c9-419c-8eed-69fd2a8442ee")
-	)
-	(junction
-		(at 90.17 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6396b108-a881-4cc7-98b8-1c00056fed08")
 	)
 	(junction
 		(at 180.34 128.27)
@@ -3812,6 +3953,12 @@
 		(uuid "8ff653ec-06d6-46dc-958c-fb7508cb383a")
 	)
 	(junction
+		(at 78.74 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90dee602-b750-4abc-9e21-ecc9cd9c4ce9")
+	)
+	(junction
 		(at 160.02 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3822,12 +3969,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95647c8f-9424-4881-bcae-42505da9f51f")
-	)
-	(junction
-		(at 91.44 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97a58024-6489-4279-acbd-5d999bc6ed1b")
 	)
 	(junction
 		(at 44.45 67.31)
@@ -3992,22 +4133,10 @@
 		(uuid "eac1fabd-3fad-4653-bea2-e07a877b3471")
 	)
 	(junction
-		(at 77.47 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2034fca-c05c-41a7-954e-abbac65ae51c")
-	)
-	(junction
 		(at 182.88 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f83c7520-c276-4699-8e1f-5052f6c12bf2")
-	)
-	(junction
-		(at 78.74 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f864da97-a44a-415a-9109-1154f2ce1709")
 	)
 	(junction
 		(at 143.51 144.78)
@@ -4054,16 +4183,6 @@
 			(type default)
 		)
 		(uuid "015249cb-0549-44e9-bc90-2ec777e7f949")
-	)
-	(wire
-		(pts
-			(xy 87.63 181.61) (xy 90.17 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01572c88-dce8-48a3-9fef-3fdcbad9e803")
 	)
 	(wire
 		(pts
@@ -4157,7 +4276,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 148.59) (xy 91.44 143.51)
+			(xy 91.44 143.51) (xy 91.44 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4177,7 +4296,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 161.29) (xy 78.74 161.29)
+			(xy 53.34 161.29) (xy 80.01 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4217,7 +4336,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 194.31) (xy 77.47 194.31)
+			(xy 52.07 194.31) (xy 78.74 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4324,16 +4443,6 @@
 			(type solid)
 		)
 		(uuid "18e56d85-e490-4ba1-9840-7b528f3812d7")
-	)
-	(wire
-		(pts
-			(xy 90.17 194.31) (xy 77.47 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18e7ab6c-d03d-4acd-a626-a65e24b06584")
 	)
 	(wire
 		(pts
@@ -4517,16 +4626,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 161.29) (xy 78.74 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd5f703-1ca3-457e-a8f8-6695223d9381")
-	)
-	(wire
-		(pts
 			(xy 64.77 29.21) (xy 64.77 43.18)
 		)
 		(stroke
@@ -4577,7 +4676,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 181.61) (xy 90.17 184.15)
+			(xy 90.17 176.53) (xy 90.17 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4634,16 +4733,6 @@
 			(type default)
 		)
 		(uuid "344ad9c8-2d24-4349-9864-ce98601bb793")
-	)
-	(wire
-		(pts
-			(xy 91.44 148.59) (xy 91.44 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39be96bf-6c44-4d86-a12b-d304773e897a")
 	)
 	(wire
 		(pts
@@ -4747,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 161.29) (xy 78.74 158.75)
+			(xy 80.01 161.29) (xy 80.01 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5067,16 +5156,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 181.61) (xy 80.01 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d0cf0d-cf87-418e-9631-d9377c68b2fd")
-	)
-	(wire
-		(pts
 			(xy 242.57 78.74) (xy 242.57 67.31)
 		)
 		(stroke
@@ -5094,16 +5173,6 @@
 			(type default)
 		)
 		(uuid "5b402b47-df88-420f-b4cd-37e3d93c5042")
-	)
-	(wire
-		(pts
-			(xy 78.74 148.59) (xy 81.28 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c557703-31e5-4d78-b5ec-b4306a0d5c12")
 	)
 	(wire
 		(pts
@@ -5157,7 +5226,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 148.59) (xy 78.74 148.59)
+			(xy 76.2 148.59) (xy 80.01 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5357,16 +5426,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 148.59) (xy 91.44 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "704abda5-eb1a-49e5-aa64-c635f9fd03c2")
-	)
-	(wire
-		(pts
 			(xy 64.77 67.31) (xy 77.47 67.31)
 		)
 		(stroke
@@ -5467,7 +5526,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 181.61) (xy 77.47 184.15)
+			(xy 78.74 181.61) (xy 78.74 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5594,16 +5653,6 @@
 			(type default)
 		)
 		(uuid "838043fe-c686-4f4b-a58d-3207f1dd1081")
-	)
-	(wire
-		(pts
-			(xy 90.17 181.61) (xy 90.17 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "851521f1-99a1-4373-8006-1f07c8c6bb9e")
 	)
 	(wire
 		(pts
@@ -6077,7 +6126,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 181.61) (xy 77.47 181.61)
+			(xy 74.93 181.61) (xy 78.74 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6324,6 +6373,16 @@
 			(type default)
 		)
 		(uuid "cc35184d-2ca1-4aeb-9d91-cc8b06a93b11")
+	)
+	(wire
+		(pts
+			(xy 78.74 194.31) (xy 90.17 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc982e9d-83fd-4593-bad4-7ef2b7970923")
 	)
 	(wire
 		(pts
@@ -6577,6 +6636,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 161.29) (xy 91.44 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5181ba1-e9c6-4e80-aea4-32ee604d78d5")
+	)
+	(wire
+		(pts
 			(xy 209.55 40.64) (xy 213.36 40.64)
 		)
 		(stroke
@@ -6757,7 +6826,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 148.59) (xy 78.74 151.13)
+			(xy 80.01 148.59) (xy 80.01 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6877,7 +6946,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 194.31) (xy 77.47 191.77)
+			(xy 78.74 194.31) (xy 78.74 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6995,7 +7064,7 @@
 		)
 		(uuid "ffa14589-bcc0-40c4-a168-b4ed4b53bad4")
 	)
-	(text "MIDDLE Voltage Domain\nActual LDO supply voltage:\nThese LDOs get 5V - (core voltage)\nWhen core voltage=1.5V, LDO supply is 3.5V\nWhen core voltage=1.2V, LDO supply is 3.8V "
+	(text "MIDDLE Voltage Domain\nActual LDO supply voltage:\nThese LDOs get 5V - (core voltage)\nWhen core voltage=1.4V, LDO supply is 3.6V\nWhen core voltage=1.2V, LDO supply is 3.8V "
 		(exclude_from_sim no)
 		(at 16.51 171.45 0)
 		(effects
@@ -9045,93 +9114,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 77.47 187.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34302127-4b20-48a1-9ed0-a2310f823929")
-		(property "Reference" "R38"
-			(at 71.12 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "115k"
-			(at 71.12 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.454 187.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "YAG2956CT-ND"
-			(at 77.47 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-07115KL"
-			(at 77.47 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d022397-4705-4781-93ca-5dfd69f56ef4")
-		)
-		(pin "2"
-			(uuid "475308f9-a524-4fa4-8380-97578d4a59a5")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 260.35 67.31 90)
 		(unit 1)
@@ -9482,6 +9464,92 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
 					(reference "TP45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SGM2036_1")
+		(lib_id "bitaxe:SGM2036")
+		(at 66.04 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56f3b11f-cfe7-4b3f-a5a9-407fe673d133")
+		(property "Reference" "U17"
+			(at 66.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SGM2036-0v8"
+			(at 66.04 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 66.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static6.arrow.com/aropdfconversion/c665185286864b6f9a6bd991d86221e9e2ef3156/1640074291.pdf"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed LDO 0.8V"
+			(at 66.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNUM" "SGM2036-0.8YN5G/TR"
+			(at 66.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "37b98749-f66d-4b03-a522-053bb98e6780")
+		)
+		(pin "4"
+			(uuid "bed9c310-2efd-4d83-93e7-afc429eccd2c")
+		)
+		(pin "1"
+			(uuid "5fde41ab-9f7b-4989-b550-a1cc038fe14e")
+		)
+		(pin "2"
+			(uuid "d3147e57-a97a-45b9-935b-13f0c0b53605")
+		)
+		(pin "3"
+			(uuid "6f8a0baf-571c-4fe4-9d3c-d68bbe30fb7d")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -11015,100 +11083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:AP7331")
-		(at 64.77 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87c4b9cf-6691-4e63-905d-fd51e94121af")
-		(property "Reference" "U16"
-			(at 64.77 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP7331"
-			(at 64.77 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-			(at 64.77 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP7331-WG-7/2270813"
-			(at 64.77 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "AP7331-WG-7DICT-ND"
-			(at 64.77 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "AP7331-WG-7"
-			(at 64.77 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d448d28b-d23e-4867-94e0-a79cc3c04a16")
-		)
-		(pin "2"
-			(uuid "c4a77b1c-c9f8-4b44-85bd-d3a8cce57cf6")
-		)
-		(pin "3"
-			(uuid "96bf1ebd-1733-43ef-8364-8e1dacd556ef")
-		)
-		(pin "4"
-			(uuid "33d2532c-b355-43fc-aac3-3b7deac6b491")
-		)
-		(pin "5"
-			(uuid "b871e8f0-52d6-494f-ad98-75c9d417f320")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 26.67 67.31 90)
 		(unit 1)
@@ -11907,91 +11881,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 85.09 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bed71b4-9afd-47ee-a921-5dda02f9ba5c")
-		(property "Reference" "R41"
-			(at 85.09 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "115k"
-			(at 85.09 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.344 147.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "YAG2956CT-ND"
-			(at 85.09 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-07115KL"
-			(at 85.09 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7479ad7a-b719-46ef-b661-d32902955860")
-		)
-		(pin "2"
-			(uuid "e2f002c9-8784-4445-ba8d-3ec93ca605a7")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 257.81 119.38 0)
 		(unit 1)
@@ -12085,93 +11974,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 78.74 154.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4f67cc3-acb1-423b-8d61-f9b672641072")
-		(property "Reference" "R39"
-			(at 72.39 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "115k"
-			(at 72.39 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 77.724 154.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "YAG2956CT-ND"
-			(at 78.74 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-07115KL"
-			(at 78.74 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98ae1337-4278-4193-98ef-93b704bb0636")
-		)
-		(pin "2"
-			(uuid "827ed8f0-888e-4c25-bdde-c675d9c1282a")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 96.52 143.51 270)
 		(mirror x)
@@ -12239,100 +12041,6 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
 					(reference "TP46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bitaxe:AP7331")
-		(at 66.04 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab70d4a6-8d62-4715-b9bf-f0495752eeaf")
-		(property "Reference" "U17"
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP7331"
-			(at 66.04 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-			(at 66.04 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP7331-WG-7/2270813"
-			(at 66.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "AP7331-WG-7DICT-ND"
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "AP7331-WG-7"
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e936f889-6bfe-43e7-bbbf-f738d48a6a4c")
-		)
-		(pin "2"
-			(uuid "62954de4-4c4e-4875-98fc-97ed6b1abed2")
-		)
-		(pin "3"
-			(uuid "42e84936-f518-4b89-b95d-88ecb4095d99")
-		)
-		(pin "4"
-			(uuid "fb31c52f-78e5-42e3-a235-919ffeb5a0c4")
-		)
-		(pin "5"
-			(uuid "6cf496b8-eaa7-40db-9ce0-c0af8ece9b68")
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -12802,97 +12510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 83.82 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b34d8d71-dfbe-482e-8499-d91b20c4aabf")
-		(property "Reference" "R6"
-			(at 83.82 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "402K"
-			(at 83.82 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 83.566 182.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "YAG3151CT-ND"
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-07402KL"
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f212fcf-8bc2-4a25-9f52-43592160a5bf")
-		)
-		(pin "2"
-			(uuid "b03ccbcc-1400-4395-a493-a352aa6db08a")
-		)
-		(instances
-			(project "bm1397"
-				(path "/5ffa02c9-1f90-4b06-abee-1fc0c47a0c88"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 189.23 67.31 90)
 		(unit 1)
@@ -12980,6 +12597,91 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
 					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:SGM2036")
+		(at 64.77 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8793b2f-5c06-44a4-a87d-f10b05bd1d4b")
+		(property "Reference" "U16"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SGM2036-1v8"
+			(at 64.77 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 64.77 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static6.arrow.com/aropdfconversion/c665185286864b6f9a6bd991d86221e9e2ef3156/1640074291.pdf"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed LDO 1.8V"
+			(at 64.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNUM" "SGM2036-1.8YN5G/TR"
+			(at 64.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e35a9d8a-1877-47d0-b693-903cdbd5fa22")
+		)
+		(pin "4"
+			(uuid "3064e7ff-fc5d-44a2-9bbc-ddd258a7201c")
+		)
+		(pin "1"
+			(uuid "0ab147a2-557d-44b0-ad79-5abd9e29486b")
+		)
+		(pin "2"
+			(uuid "7f6b265c-55a6-4623-8a91-467452d0506e")
+		)
+		(pin "3"
+			(uuid "f49ad2eb-8939-4fe9-8336-e9eb38f374c0")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -13423,6 +13125,94 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
 					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be4b6959-eb65-4984-b8a3-088026f239e7")
+		(property "Reference" "C160"
+			(at 81.28 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 81.915 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "478-KGM05AR70J103KHCT-ND"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "KGM05AR70J103KH"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8c972d8-ab81-4b45-99ea-d23b90e21400")
+		)
+		(pin "2"
+			(uuid "6930e7e8-3ee4-4ec1-b4d9-4ad88823b199")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+					(reference "C160")
 					(unit 1)
 				)
 			)
@@ -14372,6 +14162,94 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
 					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da2ec699-dbb5-485d-880b-aa199a0c056f")
+		(property "Reference" "C161"
+			(at 80.01 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 80.645 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 78.74 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "478-KGM05AR70J103KHCT-ND"
+			(at 78.74 187.96 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "KGM05AR70J103KH"
+			(at 78.74 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd5251d9-3a4b-4ade-b6a5-d4be3a02d6b6")
+		)
+		(pin "2"
+			(uuid "5fb11450-0db6-409b-905d-1fc8b0157900")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+					(reference "C161")
 					(unit 1)
 				)
 			)
