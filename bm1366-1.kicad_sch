@@ -5238,7 +5238,7 @@
 		)
 		(uuid "519e2358-72fb-431f-a3f4-b152b62d5202")
 	)
-	(hierarchical_label "GND1"
+	(hierarchical_label "GND"
 		(shape output)
 		(at 248.92 127 0)
 		(fields_autoplaced yes)

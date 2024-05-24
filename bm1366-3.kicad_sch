@@ -5327,7 +5327,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 132.08) (xy 129.54 132.08)
+			(xy 116.84 129.54) (xy 129.54 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6797,6 +6797,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 134.62) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f488116b-b5b1-4e8e-8905-2ca735951acc")
+	)
+	(wire
+		(pts
 			(xy 238.76 63.5) (xy 241.3 63.5)
 		)
 		(stroke
@@ -6959,6 +6969,17 @@
 		)
 		(uuid "d244a48c-83ea-4e3d-a383-4f9f07ee1458")
 	)
+	(label "5V"
+		(at 53.34 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01fce26a-cf10-426f-b0a3-1bddb1e49e49")
+	)
 	(label "1V8"
 		(at 229.87 151.13 180)
 		(fields_autoplaced yes)
@@ -7014,7 +7035,7 @@
 		)
 		(uuid "11efe7df-1f26-4798-ae21-d1774ad32b4d")
 	)
-	(label "-VDD3"
+	(label "GND"
 		(at 260.35 33.02 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7036,7 +7057,7 @@
 		)
 		(uuid "1c754126-63c5-40f3-8960-e5883cadc6dd")
 	)
-	(label "-VDD3"
+	(label "GND"
 		(at 53.34 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7156,17 +7177,6 @@
 			(justify left bottom)
 		)
 		(uuid "57d0aff1-b47c-4270-92cb-9ed7a7d5e965")
-	)
-	(label "VDD3"
-		(at 53.34 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "62d0543f-fbec-490e-9ac3-b1badd6ae1b3")
 	)
 	(label "CO3"
 		(at 223.52 92.71 0)
@@ -7311,8 +7321,8 @@
 		)
 		(uuid "b3c8592c-8817-4453-904f-678ac3a7345b")
 	)
-	(label "-VDD3"
-		(at 116.84 132.08 0)
+	(label "GND2"
+		(at 116.84 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7354,6 +7364,17 @@
 			(justify left bottom)
 		)
 		(uuid "c32e8dd5-f6c8-409d-b069-3ca34ca33018")
+	)
+	(label "GND"
+		(at 116.84 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3f286de-5722-46dd-b074-6880d72357fa")
 	)
 	(label "1V8"
 		(at 176.53 105.41 0)
@@ -7399,7 +7420,7 @@
 		)
 		(uuid "d15dac2a-84e1-4962-86fc-5c29768c370c")
 	)
-	(label "-VDD3"
+	(label "GND2"
 		(at 189.23 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7464,6 +7485,17 @@
 			(justify left bottom)
 		)
 		(uuid "ea97dec0-defb-4837-a57b-b1fc663dd1dc")
+	)
+	(label "5V"
+		(at 241.3 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb2729b4-038c-43b3-9d45-d6595754a4d6")
 	)
 	(label "BO3"
 		(at 223.52 85.09 0)
@@ -7543,17 +7575,6 @@
 		(uuid "f3f6337e-b188-4e7e-8b93-7fc32c5689f6")
 	)
 	(label "VDD3"
-		(at 241.3 17.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f903d299-6a24-4049-bfe4-724830afa2d2")
-	)
-	(label "VDD3"
 		(at 76.2 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7624,6 +7645,18 @@
 		)
 		(uuid "9ad7235c-4912-4695-b6e3-21b6d7d19aa3")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 129.54 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2690e98-666f-4778-b290-0689585f6f51")
+	)
 	(hierarchical_label "RO"
 		(shape output)
 		(at 247.65 43.18 0)
@@ -7660,9 +7693,9 @@
 		)
 		(uuid "d5767da5-527e-4a7c-9841-44f5384bd3b0")
 	)
-	(hierarchical_label "-VDD3"
+	(hierarchical_label "GND2"
 		(shape input)
-		(at 129.54 132.08 0)
+		(at 129.54 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
