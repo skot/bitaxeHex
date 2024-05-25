@@ -3843,6 +3843,12 @@
 		(uuid "389d7635-3b50-4ae9-8db2-0782d3b2eb26")
 	)
 	(junction
+		(at 149.86 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b0f7228-a40b-45bb-a8d1-0bc65cfa5633")
+	)
+	(junction
 		(at 179.07 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3955,12 +3961,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7980b94c-2519-4a63-9217-cadcd5f9f249")
-	)
-	(junction
-		(at 149.86 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ac996f9-f888-49f3-866f-e4689d1d5d23")
 	)
 	(junction
 		(at 106.68 72.39)
@@ -4149,8 +4149,16 @@
 		(uuid "fd1a653b-b23a-488d-a6ba-1fd4e53ae8e0")
 	)
 	(no_connect
+		(at 219.71 82.55)
+		(uuid "0211374b-8a72-442a-97bb-cdc8dd280a54")
+	)
+	(no_connect
 		(at 219.71 97.79)
 		(uuid "07f6b318-7ebc-4ab5-adb5-124e5415b9a1")
+	)
+	(no_connect
+		(at 91.44 82.55)
+		(uuid "5bd29e6e-e7f1-42d8-9cfc-34d1d83b504d")
 	)
 	(no_connect
 		(at 91.44 97.79)
@@ -5918,16 +5926,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 82.55) (xy 231.14 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96bf57da-17d9-4493-8ca0-205ccbf10ea5")
-	)
-	(wire
-		(pts
 			(xy 92.71 163.83) (xy 92.71 161.29)
 		)
 		(stroke
@@ -6098,6 +6096,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 82.55) (xy 231.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f91482-fd11-4543-bac4-f9129c517af7")
+	)
+	(wire
+		(pts
 			(xy 219.71 100.33) (xy 260.35 100.33)
 		)
 		(stroke
@@ -6105,6 +6113,16 @@
 			(type default)
 		)
 		(uuid "a46ad2c2-93c8-4118-985b-eda1896af157")
+	)
+	(wire
+		(pts
+			(xy 118.11 82.55) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bb2de8-fca7-4d75-8ffe-1cf054a430d2")
 	)
 	(wire
 		(pts
@@ -6515,16 +6533,6 @@
 			(type default)
 		)
 		(uuid "ce25bbc8-2155-4d9d-b5e2-477ec10c7b6e")
-	)
-	(wire
-		(pts
-			(xy 91.44 82.55) (xy 149.86 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cebd40ef-611b-442a-8f0f-7d37c6a7c73a")
 	)
 	(wire
 		(pts
@@ -7243,6 +7251,17 @@
 		)
 		(uuid "313d98fa-f796-4ffc-b70e-62a2c12f1cd2")
 	)
+	(label "NRSTI3"
+		(at 118.11 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32d87bd0-dd86-467f-9daa-1f8bf706fbef")
+	)
 	(label "CLKO3"
 		(at 223.52 90.17 0)
 		(fields_autoplaced yes)
@@ -7308,6 +7327,17 @@
 			(justify left bottom)
 		)
 		(uuid "57d0aff1-b47c-4270-92cb-9ed7a7d5e965")
+	)
+	(label "NRSTI3"
+		(at 223.52 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62bbadaf-cce3-4f3c-af4e-1fc111baf92e")
 	)
 	(label "CO3"
 		(at 223.52 92.71 0)
@@ -7693,17 +7723,6 @@
 			(justify left bottom)
 		)
 		(uuid "f3538b30-3fb5-44d5-b865-85c866cef09d")
-	)
-	(label "NRSTO3"
-		(at 223.52 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3f6337e-b188-4e7e-8b93-7fc32c5689f6")
 	)
 	(label "VDD3"
 		(at 76.2 63.5 0)

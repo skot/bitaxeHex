@@ -3797,12 +3797,6 @@
 		(uuid "1f7ffe59-8250-4886-b3f0-0332f50b596d")
 	)
 	(junction
-		(at 129.54 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "214adcb1-ea8f-406e-bd93-92de1f795554")
-	)
-	(junction
 		(at 123.19 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3825,6 +3819,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "289e5872-e27e-4397-98f6-defe4e7daffd")
+	)
+	(junction
+		(at 129.54 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "333c92f8-40a2-48e3-94ab-213f80048308")
 	)
 	(junction
 		(at 254 67.31)
@@ -4143,6 +4143,14 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "fb83d3da-eb3b-4f22-9d3f-ec9882818084")
+	)
+	(no_connect
+		(at 59.69 96.52)
+		(uuid "6124747c-002f-425c-a44f-26b32eb1b82e")
+	)
+	(no_connect
+		(at 187.96 96.52)
+		(uuid "e2e817a7-0616-4a5e-b412-a560f157f9a9")
 	)
 	(wire
 		(pts
@@ -5766,16 +5774,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 96.52) (xy 59.69 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b3345f-1ee3-458d-b990-e50e4d787e9f")
-	)
-	(wire
-		(pts
 			(xy 77.47 114.3) (xy 77.47 128.27)
 		)
 		(stroke
@@ -6446,16 +6444,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 187.96 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3cd806a-dff0-4930-b9ab-17e94bf7e9e6")
-	)
-	(wire
-		(pts
 			(xy 48.26 101.6) (xy 59.69 101.6)
 		)
 		(stroke
@@ -6556,6 +6544,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 96.52) (xy 151.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa29111-4a1f-4d8e-b34c-6871fb0879fb")
+	)
+	(wire
+		(pts
 			(xy 133.35 157.48) (xy 143.51 157.48)
 		)
 		(stroke
@@ -6613,6 +6611,16 @@
 			(type default)
 		)
 		(uuid "df5f5889-7a43-4a70-ad69-02cf8a4addef")
+	)
+	(wire
+		(pts
+			(xy 24.13 96.52) (xy 38.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4287d60-2ee8-42b4-9934-99ec665e87a2")
 	)
 	(wire
 		(pts
@@ -7218,6 +7226,17 @@
 		)
 		(uuid "46de0aa1-093b-4b3e-b3f2-f86b75af7434")
 	)
+	(label "NRSTI2"
+		(at 38.1 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4dc5ebc1-e8dd-418a-a197-d301986ad031")
+	)
 	(label "0V8"
 		(at 85.09 143.51 0)
 		(fields_autoplaced yes)
@@ -7239,6 +7258,17 @@
 			(justify left bottom)
 		)
 		(uuid "5b8e5b1e-02f2-4180-a26d-e3df1ff59dad")
+	)
+	(label "NRSTI2"
+		(at 151.13 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d19a29a-a3d0-44a4-904d-fb6bf24b6485")
 	)
 	(label "5V"
 		(at 38.1 176.53 0)
