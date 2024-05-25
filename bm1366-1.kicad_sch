@@ -2379,6 +2379,12 @@
 		(uuid "39b1b756-3933-4d59-8367-e61f3d996e0a")
 	)
 	(junction
+		(at 144.78 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4207acd8-e3a8-4b81-8965-27459cbfb5c3")
+	)
+	(junction
 		(at 228.6 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2613,12 +2619,6 @@
 		(uuid "ea5d1684-1e7d-41d2-be82-6c3f8663079f")
 	)
 	(junction
-		(at 144.78 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec8fbf79-fe7e-4197-afe9-d88f9ca20970")
-	)
-	(junction
 		(at 226.06 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2667,14 +2667,6 @@
 	(no_connect
 		(at 90.17 100.33)
 		(uuid "62e94b6b-8d12-4623-8956-d04c88daa80c")
-	)
-	(no_connect
-		(at 218.44 85.09)
-		(uuid "809b3c2f-d790-4edc-bac7-a3006d85a6a4")
-	)
-	(no_connect
-		(at 90.17 85.09)
-		(uuid "e069655f-35cc-4139-a2b7-a86dc4b88e49")
 	)
 	(wire
 		(pts
@@ -3288,16 +3280,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 144.78 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c5dbe4-aec4-4fff-ad6b-0e40f92bb6cb")
-	)
-	(wire
-		(pts
 			(xy 97.79 121.92) (xy 97.79 127)
 		)
 		(stroke
@@ -3335,6 +3317,16 @@
 			(type solid)
 		)
 		(uuid "4728dab6-93d3-4685-916c-e916f5a095eb")
+	)
+	(wire
+		(pts
+			(xy 90.17 85.09) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47897e48-12c5-457b-bbb6-ec278c3ab192")
 	)
 	(wire
 		(pts
@@ -3455,6 +3447,16 @@
 			(type default)
 		)
 		(uuid "4f3111ef-309f-4ef5-8dbb-8d4d3cf516d2")
+	)
+	(wire
+		(pts
+			(xy 218.44 85.09) (xy 256.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ff7e06-e1b6-4372-a56a-8bdb7d5859e3")
 	)
 	(wire
 		(pts
@@ -3585,16 +3587,6 @@
 			(type default)
 		)
 		(uuid "64a4f91c-2a9b-48de-9251-3c46eb983541")
-	)
-	(wire
-		(pts
-			(xy 234.95 85.09) (xy 256.54 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64df7518-bbe6-4596-9139-ee0072031e02")
 	)
 	(wire
 		(pts
@@ -4913,17 +4905,6 @@
 		)
 		(uuid "07d6a75d-62ca-4041-9993-a3f89d95f15d")
 	)
-	(label "NRST"
-		(at 234.95 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bbd7177-75a6-4832-b53d-e88644ce819d")
-	)
 	(label "GND"
 		(at 204.47 127 0)
 		(fields_autoplaced yes)
@@ -5067,17 +5048,6 @@
 		)
 		(uuid "6513185c-295c-4ebd-b4f0-9b9d17d5853a")
 	)
-	(label "NRST"
-		(at 127 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "655b250e-61c8-416c-8614-ea42e9bde431")
-	)
 	(label "0V8"
 		(at 175.26 105.41 0)
 		(fields_autoplaced yes)
@@ -5154,17 +5124,6 @@
 			(justify left bottom)
 		)
 		(uuid "a2e85563-acb1-427a-b391-04054138347a")
-	)
-	(label "NRST"
-		(at 40.64 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6734e48-b00f-45f8-a254-26f266181002")
 	)
 	(label "0V8"
 		(at 91.44 105.41 0)
