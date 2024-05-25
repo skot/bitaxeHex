@@ -4041,6 +4041,12 @@
 		(uuid "ac57a1d3-5840-4058-b667-0d2281e62311")
 	)
 	(junction
+		(at 250.19 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b30df1b1-4983-4d43-bb53-45787b6860b7")
+	)
+	(junction
 		(at 245.11 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4123,6 +4129,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f936f12f-93a6-4bcd-9562-030ff38a4c40")
+	)
+	(junction
+		(at 250.19 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa16a714-9b06-49d5-be6a-cda50c86b485")
 	)
 	(junction
 		(at 93.98 45.72)
@@ -4236,6 +4248,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 80.01) (xy 264.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6bf2bf-1356-4d80-b6ac-fbac4bb52057")
+	)
+	(wire
+		(pts
 			(xy 243.84 43.18) (xy 247.65 43.18)
 		)
 		(stroke
@@ -4323,6 +4345,16 @@
 			(type default)
 		)
 		(uuid "0cfafa74-ae93-422f-b5f0-baf4e9de7656")
+	)
+	(wire
+		(pts
+			(xy 255.27 86.36) (xy 250.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d11645d-3394-4bd5-8ce4-f83595fd3303")
 	)
 	(wire
 		(pts
@@ -5236,7 +5268,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 80.01) (xy 264.16 80.01)
+			(xy 219.71 80.01) (xy 250.19 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5373,6 +5405,16 @@
 			(type default)
 		)
 		(uuid "669ead76-0797-4ae2-a776-c95c18e6fa97")
+	)
+	(wire
+		(pts
+			(xy 250.19 86.36) (xy 250.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66aecb7a-1aed-4146-a65d-f0af197b86c1")
 	)
 	(wire
 		(pts
@@ -6586,6 +6628,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 86.36) (xy 250.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ad4ab9-7a53-48bb-a65d-933c7e3743af")
+	)
+	(wire
+		(pts
 			(xy 27.94 124.46) (xy 34.29 124.46)
 		)
 		(stroke
@@ -6683,6 +6735,16 @@
 			(type solid)
 		)
 		(uuid "e195cd50-5e5b-44de-9c97-21eca4c82715")
+	)
+	(wire
+		(pts
+			(xy 250.19 91.44) (xy 255.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d78c59-6edf-42f7-ab96-b3553caffce1")
 	)
 	(wire
 		(pts
@@ -11152,6 +11214,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 255.27 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "79937b95-3bf0-4afd-b00a-c663473d7e6d")
+		(property "Reference" "TP64"
+			(at 261.62 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.985 85.0901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 255.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6adbcb4e-cb71-453b-b66b-556100ebde0a")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+					(reference "TP64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bitaxe:TLV3544")
 		(at 217.17 43.18 0)
 		(unit 4)
@@ -11966,6 +12095,73 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
 					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 255.27 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "935135cc-a57c-4d91-841f-34ceedd1a17d")
+		(property "Reference" "TP65"
+			(at 261.62 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.985 90.1701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7f152d9-ed71-4e68-8655-88a78bb230fd")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e182566a-9202-4486-8792-212410a9233c"
+					(reference "TP65")
 					(unit 1)
 				)
 			)

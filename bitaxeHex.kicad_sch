@@ -1244,16 +1244,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 59.69 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ef3e171-6e33-410c-a78f-3a4e9345f083")
-	)
-	(wire
-		(pts
 			(xy 154.94 68.58) (xy 191.77 68.58)
 		)
 		(stroke
@@ -1261,6 +1251,16 @@
 			(type default)
 		)
 		(uuid "0fc81b36-1ed9-418a-9b48-1f707df3c8f1")
+	)
+	(wire
+		(pts
+			(xy 50.8 92.71) (xy 59.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176d9414-4e66-42cf-917f-604db7b55ec3")
 	)
 	(wire
 		(pts
@@ -1574,6 +1574,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 83.82) (xy 59.69 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e425900-d794-4b5b-a531-0f55d1485dc0")
+	)
+	(wire
+		(pts
 			(xy 96.52 74.93) (xy 96.52 40.64)
 		)
 		(stroke
@@ -1611,6 +1621,16 @@
 			(type default)
 		)
 		(uuid "870045dc-784f-4e4b-9bae-c25848ef142a")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 59.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b82b75-26c6-4db3-b533-f876897e6d6d")
 	)
 	(wire
 		(pts
@@ -2020,7 +2040,7 @@
 		(uuid "32628912-e884-44f6-8b46-3e08b547c0c9")
 	)
 	(label "1V8"
-		(at 50.8 88.9 0)
+		(at 50.8 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2040,6 +2060,28 @@
 			(justify right bottom)
 		)
 		(uuid "3b1dfdbd-5caf-4ec5-bad2-60a39cc5a4eb")
+	)
+	(label "VDD1"
+		(at 165.1 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b89b715-3fe6-449d-b3d3-e777dbff0ac1")
+	)
+	(label "VDD1"
+		(at 50.8 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f0fa6c6-16c4-4ad8-aced-b2dc65a6a8c1")
 	)
 	(label "5V"
 		(at 106.68 68.58 0)
@@ -2095,6 +2137,17 @@
 			(justify left bottom)
 		)
 		(uuid "7e0e7d56-f1ec-449a-bac7-0adf46a2d901")
+	)
+	(label "VDD2"
+		(at 50.8 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8334774c-7cad-46af-8491-d519ed1f765a")
 	)
 	(label "NRSTI"
 		(at 83.82 86.36 0)
@@ -2205,6 +2258,17 @@
 			(justify left bottom)
 		)
 		(uuid "d1d5a32b-73a4-4bbc-a612-b8498e760989")
+	)
+	(label "VDD2"
+		(at 186.69 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d695b5b2-2158-4146-b391-e40158eeb9d8")
 	)
 	(label "RO"
 		(at 83.82 91.44 0)
@@ -4643,7 +4707,7 @@
 			(uuid "60566486-ebf5-437c-b098-4b44a6404d0b")
 		)
 		(pin "1V8_IO" input
-			(at 59.69 88.9 180)
+			(at 59.69 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,6 +4735,26 @@
 				(justify right)
 			)
 			(uuid "fde14376-4748-4bc6-abf4-cefad19e6428")
+		)
+		(pin "VDD1" input
+			(at 59.69 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0df4efc5-8320-4391-a863-3997f66149fd")
+		)
+		(pin "VDD2" input
+			(at 59.69 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57d75df3-7d70-49ee-975a-5122a452f1da")
 		)
 		(instances
 			(project "bitaxeHex"
