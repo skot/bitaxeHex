@@ -71548,10 +71548,10 @@
 		(uuid "d9dd4725-b2e3-45d0-b953-8ca204d434a9")
 		(at 111.95 75.95 -90)
 		(property "Reference" "L1"
-			(at -3.15 0 0)
+			(at -3.55 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "6d9698f7-dc72-4f36-a8a5-5bd491297868")
+			(uuid "560fda73-303f-43c1-a7c4-f667589b80cb")
 			(effects
 				(font
 					(size 1 1)
@@ -71564,7 +71564,7 @@
 			(at 0.26 -3.21 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "f0a5b598-9e2e-460d-8bed-9e5b34e08ca1")
+			(uuid "97d23407-dd29-44a5-9e94-2eeda03475c0")
 			(effects
 				(font
 					(size 1 1)
@@ -71578,7 +71578,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0812d672-204b-4ed0-b5a6-91dfc5cbca65")
+			(uuid "5d52d066-0cb8-4e9c-97d3-02387bf93e29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71590,7 +71590,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bff2f0b7-e192-45e0-9a9f-71c989a8081d")
+			(uuid "8535df3c-9469-4e74-aa6e-6c217de69878")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71602,7 +71602,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4702e262-c942-4216-9608-52856d094a3a")
+			(uuid "520c27ff-9575-425c-94b7-5e6f7cf36258")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71635,67 +71635,74 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/b65c133e-bdc3-4de9-9a56-26d33250f237")
-		(sheetname "Power")
-		(sheetfile "power.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -2.6 -1.8)
+			(end -2.6 1.8)
+			(stroke
+				(width 0.3)
+				(type default)
+			)
+			(layer "B.SilkS")
+			(uuid "c0e38cbe-425e-41a3-9235-b22799663efd")
+		)
 		(fp_rect
-			(start -2.25 2.25)
-			(end 2.25 -2.25)
+			(start 2.25 -2.25)
+			(end -2.25 2.25)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "53db52bf-46cc-4369-8616-5431be1bb379")
+			(uuid "f8c1927f-4de0-4b71-941f-73262e3ede20")
 		)
 		(fp_line
 			(start -2.3 2.3)
-			(end 2.3 2.3)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "B.CrtYd")
-			(uuid "28955d7b-1e13-4916-97b1-1a47cfa4aec1")
-		)
-		(fp_line
-			(start 2.3 2.3)
-			(end 2.3 -2.3)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "B.CrtYd")
-			(uuid "98d9c48d-93d7-45ab-a830-5f6e61a18f9a")
-		)
-		(fp_line
-			(start -2.3 -2.3)
-			(end -2.3 2.3)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "B.CrtYd")
-			(uuid "fb7f37e0-621b-4da0-b668-e12a8b5a60b3")
-		)
-		(fp_line
-			(start 2.3 -2.3)
 			(end -2.3 -2.3)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "B.CrtYd")
-			(uuid "50f432d5-dda5-4b38-a22f-37d3a61890a7")
+			(uuid "170d5105-e2ef-4014-aa1d-7a79c4e1dec7")
+		)
+		(fp_line
+			(start 2.3 2.3)
+			(end -2.3 2.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "B.CrtYd")
+			(uuid "9a877a20-bb13-448f-b02d-a358fd86eaaa")
+		)
+		(fp_line
+			(start -2.3 -2.3)
+			(end 2.3 -2.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "B.CrtYd")
+			(uuid "608c04aa-7401-4a4a-b7a0-661a62627fc7")
+		)
+		(fp_line
+			(start 2.3 -2.3)
+			(end 2.3 2.3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "B.CrtYd")
+			(uuid "433bb4b2-b654-41c6-a2e7-6a39ab985f10")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.03 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "f9614281-2570-4327-ba4f-a7d8c5f3f22d")
+			(uuid "1978af70-88d2-483e-aacd-3ece4740ef6e")
 			(effects
 				(font
 					(size 1 1)
@@ -71712,7 +71719,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "5e83d98c-536b-49fb-80ec-75c9b70b6f9e")
+			(uuid "fed34d81-b70d-4677-bcfd-642f51766b2b")
 		)
 		(pad "2" smd rect
 			(at 1.535 0 270)
@@ -71722,9 +71729,9 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "f3a9708f-520f-422c-bd10-efbe3066d098")
+			(uuid "89ce4b0c-dabb-411f-9d0a-2f17cb9df55d")
 		)
-		(model "${KIPRJMOD}/3d/IND_4030-WE-MAPI_WRE.step"
+		(model "${KIPRJMOD}/3d/74437358010.stp"
 			(offset
 				(xyz 0 0 0)
 			)
