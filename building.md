@@ -20,7 +20,7 @@ Gerbers are a set of files in a standard format that allow a PCB manufacturer to
 - Board outline
 - Drills (Okay, this is actually not a gerber, but your PCB house will definitely need it)
 
-Any* PCB CAD software will allow you to generate gerbers. We use [KiCad](https://www.kicad.org) because it is open source, free, and *awesome*. Here is how to generate gerbers in KiCad v6;
+Any* PCB CAD software will allow you to generate gerbers. We use [KiCad](https://www.kicad.org) because it is open source, free, and *awesome\*. Here is how to generate gerbers in KiCad v6;
 
 1. Open up the design in KiCad and switch to the PCB board editor view (ie not the schematic). Some people call this pcbnew.
 2. Choose File → Fabrication Outputs → Gerbers (.gbr)…
@@ -51,4 +51,6 @@ That’s it! Take all of those generated files and give them to your PCB house. 
 
 ### Generating PCBA Manufacturing files
 
-- TBD
+- In KiCad install the Plugin `Fabrication Toolki`
+- Load the PCB Editor
+- `Tools` --> `External Plugions` --> `Fabrication Toolkit` --> `Generate`
