@@ -35,6 +35,7 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 ## Notes
 - Beware that overclocking doesn't produce a higher hash rate on this board, it only causes more heat generation.
 - If you decide to build a pre-release board, be sure to order 2 oz. copper on both the internal and external layers.
+- The recommended heatsink is not anodized and very conductive on all surfaces. This _should_ be OK as the ASIC tops are not known to be conductive, but this needs some more investigation.
 
 ## Revision List
 - v304 is a work in progress, some capacitor changes, additional features
