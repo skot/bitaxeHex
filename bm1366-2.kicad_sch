@@ -3851,6 +3851,12 @@
 		(uuid "4ec0d525-8fbc-4f7f-a979-eb8042c52db0")
 	)
 	(junction
+		(at 19.05 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f163b62-77f1-4afd-98ab-ddac528aff9d")
+	)
+	(junction
 		(at 77.47 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3915,6 +3921,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cf4d54e-763e-4d8c-b854-da980080782f")
+	)
+	(junction
+		(at 72.39 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8415977e-66d0-4ff0-abc7-374152918565")
 	)
 	(junction
 		(at 160.02 81.28)
@@ -5426,7 +5438,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 67.31) (xy 77.47 67.31)
+			(xy 64.77 67.31) (xy 72.39 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5546,6 +5558,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ecb014-48b7-4338-9961-8f1d134d3317")
+	)
+	(wire
+		(pts
 			(xy 182.88 67.31) (xy 185.42 67.31)
 		)
 		(stroke
@@ -5653,6 +5675,16 @@
 			(type default)
 		)
 		(uuid "838043fe-c686-4f4b-a58d-3207f1dd1081")
+	)
+	(wire
+		(pts
+			(xy 19.05 59.69) (xy 53.34 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8410d3e8-6ffa-419c-9114-f4e055b47144")
 	)
 	(wire
 		(pts
@@ -6106,7 +6138,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 148.59) (xy 231.14 148.59)
+			(xy 19.05 67.31) (xy 19.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57cb51a-4965-435a-9963-725187e2deeb")
+	)
+	(wire
+		(pts
+			(xy 209.55 148.59) (xy 237.49 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6566,6 +6608,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 59.69) (xy 72.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db87f628-6809-4c5d-a419-48675ba91b5c")
+	)
+	(wire
+		(pts
 			(xy 30.48 128.27) (xy 30.48 104.14)
 		)
 		(stroke
@@ -6643,6 +6695,16 @@
 			(type default)
 		)
 		(uuid "e5181ba1-e9c6-4e80-aea4-32ee604d78d5")
+	)
+	(wire
+		(pts
+			(xy 72.39 59.69) (xy 72.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53e9805-2072-487e-bc7d-94bcd3f06e85")
 	)
 	(wire
 		(pts
@@ -7063,6 +7125,16 @@
 			(type default)
 		)
 		(uuid "ffa14589-bcc0-40c4-a168-b4ed4b53bad4")
+	)
+	(text "Domain 2 power"
+		(exclude_from_sim no)
+		(at 62.484 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ee52c11-814a-4476-8a66-1a0472035da8")
 	)
 	(text "MIDDLE Voltage Domain\nActual LDO supply voltage:\nThese LDOs get 5V - (core voltage)\nWhen core voltage=1.4V, LDO supply is 3.6V\nWhen core voltage=1.2V, LDO supply is 3.8V "
 		(exclude_from_sim no)
@@ -8867,6 +8939,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 59.69 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "329a55ef-3529-4bc9-ad7a-2a0fc47b2be8")
+		(property "Reference" "TP68"
+			(at 55.88 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-"
+			(at 58.42 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 53.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "467426e4-ada0-4f0a-867c-9796c4a3a623")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+					(reference "TP68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "BM1366_mode0_1")
 		(lib_id "bitaxe:BM1366_mode0")
 		(at 77.47 93.98 0)
@@ -9298,6 +9436,73 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
 					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 237.49 148.59 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "46fd2635-1d95-4dc2-be42-ee38d0fb6f27")
+		(property "Reference" "TP71"
+			(at 243.84 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.205 147.3201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab5461fd-7384-48c3-be56-18d92a59850e")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+					(reference "TP71")
 					(unit 1)
 				)
 			)
@@ -10464,6 +10669,72 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
 					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 59.69 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "784e20a9-287e-4927-83e1-b6518a5bce76")
+		(property "Reference" "TP67"
+			(at 67.818 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+"
+			(at 66.294 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 71.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "687deab0-9ec4-4f35-b364-c7ef01c91253")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/831c2d7c-1b0c-48f0-8d88-f1b4f08c2544"
+					(reference "TP67")
 					(unit 1)
 				)
 			)
