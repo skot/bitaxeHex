@@ -13575,7 +13575,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 2.54 0)
 				(length 3.81)
 				(name "+V"
@@ -13593,7 +13593,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -2.54 0)
 				(length 3.81)
 				(name "GND"

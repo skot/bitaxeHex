@@ -10,6 +10,108 @@
 		(rev "304")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -985,7 +1087,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 3.81)
 					(name "+V"
@@ -1003,7 +1105,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at -7.62 -2.54 0)
 					(length 3.81)
 					(name "GND"
@@ -1193,6 +1295,12 @@
 		(uuid "a60a1af6-3cb9-4820-ae90-9dc3c274e97d")
 	)
 	(junction
+		(at 50.8 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f5b6f3-974c-47d9-8854-e771999d2545")
+	)
+	(junction
 		(at 154.94 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1354,6 +1462,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 26.67) (xy 50.8 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2f107f-ffc4-4097-bf63-9bd8b1d8f7bd")
+	)
+	(wire
+		(pts
 			(xy 81.28 74.93) (xy 96.52 74.93)
 		)
 		(stroke
@@ -1394,6 +1512,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 26.67) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccf030d-515a-4714-ba05-890b0e6d05fa")
+	)
+	(wire
+		(pts
 			(xy 200.66 77.47) (xy 191.77 77.47)
 		)
 		(stroke
@@ -1431,6 +1559,16 @@
 			(type default)
 		)
 		(uuid "433ee35a-2564-4a27-9d6f-425bf59d23d0")
+	)
+	(wire
+		(pts
+			(xy 35.56 33.02) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ac3647-b0b3-428b-8aef-6e5236b70831")
 	)
 	(wire
 		(pts
@@ -1491,16 +1629,6 @@
 			(type default)
 		)
 		(uuid "5c9758f2-b53a-4f6e-a6d1-9b0317dc45fa")
-	)
-	(wire
-		(pts
-			(xy 35.56 33.02) (xy 59.69 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb8f950-3ffc-4f4d-b984-629cf2765a6b")
 	)
 	(wire
 		(pts
@@ -1914,6 +2042,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 33.02) (xy 59.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79fe81a-215b-4705-8fd4-8833dfb13f69")
+	)
+	(wire
+		(pts
 			(xy 81.915 153.67) (xy 81.915 160.655)
 		)
 		(stroke
@@ -2304,7 +2442,7 @@
 		(uuid "de5b3397-4417-4bcf-a056-394e37f772e6")
 	)
 	(label "VIN"
-		(at 48.26 33.02 0)
+		(at 43.18 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2878,6 +3016,73 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 26.67 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b6311c0-71e7-4d0e-9db9-d7aafbab5e1b")
+		(property "Reference" "TP73"
+			(at 43.18 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 43.815 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 49.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4f51602-7924-415d-9d48-9679420e9b74")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP73")
 					(unit 1)
 				)
 			)

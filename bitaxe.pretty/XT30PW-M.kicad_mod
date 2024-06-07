@@ -252,7 +252,6 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(zone_connect 0)
 		(uuid "9a75f559-49f4-488e-a3a7-55af3d435ede")
 	)
 	(pad "2" thru_hole circle
@@ -261,7 +260,6 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(zone_connect 0)
 		(uuid "ce672aa2-8f2d-47f5-acd7-cb5e7a0d45ea")
 	)
 	(pad "3" thru_hole circle
