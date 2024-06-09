@@ -12074,7 +12074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm_highlight"
 			(at 109.22 139.7 0)
 			(effects
 				(font
@@ -14156,7 +14156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm_highlight"
 			(at 109.22 171.45 0)
 			(effects
 				(font
@@ -15297,7 +15297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm_highlight"
 			(at 250.19 143.51 0)
 			(effects
 				(font

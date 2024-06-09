@@ -67,26 +67,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -5 -11.2)
-		(end -5 -11)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3233b6d9-cc1d-41dd-bbd7-734e94e49566")
-	)
-	(fp_line
-		(start -5 -11.2)
-		(end 5 -11.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e8f0d36d-09a8-4b2a-bbd7-4ff32a6c3a65")
-	)
-	(fp_line
 		(start -5 -5)
 		(end -5 -9)
 		(stroke
@@ -145,16 +125,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f73f08d8-3de4-4a45-99d3-02a8961de13f")
-	)
-	(fp_line
-		(start 5 -11.2)
-		(end 5 -11)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "895a7fe8-43ee-4cf4-8932-90f0751815b5")
 	)
 	(fp_line
 		(start 5 -5)
@@ -279,5 +249,16 @@
 		(remove_unused_layers no)
 		(zone_connect 0)
 		(uuid "c2d10e58-015c-4bba-82e4-2824568d0964")
+	)
+	(model "${KIPRJMOD}/3d/XT30PW-M.stp"
+		(offset
+			(xyz 0 4 2.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
 	)
 )
