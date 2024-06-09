@@ -1289,6 +1289,12 @@
 		(uuid "55ad4343-6860-46b5-b5ab-24cfec6ae637")
 	)
 	(junction
+		(at 44.45 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dc25e9e-06ad-44eb-9578-4ba6ecc97677")
+	)
+	(junction
 		(at 81.915 160.655)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1332,16 +1338,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 71.12) (xy 59.69 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09762f23-f2c0-45ff-bb76-a81e27e092a4")
-	)
-	(wire
-		(pts
 			(xy 179.07 86.36) (xy 200.66 86.36)
 		)
 		(stroke
@@ -1362,7 +1358,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 92.71) (xy 59.69 92.71)
+			(xy 44.45 38.1) (xy 49.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13171471-d3dc-4af2-810a-121d9f1983c3")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 59.69 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1662,6 +1668,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 43.18) (xy 44.45 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f2363c-a71a-44ab-8d1f-0704c29604a2")
+	)
+	(wire
+		(pts
 			(xy 148.59 104.14) (xy 161.29 104.14)
 		)
 		(stroke
@@ -1702,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 83.82) (xy 59.69 83.82)
+			(xy 50.8 77.47) (xy 59.69 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1752,13 +1768,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 59.69 88.9)
+			(xy 50.8 85.09) (xy 59.69 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88b82b75-26c6-4db3-b533-f876897e6d6d")
+		(uuid "8a0a0b9a-c1ca-4a44-82e7-278982bb6513")
 	)
 	(wire
 		(pts
@@ -1802,7 +1818,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 73.66) (xy 59.69 73.66)
+			(xy 50.8 69.85) (xy 59.69 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1942,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 43.18) (xy 44.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89659f9-8106-410a-8808-d9bb7600235c")
+	)
+	(wire
+		(pts
 			(xy 81.28 88.9) (xy 124.46 88.9)
 		)
 		(stroke
@@ -1989,6 +2015,16 @@
 			(type default)
 		)
 		(uuid "cb3abdec-846c-4b09-b862-6e75137c0314")
+	)
+	(wire
+		(pts
+			(xy 50.8 92.71) (xy 59.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28dd651-9c08-42b3-9cb6-82f8b8404e2d")
 	)
 	(wire
 		(pts
@@ -2062,7 +2098,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 76.2) (xy 59.69 76.2)
+			(xy 50.8 72.39) (xy 59.69 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2156,7 +2192,7 @@
 		(uuid "1d4de38b-af7d-4f93-bf7b-d7dd6e65dde2")
 	)
 	(label "VDD"
-		(at 50.8 71.12 0)
+		(at 50.8 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2178,7 +2214,7 @@
 		(uuid "32628912-e884-44f6-8b46-3e08b547c0c9")
 	)
 	(label "1V8"
-		(at 50.8 83.82 0)
+		(at 50.8 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2211,7 +2247,7 @@
 		(uuid "3b89b715-3fe6-449d-b3d3-e777dbff0ac1")
 	)
 	(label "VDD1"
-		(at 50.8 88.9 0)
+		(at 50.8 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2277,7 +2313,7 @@
 		(uuid "7e0e7d56-f1ec-449a-bac7-0adf46a2d901")
 	)
 	(label "VDD2"
-		(at 50.8 92.71 0)
+		(at 50.8 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2343,7 +2379,7 @@
 		(uuid "a040410f-d8e9-47f1-ad67-5a0613e63ff4")
 	)
 	(label "3V3"
-		(at 50.8 73.66 0)
+		(at 50.8 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2365,7 +2401,7 @@
 		(uuid "ba1ec3a7-4074-422f-8d28-adb972612f48")
 	)
 	(label "5V"
-		(at 50.8 76.2 0)
+		(at 50.8 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2454,7 +2490,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 44.45 38.1 0)
+		(at 49.53 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2464,7 +2500,7 @@
 		)
 		(uuid "3a9ec3dc-e8de-49ee-9a6e-42a19fca3e49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7336 38.0206 0)
+			(at 55.8136 38.0206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,6 +2924,73 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 46.99 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "44e5b037-394a-4393-ba2a-61f4de603b0b")
+		(property "Reference" "TP74"
+			(at 53.34 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 52.705 41.9101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 46.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae02ef99-2cd9-40ef-94f3-3cb76e98da9e")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP74")
 					(unit 1)
 				)
 			)
@@ -4862,7 +4965,7 @@
 			(uuid "f0847ef2-1dee-43de-bba9-e14854885c19")
 		)
 		(pin "5V" input
-			(at 59.69 76.2 180)
+			(at 59.69 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +4975,7 @@
 			(uuid "88a48359-3603-4fef-bd86-2f6ce91fbbd6")
 		)
 		(pin "3V3" output
-			(at 59.69 73.66 180)
+			(at 59.69 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,16 +4994,6 @@
 			)
 			(uuid "3d6fe7ed-dd0f-45a1-b149-0ad54cb17ea7")
 		)
-		(pin "VDD" input
-			(at 59.69 71.12 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "62229c31-0a19-4517-a39d-91313c1f1447")
-		)
 		(pin "FAN_ALERT" input
 			(at 81.28 95.25 0)
 			(effects
@@ -4912,7 +5005,7 @@
 			(uuid "60566486-ebf5-437c-b098-4b44a6404d0b")
 		)
 		(pin "1V8_IO" input
-			(at 59.69 83.82 180)
+			(at 59.69 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5035,7 @@
 			(uuid "fde14376-4748-4bc6-abf4-cefad19e6428")
 		)
 		(pin "VDD1" input
-			(at 59.69 88.9 180)
+			(at 59.69 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +5045,7 @@
 			(uuid "0df4efc5-8320-4391-a863-3997f66149fd")
 		)
 		(pin "VDD2" input
-			(at 59.69 92.71 180)
+			(at 59.69 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,6 +5053,16 @@
 				(justify left)
 			)
 			(uuid "57d75df3-7d70-49ee-975a-5122a452f1da")
+		)
+		(pin "VDD3" input
+			(at 59.69 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7882e9a-165b-4c49-8475-535457fd73ce")
 		)
 		(instances
 			(project "bitaxeHex"
