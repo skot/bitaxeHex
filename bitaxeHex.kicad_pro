@@ -687,6 +687,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTNUM",
+          "name": "PARTNUM",
+          "show": false
         }
       ],
       "filter_string": "",

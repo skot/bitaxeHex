@@ -1295,7 +1295,7 @@
 		(uuid "5dc25e9e-06ad-44eb-9578-4ba6ecc97677")
 	)
 	(junction
-		(at 81.915 160.655)
+		(at 74.93 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a60a1af6-3cb9-4820-ae90-9dc3c274e97d")
@@ -1319,12 +1319,28 @@
 		(uuid "efe15617-279f-45fd-a18e-e3bd882108e1")
 	)
 	(no_connect
+		(at 82.55 168.91)
+		(uuid "165bb83a-679a-4511-ae6b-761972f92961")
+	)
+	(no_connect
+		(at 82.55 191.77)
+		(uuid "2e5c5421-2a04-4bf4-a86d-f57ae2c37224")
+	)
+	(no_connect
 		(at 35.56 43.18)
 		(uuid "370fee7c-ddfc-4c93-b0a4-3d08b1b4bb13")
 	)
 	(no_connect
 		(at 35.56 27.94)
 		(uuid "5e939a09-3da2-4072-a73c-6e4ab38bf5fe")
+	)
+	(no_connect
+		(at 82.55 176.53)
+		(uuid "a4875303-714b-4419-8ba3-117c411eba25")
+	)
+	(no_connect
+		(at 82.55 184.15)
+		(uuid "f7af2ef6-c970-47b6-8673-cbd6c38b58fe")
 	)
 	(wire
 		(pts
@@ -1458,6 +1474,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 153.67) (xy 82.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e49e4fb-de3d-494c-aac6-8475741014d2")
+	)
+	(wire
+		(pts
 			(xy 96.52 40.64) (xy 80.01 40.64)
 		)
 		(stroke
@@ -1495,6 +1521,16 @@
 			(type default)
 		)
 		(uuid "3127506d-eb0d-4c84-82f0-2e8ce7812001")
+	)
+	(wire
+		(pts
+			(xy 74.93 161.29) (xy 82.55 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3327774b-81a8-4180-9294-b805ebfadd34")
 	)
 	(wire
 		(pts
@@ -1858,7 +1894,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 160.655) (xy 81.915 194.945)
+			(xy 74.93 161.29) (xy 74.93 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2088,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 153.67) (xy 81.915 160.655)
+			(xy 74.93 153.67) (xy 74.93 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2335,7 +2371,7 @@
 		(uuid "886865fc-7d7a-414d-a88f-5d3645a03c33")
 	)
 	(label "GND"
-		(at 81.915 194.945 0)
+		(at 74.93 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2575,17 +2611,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 85.725 174.625 270)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 85.09 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1ca3568a-378f-47e6-b77f-406445b516ce")
-		(property "Reference" "H4"
-			(at 88.265 173.355 90)
+		(uuid "19c725c8-f9fa-4cb9-a7b8-ebf80da59bbb")
+		(property "Reference" "H3"
+			(at 88.9 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2630,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 88.265 175.895 90)
+			(at 88.9 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2639,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
-			(at 85.725 174.625 0)
+			(at 85.09 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +2648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.725 174.625 0)
+			(at 85.09 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.725 174.625 0)
+			(at 85.09 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,10 +2665,13 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "772de31d-8895-457d-8755-adeb41f0daba")
+		)
 		(instances
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2733,7 +2772,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 84.455 153.67 270)
+		(at 85.09 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2742,7 +2781,7 @@
 		(fields_autoplaced yes)
 		(uuid "2820f796-4cac-400f-98fe-bd7de85cd06e")
 		(property "Reference" "H1"
-			(at 88.265 152.4 90)
+			(at 88.9 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2790,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 88.265 154.94 90)
+			(at 88.9 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2799,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
-			(at 84.455 153.67 0)
+			(at 85.09 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 84.455 153.67 0)
+			(at 85.09 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2817,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 84.455 153.67 0)
+			(at 85.09 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +2839,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 84.455 160.655 270)
+		(at 85.09 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2809,7 +2848,7 @@
 		(fields_autoplaced yes)
 		(uuid "38ead769-7ddf-44f0-a763-4cb91296c8cc")
 		(property "Reference" "H2"
-			(at 88.265 159.385 90)
+			(at 88.9 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2857,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 88.265 161.925 90)
+			(at 88.9 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2866,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
-			(at 84.455 160.655 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 84.455 160.655 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2884,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 84.455 160.655 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,70 +3030,6 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 85.725 167.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45c0a738-55e9-4151-9039-1153f9b3ad96")
-		(property "Reference" "H3"
-			(at 88.265 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 88.265 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
-			(at 85.725 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.725 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.725 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3256,6 +3231,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 85.09 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "536c39ff-b111-42f0-b78a-caf690431c53")
+		(property "Reference" "H5"
+			(at 88.9 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 88.9 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68c3cd32-cdb9-4987-b15d-b855198b0107")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bitaxe:hex_heatsink")
 		(at 48.895 163.195 0)
 		(unit 1)
@@ -3378,134 +3420,6 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "FID7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 85.725 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cb93d8d-b738-47cd-8e8e-e04e391772ae")
-		(property "Reference" "H5"
-			(at 88.265 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 88.265 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
-			(at 85.725 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.725 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.725 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 85.725 188.595 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72a97595-4798-46d2-9312-e13f123da6c6")
-		(property "Reference" "H6"
-			(at 88.265 187.325 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 88.265 189.865 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
-			(at 85.725 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.725 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.725 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "bitaxeHex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -4088,6 +4002,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 85.09 191.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d79a5d7f-a5cc-4232-9cce-f087ffd3ab71")
+		(property "Reference" "H6"
+			(at 88.9 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 88.9 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 85.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e743dbf4-c15d-4282-b076-fc5565da08f1")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 37.465 191.135 0)
 		(unit 1)
@@ -4210,6 +4191,73 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 85.09 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f44b926d-c86d-4394-b4ac-9742f9156180")
+		(property "Reference" "H4"
+			(at 88.9 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 88.9 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 85.09 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "372bae37-d947-494d-a83b-6678cb5a67ca")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H4")
 					(unit 1)
 				)
 			)

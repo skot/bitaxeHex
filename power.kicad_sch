@@ -6891,7 +6891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL1010-XXX"
+		(property "Footprint" "bitaxe:L_Coilcraft_XAL1010-XXX"
 			(at 191.77 41.91 0)
 			(effects
 				(font
