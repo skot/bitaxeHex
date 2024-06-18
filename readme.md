@@ -49,6 +49,7 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 - [Heatsink](https://www.aliexpress.us/item/3256805608902122.html) 90mm long variant. This will need to have threaded M3 mounting holes added. See the KiCad board file for the pattern
 - [Fans](https://www.amazon.com/Noctua-NF-A8-PWM-Premium-Quiet/dp/B00NEMG62M) At least one 80x80mm 12V 4-pin fan. Like the Noctua NF-A8 PWM. Possibly two.
 - [Enclosure](https://www.aliexpress.us/item/3256806064761702.html) (several sellers) 130mm long variant. The bitaxeHex needs to be run inside an enclosure to force air through the heatsink and effectively cool the BM1366s
+- The TPS546 can potentially benefit from a [small self-adhesive heatsink](https://www.amazon.com/gp/product/B093V6RK58/) on the top of the package.
 - All of the parts on the board are listed in the KiCad BOM
 
 ## Software
