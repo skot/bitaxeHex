@@ -53,7 +53,7 @@ bitaxeHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that in
 - All of the parts on the board are listed in the KiCad BOM
 
 ## Software
-- [ESP-Miner](https://github.com/skot/ESP-Miner) is still being updated to support multiple ASICs
+- [ESP-Miner-multichip](https://github.com/bitaxeorg/esp-miner-multichip) a fork of esp-miner to support multiple ASICs like on the bitaxeHex.
 
 ## Power Supply Requirements
 - bitaxeHex takes 12V DC input via screw terminals. Power supply should be capable of 100W
